@@ -5,7 +5,8 @@ path = "contact"
 template = "page.html"
 +++
 
-[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com)
+**[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com)**
+
 Fort Collins, Colorado
 
 **What helps:** whatever you've got. A drawing, a photo of the broken part, a
