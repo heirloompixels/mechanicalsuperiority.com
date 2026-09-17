@@ -4,7 +4,7 @@
 # Settings -> Pages.
 base_url = "https://heirloompixels.github.io/mechanicalsuperiority.com"
 title = "Mechanical Superiority"
-description = "Placeholder description."
+description = "Custom engineering solutions, education for all things mechanical."
 compile_sass = false
 minify_html = false
 default_language = "en"

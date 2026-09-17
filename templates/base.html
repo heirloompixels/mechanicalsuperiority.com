@@ -7,7 +7,10 @@
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
-        <a class="brand" href="{{ get_url(path='/', trailing_slash=true) | safe }}">{{ config.title }}</a>
+        <a class="brand" href="{{ get_url(path='/', trailing_slash=true) | safe }}">
+            <img src="{{ get_url(path='logo.png', trailing_slash=false) | safe }}"
+                 alt="{{ config.title }}" width="1196" height="264" />
+        </a>
         <nav class="site-nav">
             <a href="{{ get_url(path='/', trailing_slash=true) | safe }}">Home</a>
         </nav>

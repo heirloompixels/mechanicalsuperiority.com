@@ -21,4 +21,7 @@
 <meta property="og:url" content="{{ url | safe }}">
 <link rel="canonical" href="{{ url | safe }}">
 
+<link rel="icon" type="image/png" href="{{ get_url(path='favicon.png', trailing_slash=false) | safe }}">
+<meta property="og:image" content="{{ get_url(path='logo.png', trailing_slash=false) | safe }}">
+
 <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) | safe }}">

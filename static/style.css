@@ -1,8 +1,14 @@
 :root {
+  /* The brand is two colours on white. --brand-accent is the chartreuse off
+     the logo; it is a field and border colour only. At 1.1:1 on white it
+     fails contrast badly as type, so links use --accent instead. */
+  --brand-ink: #000000;
+  --brand-accent: #e5fe15;
+
   --ink: #16181d;
   --paper: #ffffff;
   --rule: #e2e4e9;
-  --accent: #b5361f;
+  --accent: #16181d;
   --measure: 68ch;
 }
 
@@ -47,10 +53,14 @@ body {
 }
 
 .brand {
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: inherit;
+  display: block;
+  line-height: 0;
+}
+
+.brand img {
+  width: auto;
+  height: 2.5rem;
+  max-width: 100%;
 }
 
 .site-nav a {
@@ -60,6 +70,7 @@ body {
 .site-nav a:first-child { margin-left: 0; }
 
 a { color: var(--accent); }
+a:hover { background: var(--brand-accent); }
 
 main { padding: 2.5rem 0; }
 
