@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set ctx = page | default(value=section) %}
+<article class="wrap prose">
+  <h1>{{ ctx.title }}</h1>
+  {{ ctx.content | safe }}
+</article>
+{% endblock content %}

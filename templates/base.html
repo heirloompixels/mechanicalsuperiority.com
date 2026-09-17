@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ config.default_language }}">
+<head>
+    {% include "head.html" %}
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <a class="brand" href="{{ get_url(path='/', trailing_slash=true) | safe }}">{{ config.title }}</a>
+        <nav class="site-nav">
+            <a href="{{ get_url(path='/', trailing_slash=true) | safe }}">Home</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        {% block content %}{% endblock content %}
+    </main>
+
+    <footer class="site-footer">
+        <p>{{ config.title }}</p>
+    </footer>
+</body>
+</html>

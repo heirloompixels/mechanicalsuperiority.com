@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% if page.title %}{% set title = page.title %}
+{% elif section.title %}{% set title = section.title %}
+{% else %}{% set title = config.title %}{% endif %}
+{% if page.description %}{% set description = page.description %}
+{% elif section.description %}{% set description = section.description %}
+{% else %}{% set description = config.description %}{% endif %}
+{% if page.permalink %}{% set url = page.permalink %}
+{% elif section.permalink %}{% set url = section.permalink %}
+{% else %}{% set url = config.base_url %}{% endif %}
+
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ config.title }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ url | safe }}">
+<link rel="canonical" href="{{ url | safe }}">
+
+<link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) | safe }}">
