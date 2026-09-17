@@ -1,1 +1,26 @@
-{% extends "page.html" %}
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <h1>{{ section.title }}</h1>
+    {% if section.description %}<p class="page-intro">{{ section.description }}</p>{% endif %}
+  </div>
+</section>
+
+{% if section.content %}
+<article class="wrap prose">{{ section.content | safe }}</article>
+{% endif %}
+
+<section class="wrap">
+  <ul class="post-list">
+    {% for post in section.pages %}
+    <li>
+      <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
+      <p class="post-meta">{{ post.date | date(format="%B %-d, %Y") }}{% if post.reading_time %} · {{ post.reading_time }} min read{% endif %}{% if post.taxonomies.tags %} · {{ post.taxonomies.tags | join(sep=", ") }}{% endif %}</p>
+      {% if post.description %}<p class="post-excerpt">{{ post.description }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock content %}

@@ -1,22 +1,26 @@
 # Base URL is the GitHub Pages project URL until mechanicalsuperiority.com is
 # pointed here. When the domain moves: set this to https://mechanicalsuperiority.com,
 # add static/CNAME with the bare domain in it, and set the custom domain in
-# Settings -> Pages.
+# Settings -> Pages. See README.md § moving the domain.
 base_url = "https://heirloompixels.github.io/mechanicalsuperiority.com"
 title = "Mechanical Superiority"
-description = "Custom engineering solutions, education for all things mechanical."
+description = "Custom design and fabrication in Fort Collins, Colorado. CAD, CNC plasma cutting, welding, machining, and sheet metal — one shop from concept to finished part."
 compile_sass = false
 minify_html = false
 default_language = "en"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
 
-taxonomies = []
+taxonomies = [
+  { name = "tags", feed = false, paginate_by = 0 },
+]
 
 [slugify]
 paths = "on"
 anchors = "on"
 
 [markdown]
-render_emoji = true
+render_emoji = false
 external_links_target_blank = true
 smart_punctuation = true
 
@@ -24,6 +28,9 @@ smart_punctuation = true
 internal_level = "warn"
 
 [extra]
-default_theme = "light"
+legal_name = "Mechanical Superiority LLC"
+locality = "Fort Collins, Colorado"
+email = "mechanicalsuperiority@gmail.com"
+# phone = ""   # waiting on Mark — see TODO.md
 
 build_search_index = false

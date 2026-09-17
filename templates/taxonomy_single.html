@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Tag</p>
+    <h1>{{ term.name }}</h1>
+  </div>
+</section>
+
+<section class="wrap">
+  <ul class="post-list">
+    {% for post in term.pages %}
+    <li>
+      <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
+      <p class="post-meta">{{ post.date | date(format="%B %-d, %Y") }}</p>
+      {% if post.description %}<p class="post-excerpt">{{ post.description }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock content %}

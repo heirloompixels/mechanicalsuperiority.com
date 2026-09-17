@@ -1,8 +1,67 @@
 {% extends "base.html" %}
 
 {% block content %}
-<article class="wrap prose">
-  <h1>{{ section.title }}</h1>
-  {{ section.content | safe }}
-</article>
+{% set x = section.extra %}
+
+<section class="hero">
+  <div class="wrap">
+    <h1>{{ x.headline }}</h1>
+    <p class="lead">{{ x.lead }}</p>
+    <p class="cta-line">
+      <a class="button" href="mailto:{{ config.extra.email }}">Tell me what you're trying to build</a>
+    </p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap prose">
+    {{ section.content | safe }}
+  </div>
+</section>
+
+<section class="band pillars">
+  <div class="wrap">
+    <div class="pillar-grid">
+      {% for p in x.pillars %}
+      <div class="pillar">
+        <h2>{{ p.title }}</h2>
+        <p>{{ p.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="more-link">
+      <a href="{{ get_url(path='/services/', trailing_slash=true) | safe }}">Everything this shop does &rarr;</a>
+    </p>
+  </div>
+</section>
+
+{% set writing = get_section(path="writing/_index.md") %}
+{% if writing.pages %}
+<section class="band writing-band">
+  <div class="wrap">
+    <h2 class="band-head">Writing</h2>
+    <p class="band-sub">Working through the mechanics from first principles, mostly because everyone else explains them badly.</p>
+    <ul class="post-list">
+      {% for post in writing.pages | slice(end=3) %}
+      <li>
+        <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
+        <p class="post-meta">{{ post.date | date(format="%B %-d, %Y") }}{% if post.reading_time %} · {{ post.reading_time }} min read{% endif %}</p>
+        {% if post.description %}<p class="post-excerpt">{{ post.description }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+<section class="band cta-band">
+  <div class="wrap">
+    <h2>{{ x.cta_heading }}</h2>
+    <p>{{ x.cta_body }}</p>
+    <p class="cta-line">
+      <a class="button" href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a>
+      <a class="button ghost" href="{{ get_url(path='/contact/', trailing_slash=true) | safe }}">What to send for a quote</a>
+    </p>
+  </div>
+</section>
 {% endblock content %}

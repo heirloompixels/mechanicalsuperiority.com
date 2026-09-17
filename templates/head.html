@@ -1,9 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% if page.title %}{% set title = page.title %}
-{% elif section.title %}{% set title = section.title %}
-{% else %}{% set title = config.title %}{% endif %}
+{% if page.title %}{% set title = page.title ~ " — " ~ config.title %}
+{% elif section.title and section.title != config.title %}{% set title = section.title ~ " — " ~ config.title %}
+{% else %}{% set title = config.title ~ " — Design and fabrication, Fort Collins, Colorado" %}{% endif %}
 {% if page.description %}{% set description = page.description %}
 {% elif section.description %}{% set description = section.description %}
 {% else %}{% set description = config.description %}{% endif %}
@@ -19,9 +19,27 @@
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url | safe }}">
+<meta property="og:image" content="{{ get_url(path='logo.png', trailing_slash=false) | safe }}">
 <link rel="canonical" href="{{ url | safe }}">
 
 <link rel="icon" type="image/png" href="{{ get_url(path='favicon.png', trailing_slash=false) | safe }}">
-<meta property="og:image" content="{{ get_url(path='logo.png', trailing_slash=false) | safe }}">
+<link rel="alternate" type="application/rss+xml" title="{{ config.title }}" href="{{ get_url(path='rss.xml', trailing_slash=false) | safe }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) | safe }}">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org",
+"@type":"LocalBusiness",
+"name":"{{ config.extra.legal_name }}",
+"alternateName":"{{ config.title }}",
+"description":"{{ config.description }}",
+"url":"{{ config.base_url | safe }}",
+"email":"{{ config.extra.email }}",
+"image":"{{ get_url(path='logo.png', trailing_slash=false) | safe }}",
+"address":{"@type":"PostalAddress","addressLocality":"Fort Collins","addressRegion":"CO","addressCountry":"US"},
+"founder":{"@type":"Person","name":"Mark Mataczynski"}}
+</script>

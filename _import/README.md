@@ -23,18 +23,24 @@ and it is nearly empty. The whole of it is:
 
 - `power-vs-torque.md` — the post, 3,000 words, converted HTML → markdown with
   pandoc and given Zola frontmatter. Published 2023-02-28, tagged Education
-  and Racing.
+  and Racing. **This is the import record.** The live copy is
+  `content/writing/power-vs-torque.md`, which additionally has the MathML in
+  it; edit that one.
 - `images/` — the four images the post uses, plus `cover-image-1500.png`, the
   site's 1500×450 header cover.
 
-## Two things to know before using the post
+## Both of these are now resolved — how, and why it matters
 
-1. **It contains LaTeX.** Eight `$ … $` inline expressions — the speed,
-   torque and power equations the argument is built on. Ghost was rendering
-   them with its own math support; Zola will not. Either add KaTeX, or render
-   the eight to SVG and inline them. The post does not work without them.
-2. **One alt text is a joke about a Tropic Thunder line**, carried over
-   verbatim from Ghost. Read the alt text before it ships.
+1. **It contained LaTeX.** Eight `$ … $` expressions — the speed, torque and
+   power equations the argument is built on. Ghost rendered them with its own
+   math support and Zola does not. They were converted once, here, to
+   **MathML** with `pandoc --mathml`, and the MathML is baked into
+   `content/writing/power-vs-torque.md`. Browsers render it natively, so the
+   page still carries no JavaScript. A future essay with LaTeX in it gets the
+   same treatment; do not add a math library.
+2. **One alt text was a joke** about a Tropic Thunder line, carried verbatim
+   from Ghost. It now describes the still instead. The visible caption jokes
+   are Mark's voice and were left exactly as he wrote them.
 
 ## The logo
 
@@ -44,3 +50,5 @@ and it is nearly empty. The whole of it is:
 white: black, and `#e5fe15` — a hard chartreuse. It is a fine field and
 border color and it **fails contrast as text or as a link color on white**,
 so `style.css` keeps it as `--brand-accent` and does not use it for type.
+The wordmark also sits on an **opaque white plate**, not transparency, which
+is why the site header is white rather than black.

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="wrap"><h1>Tags</h1></div>
+</section>
+<section class="wrap">
+  <ul class="post-list">
+    {% for term in terms %}
+    <li><a href="{{ term.permalink | safe }}">{{ term.name }}</a>
+      <p class="post-meta">{{ term.pages | length }} post{{ term.pages | length | pluralize }}</p></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock content %}
