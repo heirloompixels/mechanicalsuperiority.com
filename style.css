@@ -1,0 +1,319 @@
+/* Mechanical Superiority
+   Two brand colours on white: black, and the chartreuse off the logo.
+   --brand-accent is 1.1:1 on white, so it is a field, rule and highlight
+   colour only. Type and links stay near-black. */
+
+:root {
+  --brand-ink: #000000;
+  --brand-accent: #e5fe15;
+
+  --ink: #14161a;
+  --ink-soft: #5b6068;
+  --paper: #ffffff;
+  --paper-alt: #f4f5f6;
+  --rule: #d9dbde;
+
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --text: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --measure: 34rem;
+  --gutter: 1.25rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; height: auto; }
+
+a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { background: var(--brand-accent); }
+
+.wrap {
+  width: 100%;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* .prose keeps the page's centred column and left rule; the measure is
+   applied to its children so text never runs long. */
+.prose > * { max-width: var(--measure); }
+
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus {
+  left: var(--gutter); top: var(--gutter); z-index: 20;
+  background: var(--brand-accent); color: var(--brand-ink);
+  padding: 0.5rem 0.75rem; font-weight: 600;
+}
+
+/* ---------- header ---------- */
+
+/* The logo is black and chartreuse on an opaque white plate, so the header is
+   white and the chartreuse does the dividing. Inverting the mark for a dark
+   header merges the bearing's ring with its balls; it has to sit on white. */
+.site-header {
+  background: var(--paper);
+  border-bottom: 4px solid var(--brand-accent);
+}
+
+.bar {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0.9rem var(--gutter);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand { display: block; line-height: 0; }
+.brand:hover { background: none; }
+.brand img { height: 2.5rem; width: auto; display: block; }
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.site-nav a {
+  color: var(--ink);
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover {
+  background: none;
+  border-bottom-color: var(--brand-accent);
+}
+
+/* ---------- headings ---------- */
+
+h1, h2, h3, .band-head {
+  font-family: var(--display);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+h1 { font-size: clamp(2rem, 6vw, 3.25rem); margin: 0 0 0.5rem; }
+h2 { font-size: clamp(1.4rem, 3.5vw, 1.9rem); margin: 2.5rem 0 0.75rem; }
+h3 { font-size: 1.2rem; font-weight: 700; margin: 2rem 0 0.5rem; }
+
+.eyebrow {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 0.75rem;
+}
+
+/* ---------- hero ---------- */
+
+.hero {
+  padding: clamp(3rem, 9vw, 6rem) 0 clamp(2rem, 5vw, 3.5rem);
+  border-bottom: 1px solid var(--rule);
+}
+
+.hero h1 { max-width: 18ch; }
+
+.hero .lead {
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  color: var(--ink-soft);
+  max-width: 40ch;
+  margin: 0 0 2rem;
+}
+
+.page-hero {
+  padding: clamp(2.5rem, 7vw, 4.5rem) 0 clamp(1rem, 3vw, 2rem);
+  border-bottom: 1px solid var(--rule);
+}
+
+.page-intro {
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+  max-width: 48ch;
+  margin: 0.75rem 0 0;
+}
+
+/* ---------- buttons ---------- */
+
+.button {
+  display: inline-block;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.85rem 1.4rem;
+  background: var(--brand-ink);
+  color: var(--paper);
+  border: 2px solid var(--brand-ink);
+}
+.button:hover { background: var(--brand-accent); color: var(--brand-ink); }
+
+.button.ghost { background: transparent; color: var(--brand-ink); }
+.button.ghost:hover { background: var(--brand-accent); }
+
+.cta-line { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.5rem 0 0; }
+
+/* ---------- bands ---------- */
+
+.band { padding: clamp(2.5rem, 6vw, 4rem) 0; }
+.band + .band { border-top: 1px solid var(--rule); }
+
+.band-head { font-size: clamp(1.4rem, 3.5vw, 1.9rem); margin: 0 0 0.25rem; }
+.band-sub { color: var(--ink-soft); margin: 0 0 1.5rem; max-width: 52ch; }
+
+.pillars { background: var(--paper-alt); border-top: 1px solid var(--rule); }
+
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 2rem;
+}
+
+.pillar { border-top: 4px solid var(--brand-accent); padding-top: 1rem; }
+.pillar h2 { margin: 0 0 0.5rem; font-size: 1.25rem; }
+.pillar p { margin: 0; color: var(--ink-soft); }
+
+.more-link { margin: 2rem 0 0; font-family: var(--display); font-weight: 700; }
+
+/* ---------- post lists ---------- */
+
+.post-list { list-style: none; margin: 0; padding: 0; }
+
+.post-list li {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--rule);
+  max-width: 52rem;
+}
+.post-list li:last-child { border-bottom: 1px solid var(--rule); }
+
+.post-list li > a {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+}
+.post-list li > a:hover { background: var(--brand-accent); }
+
+.post-meta {
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0.4rem 0 0;
+}
+
+.post-excerpt { color: var(--ink-soft); margin: 0.6rem 0 0; max-width: 60ch; }
+
+/* ---------- prose ---------- */
+
+.prose ul, .prose ol { padding-left: 1.25rem; }
+.prose h2:first-child, .prose h3:first-child { margin-top: 0; }
+.prose > *:first-child { margin-top: 0; }
+
+.prose { padding: clamp(2rem, 5vw, 3rem) var(--gutter); }
+
+.band > .wrap.prose,
+.band .prose { padding-top: 0; padding-bottom: 0; }
+
+.prose hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
+  max-width: var(--measure);
+}
+
+.prose blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1.25rem;
+  border-left: 4px solid var(--brand-accent);
+  color: var(--ink-soft);
+}
+
+.prose strong { font-weight: 600; }
+
+.essay { font-size: 1.125rem; --measure: 38rem; }
+.essay p { margin: 0 0 1.4rem; }
+
+.essay img {
+  display: block;
+  margin: 2rem 0 0.5rem;
+  border: 1px solid var(--rule);
+}
+
+.essay em { color: var(--ink-soft); }
+
+/* Pre-rendered MathML — no script on the page, so it has to hold up alone. */
+.math-block {
+  margin: 1.75rem 0;
+  padding: 1rem 1.25rem;
+  background: var(--paper-alt);
+  border-left: 4px solid var(--brand-accent);
+  overflow-x: auto;
+  max-width: var(--measure);
+}
+math { font-size: 1.15em; }
+
+/* ---------- footer ---------- */
+
+.site-footer {
+  background: var(--brand-ink);
+  color: var(--paper);
+  border-top: 4px solid var(--brand-accent);
+  padding: clamp(2rem, 5vw, 3rem) 0;
+  margin-top: 0;
+}
+
+.footer-inner p { margin: 0 0 0.35rem; }
+
+.footer-name {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+}
+
+.site-footer a { color: var(--brand-accent); }
+.site-footer a:hover { background: var(--brand-accent); color: var(--brand-ink); }
+
+.site-footer .subtle {
+  color: #9aa0a6;
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+/* ---------- small screens ---------- */
+
+@media (max-width: 40rem) {
+  .bar { align-items: flex-start; }
+  .brand img { height: 1.75rem; }
+  .site-nav { gap: 1rem; font-size: 0.75rem; width: 100%; }
+}

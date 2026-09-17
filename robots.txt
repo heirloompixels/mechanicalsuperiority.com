@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://heirloompixels.github.io/mechanicalsuperiority.com/sitemap.xml
