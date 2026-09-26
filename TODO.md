@@ -12,13 +12,16 @@ business side; this one is the build.
       `mechanicalsuperiority@gmail.com`, the address already public at the
       foot of the essay. `mark@mechanicalsuperiority.com` is a better address
       to hand a stranger a drawing package.
-- [ ] **Photographs of finished work, 6–10, plus one or two in-process.**
+- [x] **Photographs of finished work, 6–10, plus one or two in-process.**
+      *Received 2026-09-26: five projects, model and build pictures for each,
+      held privately in `from-mark/`. Nothing publishes until Mark has
+      reviewed the sketches and cleared one customer's pictures.*
       This is the page that converts and the only reason `/work/` does not
       exist yet — an empty Work page in the nav is worse than no Work page.
       The caption pattern is settled: *what it is — what the problem was —
       what was done.*
-- [ ] **A bio paragraph for About.** The page currently runs without the
-      background paragraph rather than shipping `[brackets]`.
+- [x] **A bio paragraph for About.** *Received 2026-09-26 (resume and a
+      paragraph in his own words), held in `from-mark/`; waiting on his review.*
 - [ ] **Exact legal name** as filed with the Colorado Secretary of State.
       `config.extra.legal_name` says "Mechanical Superiority LLC"; it must
       match the filing exactly, because SAM.gov rejects mismatches.
@@ -28,6 +31,10 @@ business side; this one is the build.
       Services and Contact.
 - [ ] **CAD package(s) he uses**, for the Services page and the capability
       statement.
+
+- [ ] **His review of the site sketches.** Several directions for the home
+      page, plus Work, About, Services and Contact, are in `from-mark/sketches/`
+      with a page of questions. His answers decide what gets built here.
 
 ## Retiring Ghost
 
