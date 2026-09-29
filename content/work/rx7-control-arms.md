@@ -1,7 +1,7 @@
 +++
 title = "Racecar rear control arms"
 description = "Rear control arms for a Mazda RX-7, designed and machined around solid spherical bearings."
-weight = 5
+weight = 6
 
 [extra]
 kind = "Small custom parts for performance"

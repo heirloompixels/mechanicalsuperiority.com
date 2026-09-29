@@ -45,7 +45,7 @@ MIG on carbon steel and TIG on aluminum and stainless. CNC plasma cutting of
 nested, and cut as a kit ready to weld. Riveted sheet metal, including solid
 rivets, where riveting beats welding: no heat distortion, and serviceable
 later. A Bridgeport knee mill for small precision parts, fixtures and
-modifications. Controls engineering.
+modifications. CAM programming for CNC milling. Controls engineering.
 
 ### For other shops
 
@@ -58,8 +58,10 @@ referrals. You keep your customer.
 
 Work larger than a one-man shop can carry is teamed with Ehpro Custom
 Fabrication, LLC of Trinity, Texas: large-scale fabrication since 1979, with a
-CNC gantry mill, a sheet roller and an 8-foot sheet brake, and federal past
-performance in aircraft travel pod refurbishment. Government buyers: see
+Haas GR-510 CNC gantry mill, a sheet roller and an 8-foot sheet brake. The two
+shops build Air Force travel pods together: Mark modeled the new design from a
+prototype, and now does the CAD/CAM and runs the gantry mill for its parts.
+[The travel pods](@/work/travel-pods.md). Government buyers: see
 [Gov. Customers](@/government.md).
 
 ---

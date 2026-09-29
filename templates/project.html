@@ -12,6 +12,12 @@
 
 {{ m::project(p=page, link=false) }}
 
+{% if page.content %}
+<section class="band" style="padding-top:0">
+  <div class="wrap prose">{{ page.content | safe }}</div>
+</section>
+{% endif %}
+
 {% set work = get_section(path="work/_index.md") %}
 <section class="band alt">
   <div class="wrap">

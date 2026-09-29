@@ -1,7 +1,7 @@
 +++
 title = "Aluminum cloud signs"
 description = "Six TIG-welded aluminum cloud signs, with custom mounts, for Truth or Consequences Contemporary."
-weight = 2
+weight = 3
 
 [extra]
 kind = "Aluminum fabrication with an artistic element"

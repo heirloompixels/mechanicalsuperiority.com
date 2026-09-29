@@ -1,7 +1,7 @@
 +++
 title = "Bicycle brake adapters"
 description = "Remote CAD and rapid prototyping for a customer in Virginia: models rebuilt so they were easy to change, proven in printed plastic, then made in 6061-T6 aluminum."
-weight = 1
+weight = 2
 
 [extra]
 kind = "Remote CAD and rapid prototyping"

@@ -20,12 +20,12 @@ alt = "A printed plastic prototype holding a brake caliper on a bike"
 
 [[extra.offers]]
 title = "Reverse engineering of obsolete parts"
-body = "A part broke and nobody makes it anymore. Send it, or photos of it, and it comes back as a 3D model and a dimensioned drawing that you own."
+body = "A part broke and nobody makes it anymore. Send it, or photos of it, and it comes back as a 3D model and a dimensioned drawing that you own. The biggest one so far was a whole Air Force travel pod, measured part by part."
 more = "Take the files to your own machine shop, or have a small number made here."
 link = "/replacement-parts/"
 link_text = "Replacement parts"
-img = "rx7-model"
-alt = "CAD model of a control arm with a bearing at each end"
+img = "pods-model"
+alt = "CAD assembly of a riveted aluminum travel pod, modeled from a physical prototype"
 fit = true
 
 [[extra.offers]]

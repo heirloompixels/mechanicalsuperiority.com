@@ -50,6 +50,17 @@
   </div>
 </section>
 
+{% set pods = get_page(path="work/travel-pods.md") %}
+<section class="band alt">
+  <div class="wrap">
+    <p class="eyebrow">The biggest job so far</p>
+    <h2 class="band-head" style="max-width:30ch">{{ pods.title }}: measured part by part, modeled, approved, and now built</h2>
+    <p class="band-sub" style="max-width:60ch">A partner shop had a prototype travel pod and no CAD. The Air Force needed models before it would approve the design. Mark measured every part and modeled the whole pod; the design was approved, and he now programs and runs the gantry mill that makes its parts.</p>
+    {{ m::pair(p=pods) }}
+    <p class="more-link"><a href="{{ pods.permalink | safe }}">The whole job &rarr;</a></p>
+  </div>
+</section>
+
 <section class="band straight-talk">
   <div class="wrap">
     <p class="big">{{ x.straight_talk }}</p>
@@ -74,7 +85,7 @@
     <div class="pillar-grid">
       <div class="pillar">
         <h2>Bigger than one shop</h2>
-        <p>For work beyond one shop's size, Mechanical Superiority is teamed with Ehpro Custom Fabrication of Trinity, Texas: heavy fabrication since 1979, with a CNC gantry mill, a sheet roller and an 8-foot sheet brake.</p>
+        <p>For work beyond one shop's size, Mechanical Superiority is teamed with Ehpro Custom Fabrication of Trinity, Texas: heavy fabrication since 1979, with a Haas gantry mill (which Mark programs and runs), a sheet roller and an 8-foot sheet brake.</p>
       </div>
       <div class="pillar">
         <h2>Other shops</h2>

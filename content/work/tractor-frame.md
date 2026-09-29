@@ -1,7 +1,7 @@
 +++
 title = "Ford 641 tractor frame"
 description = "A 5052 aluminum tube frame and fitted canvas top for a beautifully maintained old tractor."
-weight = 3
+weight = 4
 
 [extra]
 kind = "Aluminum tube frame with a canvas top"

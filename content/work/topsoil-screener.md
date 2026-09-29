@@ -1,7 +1,7 @@
 +++
 title = "Topsoil screener"
 description = "Industrial machinery designed from scratch: full CAD models and shop drawings, then fabricated and tested."
-weight = 4
+weight = 5
 
 [extra]
 kind = "Industrial machinery, designed and built"
