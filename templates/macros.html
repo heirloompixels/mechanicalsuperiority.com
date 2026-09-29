@@ -1,0 +1,48 @@
+{# Shared pieces for the Work pages. A project page's [extra] carries its
+   facts and pictures (see content/work/*.md); pictures live in
+   static/images/work/, each with an "-sm" copy for cards and strips.
+   CAD renders are shown whole (fit=true); photographs are cropped. #}
+
+{% macro pic(name, alt, fit=false, ratio="r43", suffix="") %}
+<img class="shot {{ ratio }} {% if fit %}fit{% else %}crop{% endif %}" src="{{ get_url(path='images/work/' ~ name ~ suffix ~ '.jpg', trailing_slash=false) | safe }}" alt="{{ alt }}" loading="lazy">
+{%- endmacro pic %}
+
+{# Model beside build, captioned. #}
+{% macro pair(p) %}
+<div class="pair">
+  <figure><span class="tag model">Model</span>{{ self::pic(name=p.extra.model.img, alt=p.extra.model.alt, fit=true) }}<figcaption>What was drawn</figcaption></figure>
+  <figure><span class="tag">Built</span>{{ self::pic(name=p.extra.build.img, alt=p.extra.build.alt) }}<figcaption>What was built</figcaption></figure>
+</div>
+{%- endmacro pair %}
+
+{# The whole project: facts, the pair, then every picture in order. #}
+{% macro project(p, link=true) %}
+<section class="project" id="{{ p.slug }}"><div class="wrap">
+  <div class="project-head">
+    <div><p class="eyebrow">{{ p.extra.kind }}</p>
+      <h2>{% if link %}<a href="{{ p.permalink | safe }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h2></div>
+    <ul class="facts">
+      <li><b>What it is</b>{{ p.extra.what }}</li>
+      <li><b>What was done</b>{{ p.extra.done }}</li>
+      <li><b>Year</b>{{ p.extra.year }}</li>
+    </ul>
+  </div>
+  {{ self::pair(p=p) }}
+  {% if p.extra.steps %}
+  <div class="seq">
+    {% for s in p.extra.steps %}
+    <figure><span class="step-no">{{ loop.index }}</span>{{ self::pic(name=s.img, alt=s.alt, fit=s.fit | default(value=false), suffix="-sm") }}</figure>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div></section>
+{%- endmacro project %}
+
+{# A card: model and build as two squares, title, one line. #}
+{% macro card(p) %}
+<div class="card"><a href="{{ p.permalink | safe }}">
+  <div class="duo">{{ self::pic(name=p.extra.model.img, alt=p.extra.model.alt, fit=true, ratio="r11", suffix="-sm") }}{{ self::pic(name=p.extra.build.img, alt=p.extra.build.alt, ratio="r11", suffix="-sm") }}</div>
+  <h3>{{ p.title }}</h3></a>
+  <p>{{ p.extra.kind }}.</p>
+</div>
+{%- endmacro card %}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="{{ get_url(path='/work/', trailing_slash=true) | safe }}">Work</a></p>
+    <h1>{{ page.title }}</h1>
+    <p class="page-intro">{{ page.description }}</p>
+  </div>
+</section>
+
+{{ m::project(p=page, link=false) }}
+
+{% set work = get_section(path="work/_index.md") %}
+<section class="band alt">
+  <div class="wrap">
+    <h2 class="band-head">More work</h2>
+    <div class="grid-cards" style="margin-top:1.5rem">
+      {% for p in work.pages %}{% if p.slug != page.slug %}{{ m::card(p=p) }}{% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "cta.html" %}
+{% endblock content %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <h1>{{ section.title }}</h1>
+    <p class="page-intro">{{ section.description }} What it is, what the problem was, what was done.</p>
+  </div>
+</section>
+
+{% for p in section.pages %}{{ m::project(p=p) }}{% endfor %}
+
+{% include "cta.html" %}
+{% endblock content %}
