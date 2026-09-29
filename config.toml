@@ -4,7 +4,7 @@
 # Settings -> Pages. See README.md § moving the domain.
 base_url = "https://heirloompixels.github.io/mechanicalsuperiority.com"
 title = "Mechanical Superiority"
-description = "Custom design and fabrication in Fort Collins, Colorado. CAD, CNC plasma cutting, welding, machining, and sheet metal — one shop from concept to finished part."
+description = "CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, from Mark Mataczynski's shop in Fort Collins, Colorado."
 compile_sass = false
 minify_html = false
 default_language = "en"
@@ -28,9 +28,14 @@ smart_punctuation = true
 internal_level = "warn"
 
 [extra]
-legal_name = "Mechanical Superiority LLC"
+# Exactly as filed with the Colorado Secretary of State, comma included.
+# SAM.gov rejects any variation.
+legal_name = "Mechanical Superiority, LLC"
 locality = "Fort Collins, Colorado"
 email = "mechanicalsuperiority@gmail.com"
-# phone = ""   # waiting on Mark — see TODO.md
+cad = "SolidWorks"
+# phone = ""   # Mark is getting a Google Voice number — see TODO.md
+# The street address stays off the site by Mark's choice (2026-09-28).
+# intro_video = "video/intro.mp4"   # Mark is making one; see TODO.md
 
 build_search_index = false
