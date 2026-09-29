@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{# Mark keeps government work in its own pipeline (2026-09-28), so this page
+   stands apart: the capability statement as a page, on a drawing sheet. UEI
+   and CAGE are never printed here; they go to buyers on request. #}
+{% block body_class %}sheet-page{% endblock body_class %}
+
+{% block content %}
+{% set x = page.extra %}
+<div class="sheet">
+  <div class="sheet-sec">
+    <p class="sheet-label">{{ config.extra.legal_name }} · {{ config.extra.locality }} · Small business</p>
+    <h1 style="max-width:22ch">{{ x.headline }}</h1>
+    <p class="lead" style="max-width:52ch">Engineering, drawings and fabrication, from one part to a complete machine, for government buyers and prime contractors. Teamed with a Texas fabricator for work at scale.</p>
+    <p class="cta-line"><a class="button" href="mailto:{{ config.extra.email }}?subject=Government%20inquiry">Email Mark</a></p>
+    <p class="mono" style="margin:0.75rem 0 0">{{ config.extra.email }}</p>
+  </div>
+  <div class="titleblock">
+    <div><span>Point of contact</span>Mark Mataczynski</div>
+    <div><span>Business type</span>Colorado LLC · small</div>
+    <div><span>CAD</span>{{ config.extra.cad }} · Fusion</div>
+    <div><span>SAM.gov</span>Registration in process</div>
+  </div>
+
+  <div class="sheet-sec">
+    <p class="sheet-label">Core competencies</p>
+    <div class="pillar-grid">
+      <div class="pillar"><h3>Engineering and CAD</h3><p>Mechanical design from single parts to complete machines. Reverse engineering of obsolete parts. Production drawings and technical data packages. Controls engineering.</p></div>
+      <div class="pillar"><h3>Fabrication</h3><p>MIG on carbon steel; TIG on aluminum and stainless. CNC plasma cutting. Riveted sheet-metal structures, including solid rivets.</p></div>
+      <div class="pillar"><h3>Machining</h3><p>Knee mill for small precision parts, fixtures and modifications. CNC gantry milling through the partner shop.</p></div>
+    </div>
+  </div>
+
+  <div class="sheet-sec">
+    <p class="sheet-label">Two shops, one team</p>
+    <div class="two-shops">
+      <div class="shop">
+        <h3>Mechanical Superiority</h3>
+        <p class="mono">Fort Collins, CO</p>
+        <p>Design, engineering, drawings, prototypes and small-lot fabrication. The engineer is the fabricator.</p>
+      </div>
+      <div class="link">drawings &rarr;<br>&larr; capacity</div>
+      <div class="shop">
+        <h3>Ehpro Custom Fabrication</h3>
+        <p class="mono">Trinity, TX · est. 1979</p>
+        <p>Large-scale fabrication: CNC gantry mill, sheet roller, 8-foot sheet brake. Registered for federal work, with past performance in aircraft travel pod refurbishment.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sheet-sec">
+    <p class="sheet-label">Engineer</p>
+    <div class="split">
+      <div>{% include "timeline.html" %}</div>
+      <figure>
+        <img class="shot r34 crop" src="{{ get_url(path='images/work/clouds-mark.jpg', trailing_slash=false) | safe }}" alt="Mark Mataczynski in his shop" loading="lazy">
+        <figcaption>Mark Mataczynski, owner and engineer.</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="sheet-sec">
+    <p class="sheet-label">Selected work</p>
+    <table class="data">
+      {% for p in x.past %}
+      <tr><td class="mono">{{ p.0 }}</td><td><a href="{{ get_url(path='/work/' ~ p.3 ~ '/', trailing_slash=true) | safe }}"><b>{{ p.1 }}</b></a>. {{ p.2 }}</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  <div class="sheet-sec">
+    <p class="sheet-label">NAICS</p>
+    <table class="data">
+      {% for n in x.naics %}<tr><td class="mono">{{ n.0 }}</td><td>{{ n.1 }}</td></tr>{% endfor %}
+    </table>
+    <p style="margin:1rem 0 0;color:var(--ink-soft)">Files delivered native or as STEP, IGES, DXF and PDF. Registration details and a capability statement are provided on request.</p>
+  </div>
+</div>
+{% endblock content %}
