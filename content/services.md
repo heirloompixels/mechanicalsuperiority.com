@@ -1,59 +1,70 @@
 +++
 title = "What this shop does"
-description = "CAD design and drawings, precision machining, MIG and TIG welding, CNC plasma cutting and riveted sheet metal — one shop from concept to finished part."
+description = "CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, in that order, with a partner shop for the big jobs."
 path = "services"
 template = "page.html"
 +++
 
-### CAD design and drawings
+### Design and CAD
 
-Part design, assemblies, all the way up to full machine design, plus the
-drawings to go with them. Reverse-engineering is a specialty: bring in a part
-that broke and has no print, or a sketch on the back of an envelope, and it
-comes back as a dimensioned model you can actually manufacture from. Files
-delivered in native format or as STEP, IGES, DXF, or PDF.
+Original designs, and help getting someone else's idea to the point where it
+can be made: part design, assemblies, all the way up to full machine design,
+plus the production drawings to go with them. Models are built in SolidWorks,
+and in Autodesk Fusion when a customer works in it. Files are delivered in
+native format or as STEP, IGES, DXF or PDF.
 
-### Precision machining
+Inventors and startups are welcome. So is a company that doesn't have an
+engineer on staff and needs one for a month.
 
-A Bridgeport knee mill handles small precision work — parts, fixtures,
-modifications, and one-off replacements for equipment nobody supports anymore.
+### Remote CAD and product development
 
-### Welding
+Most design work never needs a visit. You send a sketch, a model or a
+description; the model is rebuilt so it's easy to change; you print plastic
+prototypes on your end until the fit is right; then it gets made, by a
+machine shop you choose or one Mark works with.
+[How it went for a customer in Virginia](@/remote-cad.md).
 
-MIG on carbon steel. TIG on aluminum and stainless. Repairs, weldments, welded
-tube frames, and structures built from a drawing or from scratch.
+### Reverse engineering of obsolete parts
 
-### CNC plasma cutting
+A part broke and nobody makes it anymore. It's measured, modeled and drawn,
+and you get a dimensioned drawing you own. Take it to your favorite machine
+shop, or have a very small number made here on the knee mill. These are
+quick jobs, and one at a time is normal. [Replacement parts](@/replacement-parts.md).
 
-2D profiles cut from sheet and plate. Combined with the CAD side, a 3D concept
-gets flattened into individual pieces, nested, and cut as a kit ready to weld —
-which is often the fastest and cheapest way to get from an idea to a welded
-assembly.
+### Aluminum and stainless, made small
 
-### Riveted sheet metal
+One-offs and short runs in aluminum and stainless: TIG welded, riveted, and
+finished to be looked at as well as used. Signs, frames, brackets, housings,
+enclosures. [The cloud signs](@/work/cloud-signs.md) and
+[the tractor frame](@/work/tractor-frame.md) are two.
 
-Design and construction of riveted assemblies. For some applications riveting
-beats welding outright: no heat distortion, no warped panels, and serviceable
-later. Knowing which method a job actually calls for is part of the service.
+### The shop
 
-### Putting it together
+MIG on carbon steel and TIG on aluminum and stainless. CNC plasma cutting of
+2D profiles from sheet and plate, and 3D concepts flattened into pieces,
+nested, and cut as a kit ready to weld. Riveted sheet metal, including solid
+rivets, where riveting beats welding: no heat distortion, and serviceable
+later. A Bridgeport knee mill for small precision parts, fixtures and
+modifications. Controls engineering.
 
-One shop, all of the above. A concept becomes a model, becomes a cut kit,
-becomes a welded and machined assembly, becomes a finished thing on a truck. No
-handoffs between four vendors, no drawing package thrown over a wall to a shop
-that never spoke to the designer.
+### For other shops
+
+If you're full, missing a capability, or turning away a job because there's
+no print, call. Drawings from a worn part or a napkin sketch, plasma-cut kits,
+and TIG work in aluminum and stainless all go both directions, and so do
+referrals. You keep your customer.
+
+### Bigger than one shop
+
+Work larger than a one-man shop can carry is teamed with Ehpro Custom
+Fabrication, LLC of Trinity, Texas: large-scale fabrication since 1979, with a
+CNC gantry mill, a sheet roller and an 8-foot sheet brake, and federal past
+performance in aircraft travel pod refurbishment. Government buyers: see
+[Gov. Customers](@/government.md).
 
 ---
 
-**Typical work:** weldments, frames, brackets, guards, covers, skids, racks and
-enclosures · trailers, truck bodies and equipment upfits · riveted and welded
-sheet-metal structures · replacement parts for obsolete equipment · drawing
-packages for parts that need reproducing.
-
-**Working with other shops:** if you're a shop that's full, missing a
-capability, or needs a second source, call. Overflow work and referrals go both
-directions.
-
-**Scale beyond one shop:** work larger than a one-man shop can carry is teamed
-with Ehpro Custom Fabrication, LLC of Trinity, Texas — large-scale fabrication
-since 1979, registered for federal work.
+**Typical work:** original parts and products · drawings and models from
+samples, sketches or broken parts · replacement parts for obsolete equipment ·
+brackets, frames, guards, covers, racks and enclosures · aluminum and stainless
+signs, housings and tube frames · plasma-cut kits.

@@ -1,0 +1,7 @@
+{# Mark's career, from content/about.md, for About and Gov. Customers. #}
+{% set about = get_page(path="about.md") %}
+<ul class="timeline">
+  {% for c in about.extra.career %}
+  <li><span class="yr">{{ c.years }}</span><b>{{ c.where }}</b><br>{{ c.what }}</li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+<section class="hero">
+  <div class="wrap"><div class="part-hero">
+    <div>
+      <p class="eyebrow">Reverse engineering of obsolete parts</p>
+      <h1>The part broke. Nobody makes it anymore.</h1>
+      <div class="dim"><span>measured · modeled · drawn</span></div>
+      <p class="lead">The machine still runs, except for one part. The manufacturer is gone, or wants a minimum order and months of lead time, and the local shop won't touch it without a print. Send it here, and it comes back as a model and a drawing you own.</p>
+      <p class="cta-line"><a class="button" href="mailto:{{ config.extra.email }}">Send a photo of the part</a></p>
+    </div>
+    <div>
+      {# A drawn part, not a photograph: a lever with its dimensions and a crack. #}
+      <svg viewBox="0 0 460 330" role="img" aria-label="Drawing of a broken lever: its outline, two bolt holes and a slot, a crack across one end, and dimension lines giving its length and hole size">
+      <g fill="none" stroke="#14161a" stroke-width="1" font-family="IBM Plex Mono, monospace" font-size="11">
+      <circle cx="318" cy="162" r="34" fill="#e5fe15" stroke="none"/>
+      <path d="M60,140 A42,42 0 0 1 102,98 H338 A42,42 0 0 1 380,140 V184 A42,42 0 0 1 338,226 H102 A42,42 0 0 1 60,184 Z" stroke-width="2.2" fill="#fff"/>
+      <circle cx="102" cy="162" r="19" stroke-width="2"/>
+      <circle cx="338" cy="162" r="19" stroke-width="2"/>
+      <rect x="150" y="146" width="130" height="32" rx="16" stroke-width="2"/>
+      <path d="M312,98 L321,118 L313,136 L325,152 L316,170 L327,190 L318,208 L324,226" stroke-width="3" stroke-linejoin="bevel"/>
+      <g stroke-dasharray="10 3 2 3" stroke="#5b6068"><path d="M40,162 H400"/><path d="M102,128 V196"/><path d="M338,128 V196"/></g>
+      <path d="M60,232 V290 M380,232 V290"/>
+      <path d="M60,276 H380"/><path d="M60,276 l9,-3 v6 z M380,276 l-9,-3 v6 z" fill="#14161a"/>
+      <text x="220" y="271" text-anchor="middle" stroke="none" fill="#14161a">320.0</text>
+      <path d="M89,148 L52,70 H20"/><text x="20" y="64" stroke="none" fill="#14161a">&#216; 38.1 &#215;2</text>
+      <path d="M322,120 L360,52 H440"/><text x="440" y="46" text-anchor="end" stroke="none" fill="#14161a">BROKEN &#8212; FROM THE MATE</text>
+      <path d="M215,146 L240,40 H290"/><text x="244" y="34" stroke="none" fill="#14161a">SLOT 130 &#215; 32</text>
+      <text x="20" y="318" stroke="none" fill="#5b6068" font-size="10">DRAWN FROM THE PIECES · SCALE NTS · REV A</text>
+      </g></svg>
+    </div>
+  </div></div>
+</section>
+
+<section class="band alt">
+  <div class="wrap">
+    <h2 class="band-head">How one part gets drawn</h2>
+    <p class="band-sub">Quick, one-at-a-time jobs are the point, not the problem.</p>
+    <ol class="method">
+      <li><h3>Send it</h3><p>The broken part, the pieces of it, or photos with a tape measure in frame. The part it mates with, if it can travel.</p></li>
+      <li><h3>Measure</h3><p>Every dimension that matters. The ones worn away get worked out from what they fit.</p></li>
+      <li><h3>Model</h3><p>A 3D model in {{ config.extra.cad }}, checked against the parts around it.</p></li>
+      <li><h3>Draw</h3><p>A dimensioned drawing, yours to keep, so the next one is a phone call, not a project.</p></li>
+      <li><h3>Prove, if it matters</h3><p>Where fit is critical, a plastic prototype first, printed by you or a local printer. It's cheap to be wrong in plastic.</p></li>
+      <li><h3>Make</h3><p>Once it's paid for, take the files to your favorite machine shop. Or have a small number made here.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap"><div class="split">
+    <div class="prose">
+      <h2 style="margin-top:0">Why a small shop wants the one-off</h2>
+      <p>Most established shops want long production runs that keep their people busy for months. A single replacement part is an interruption to them. Here it's the job: variable work, which is the interesting kind.</p>
+      <p>Oil and gas operations, manufacturing plants, mines and farms all run machines that have outlived the companies that built them. Mark spent years in mining and industrial service, and in agricultural technology, before opening this shop.</p>
+    </div>
+    <figure>{{ m::pic(name="clouds-weld-1", alt="Mark TIG welding a seam in the shop") }}</figure>
+  </div></div>
+</section>
+
+<section class="band alt">
+  <div class="wrap">
+    <h2 class="band-head">Model first, then metal</h2>
+    <p class="band-sub">The same order on every job, so the part fits the first time.</p>
+    <div class="pair">
+      <figure><span class="tag model">Model</span>{{ m::pic(name="rx7-model", alt="CAD model of a control arm with spherical bearings at each end", fit=true) }}<figcaption>Rear control arms for an RX-7, modeled around solid spherical bearings…</figcaption></figure>
+      <figure><span class="tag">Built</span>{{ m::pic(name="rx7-arms-1", alt="Two machined control arms on a blue moving blanket") }}<figcaption>…then machined. <a href="{{ get_url(path='/work/rx7-control-arms/', trailing_slash=true) | safe }}">The whole job</a>.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2 class="band-head">What to send</h2>
+    <ul class="send">
+      <li><b>Photos</b>Every side, with a ruler or tape in frame.</li>
+      <li><b>The part</b>Broken is fine. All the pieces, if you have them.</li>
+      <li><b>What it fits</b>Machine make, model and year, and what it mates with.</li>
+      <li><b>How many</b>One is normal. Say if you want spares.</li>
+      <li><b>By when</b>And what the machine being down is costing you.</li>
+    </ul>
+    <p class="cta-line"><a class="button" href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a></p>
+  </div>
+</section>
+{% endblock content %}

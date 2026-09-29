@@ -2,16 +2,34 @@
 title = "About"
 description = "Mechanical Superiority is Mark Mataczynski's design and fabrication shop in Fort Collins, Colorado."
 path = "about"
-template = "page.html"
+template = "about.html"
+
+[extra]
+headline = "Designs by an engineer who actually knows how to build."
+quote = "I believe it is very important for any engineer to build their own designs in order to see how things actually function in the real world. Too many university-educated engineers have lots of academic skills, but shockingly little in terms of hands-on skills."
+
+[[extra.career]]
+years = "2008–2012"
+where = "U.S. Air Force Academy"
+what = "BS, mechanical engineering"
+[[extra.career]]
+years = "2012–2014"
+where = "Air Force Institute of Technology"
+what = "MS, aerospace engineering"
+[[extra.career]]
+years = "2014–2017"
+where = "Air Force Research Laboratory"
+what = "Developmental engineer"
+[[extra.career]]
+years = "2017–2021"
+where = "Laron, Inc."
+what = "Mechanical engineer, mining and industrial service"
+[[extra.career]]
+years = "2021–2023"
+where = "Dairy Tech, Inc."
+what = "Mechanical engineer, agricultural technology development"
+[[extra.career]]
+years = "2023–"
+where = "Mechanical Superiority, LLC"
+what = "Owner: design, machining and fabrication"
 +++
-
-Mechanical Superiority is Mark Mataczynski's shop in Fort Collins, Colorado.
-
-The work here runs from single replacement parts to complete machines. The
-through-line is that design and fabrication happen in the same place, by the
-same person, which is why a problem found at the machine gets solved that
-afternoon instead of in a week of emails.
-
-The writing on this site is the other half of the same instinct: most mechanical
-concepts aren't actually that complicated, but they're explained badly. Start
-with [the torque essay](/power-vs-torque/).

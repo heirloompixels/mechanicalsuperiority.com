@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Design and CAD</p>
+    <h1>Send the model. Get back one that's easy to change, and parts that fit.</h1>
+    <p class="page-intro">Design help doesn't need a shop visit. Inventors, startups and companies without an engineer on staff send an idea, a sketch or a model, and it's worked out together by email and phone.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2 class="band-head">How it went for a customer in Virginia</h2>
+    <p class="band-sub">A set of bicycle brake adapters, 2024.</p>
+    <ol class="method">
+      <li><h3>His design</h3><p>The customer had models of his own that were hard to change.</p></li>
+      <li><h3>Rebuilt</h3><p>Mark remodeled them so that a change took minutes, not a rebuild.</p></li>
+      <li><h3>Daily changes</h3><p>A revision a day, printed in plastic by the customer at home.</p></li>
+      <li><h3>Proven</h3><p>Fitted on the bike until the geometry was right.</p></li>
+      <li><h3>Made</h3><p>Machined from 6061-T6 aluminum by a CNC manufacturer, with Mark working between them.</p></li>
+      <li><h3>Fit</h3><p>First time, because the plastic had already been wrong on their behalf.</p></li>
+    </ol>
+    <div class="seq" style="margin-top:2rem">
+      <figure><span class="step-no">model</span>{{ m::pic(name="bumpoff-model-drive", alt="CAD model of the drive-side brake adapter", fit=true, suffix="-sm") }}</figure>
+      <figure><span class="step-no">model</span>{{ m::pic(name="bumpoff-model-brake", alt="CAD model of the brake-side adapter", fit=true, suffix="-sm") }}</figure>
+      <figure><span class="step-no">printed</span>{{ m::pic(name="bumpoff-printed-1", alt="Printed prototype adapter fitted to the bike frame", suffix="-sm") }}</figure>
+      <figure><span class="step-no">printed</span>{{ m::pic(name="bumpoff-printed-2", alt="Printed prototype holding a brake caliper on the bike", suffix="-sm") }}</figure>
+      <figure><span class="step-no">machined</span>{{ m::pic(name="bumpoff-machined", alt="Two machined aluminum brake adapters", suffix="-sm") }}</figure>
+    </div>
+  </div>
+</section>
+
+<section class="band straight-talk">
+  <div class="wrap">
+    <p class="big">You'll speak directly with the engineer who is actually working on your project, the same day, in plain English.</p>
+    <p class="small">No salesmen, no clueless managers, no language barrier, no bureaucracy, no delays. Fewer misunderstandings means a part that looks like what you had in mind.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2 class="band-head">What to send</h2>
+    <ul class="send">
+      <li><b>Your files</b>{{ config.extra.cad }} or Fusion, or STEP, IGES, DXF, PDF.</li>
+      <li><b>Or less</b>Sketches, photos, a description of what it has to do.</li>
+      <li><b>How it'll be made</b>Printed, machined, cut, welded, or ask.</li>
+      <li><b>What's wrong now</b>What doesn't fit, what keeps changing.</li>
+    </ul>
+    <p class="cta-line"><a class="button" href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a></p>
+  </div>
+</section>
+{% endblock content %}
