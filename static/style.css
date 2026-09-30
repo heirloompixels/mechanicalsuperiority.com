@@ -399,6 +399,7 @@ figcaption { font-size: 0.875rem; color: var(--ink-soft); margin-top: 0.5rem; li
 .method { counter-reset: step; list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.5rem; }
 .method li { counter-increment: step; border-top: 2px solid var(--ink); padding-top: 0.75rem; }
 .method li::before { content: counter(step, decimal-leading-zero); font-family: var(--mono); font-size: 0.8rem; display: block; color: var(--ink-soft); }
+.method li[data-step]::before { content: attr(data-step); }
 .method h3 { margin: 0.25rem 0 0.35rem; font-size: 1.1rem; }
 .method p { margin: 0; color: var(--ink-soft); font-size: 0.95rem; }
 

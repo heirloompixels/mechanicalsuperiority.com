@@ -8,7 +8,8 @@
       <p class="eyebrow">Reverse engineering of obsolete parts</p>
       <h1>The part broke. Nobody makes it anymore.</h1>
       <div class="dim"><span>measured · modeled · drawn</span></div>
-      <p class="lead">The machine still runs, except for one part. The manufacturer is gone, or wants a minimum order and months of lead time, and the local shop won't touch it without a print. Send it here, and it comes back as a model and a drawing you own.</p>
+      {# In Mark's words (2026-09-30), as are the steps below. #}
+      <p class="lead">The machine still runs great, except for one part. The manufacturer is long gone, or they want a minimum order quantity with months of lead time. Local shops won't touch it without a print or model, and you don't have anybody in-house to make one. Call/email Mechanical Superiority! I have lots of experience reverse-engineering old parts from my time in industry, and I know what details to ask for to make sure that it fits right.</p>
       <p class="cta-line"><a class="button" href="mailto:{{ config.extra.email }}">Send a photo of the part</a></p>
     </div>
     <div>
@@ -38,13 +39,13 @@
   <div class="wrap">
     <h2 class="band-head">How one part gets drawn</h2>
     <p class="band-sub">Quick, one-at-a-time jobs are the point, not the problem.</p>
+    {# Numbered by hand: Mark's 03a is an optional step between 03 and 04. #}
     <ol class="method">
-      <li><h3>Send it</h3><p>The broken part, the pieces of it, or photos with a tape measure in frame. The part it mates with, if it can travel.</p></li>
-      <li><h3>Measure</h3><p>Every dimension that matters. The ones worn away get worked out from what they fit.</p></li>
-      <li><h3>Model</h3><p>A 3D model in {{ config.extra.cad }}, checked against the parts around it.</p></li>
-      <li><h3>Draw</h3><p>A dimensioned drawing, yours to keep, so the next one is a phone call, not a project.</p></li>
-      <li><h3>Prove, if it matters</h3><p>Where fit is critical, a plastic prototype first, printed by you or a local printer. It's cheap to be wrong in plastic.</p></li>
-      <li><h3>Make</h3><p>Once it's paid for, take the files to your favorite machine shop. Or have a small number made here.</p></li>
+      <li data-step="01"><h3>Send it</h3><p>Ship me the broken part (or the remaining pieces), pictures of the application, and any partial or complete prints that you might have. Many times you may not even need to send the physical part for me to recreate it; just drawings with dimensions and pictures with a tape measure in-frame.</p></li>
+      <li data-step="02"><h3>Measure</h3><p>I will measure what I can on my end, and work directly with you to make sure we correctly measure relevant critical dimensions that I can't physically touch. We will communicate to make sure everything is going to fit, and we are all on the same page with what needs to be made.</p></li>
+      <li data-step="03"><h3>Model/drawings</h3><p>I will create a 3D model with dimensioned shop drawings that any machine shop can use to make your part.</p></li>
+      <li data-step="03a"><h3>Rapid prototyping (where appropriate)</h3><p>One useful extra step might be to have a cheap plastic model 3D-printed so that you can bolt it onto the machine to ensure a proper fit before cutting metal. There are lots of rapid prototyping businesses around, so this part should be easier than you might think to find in your local area. Time-and-location-permitting, I can also print one and bring it to your site.</p></li>
+      <li data-step="04"><h3>Cut</h3><p>Take your model/drawings to your machine shop of choice, or ask Mechanical Superiority for a quote to make small runs in-house.</p></li>
     </ol>
   </div>
 </section>
