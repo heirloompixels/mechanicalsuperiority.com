@@ -38,10 +38,20 @@ business side; this one is the build.
       page, plus Work, About, Services and Contact, are in `from-mark/sketches/`
       with a page of questions. His answers decide what gets built here.
 
-- [x] **The travel pods with Ehpro.** *Added 2026-09-28 as the first
-      project, with Scott at Ehpro's permission.* One picture is held: a
-      Thunderbirds F-16 in flight watermarked "Photography by Kevin Clarke",
-      which needs the photographer's permission before it can be used.
+- [x] **The travel pods with EhPro.** *Added 2026-09-28 as the first
+      project, with Scott at EhPro's permission.* The Thunderbirds F-16 in
+      flight watermarked "Photography by Kevin Clarke" stays off the site.
+      *2026-09-30:* a different in-flight Thunderbirds picture, with no
+      credit on it, took its place (`pods-thunderbirds-flight`). Who took it
+      is not recorded; confirm with Mark that it is his, EhPro's or an Air
+      Force release before the site goes live.
+- [x] **His notes on the built site.** *Applied 2026-09-30:* his own words
+      on Home, About, Gov. Customers, Replacement parts, Remote CAD ("Need
+      design help?"), the travel pods and the tractor frame. He is "Mark"
+      everywhere except the Gov. Customers point of contact, and controls
+      engineering is no longer advertised. He has not yet read the third
+      offer on the home page (aluminum and stainless), because the report's
+      screenshot cut it off.
 - [ ] **An introduction video** for the home page. Mark is making one. Put it
       at `static/video/intro.mp4` (H.264 MP4, a minute or two, under about
       25 MB) and uncomment `intro_video` in `config.toml`; the home page shows
