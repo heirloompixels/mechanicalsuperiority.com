@@ -1,0 +1,11 @@
+{# The closing ask, shared by every page that ends with one. #}
+<section class="band cta-band alt">
+  <div class="wrap">
+    <h2>Tell me what you're trying to build</h2>
+    <p style="max-width:52ch">A drawing, a model, a photo of the broken part, a sketch, or just a description of what the thing needs to do. If you don't know the material or the tolerances, that's a normal question and part of what you're hiring for.</p>
+    <p class="cta-line">
+      <a class="button" href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a>
+      <a class="button ghost" href="{{ get_url(path='/contact/', trailing_slash=true) | safe }}">What to send for a quote</a>
+    </p>
+  </div>
+</section>

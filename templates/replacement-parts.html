@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+<section class="hero">
+  <div class="wrap"><div class="part-hero">
+    <div>
+      <p class="eyebrow">Reverse engineering of obsolete parts</p>
+      <h1>The part broke. Nobody makes it anymore.</h1>
+      <div class="dim"><span>measured · modeled · drawn</span></div>
+      {# In Mark's words (2026-09-30), as are the steps below. #}
+      <p class="lead">The machine still runs great, except for one part. The manufacturer is long gone, or they want a minimum order quantity with months of lead time. Local shops won't touch it without a print or model, and you don't have anybody in-house to make one. Call/email Mechanical Superiority! I have lots of experience reverse-engineering old parts from my time in industry, and I know what details to ask for to make sure that it fits right.</p>
+      <p class="cta-line"><a class="button" href="mailto:{{ config.extra.email }}">Send a photo of the part</a></p>
+    </div>
+    <div>
+      {# A drawn part, not a photograph: a lever with its dimensions and a crack. #}
+      <svg viewBox="0 0 460 330" role="img" aria-label="Drawing of a broken lever: its outline, two bolt holes and a slot, a crack across one end, and dimension lines giving its length and hole size">
+      <g fill="none" stroke="#14161a" stroke-width="1" font-family="IBM Plex Mono, monospace" font-size="11">
+      <circle cx="318" cy="162" r="34" fill="#e5fe15" stroke="none"/>
+      <path d="M60,140 A42,42 0 0 1 102,98 H338 A42,42 0 0 1 380,140 V184 A42,42 0 0 1 338,226 H102 A42,42 0 0 1 60,184 Z" stroke-width="2.2" fill="#fff"/>
+      <circle cx="102" cy="162" r="19" stroke-width="2"/>
+      <circle cx="338" cy="162" r="19" stroke-width="2"/>
+      <rect x="150" y="146" width="130" height="32" rx="16" stroke-width="2"/>
+      <path d="M312,98 L321,118 L313,136 L325,152 L316,170 L327,190 L318,208 L324,226" stroke-width="3" stroke-linejoin="bevel"/>
+      <g stroke-dasharray="10 3 2 3" stroke="#5b6068"><path d="M40,162 H400"/><path d="M102,128 V196"/><path d="M338,128 V196"/></g>
+      <path d="M60,232 V290 M380,232 V290"/>
+      <path d="M60,276 H380"/><path d="M60,276 l9,-3 v6 z M380,276 l-9,-3 v6 z" fill="#14161a"/>
+      <text x="220" y="271" text-anchor="middle" stroke="none" fill="#14161a">320.0</text>
+      <path d="M89,148 L52,70 H20"/><text x="20" y="64" stroke="none" fill="#14161a">&#216; 38.1 &#215;2</text>
+      <path d="M322,120 L360,52 H440"/><text x="440" y="46" text-anchor="end" stroke="none" fill="#14161a">BROKEN &#8212; FROM THE MATE</text>
+      <path d="M215,146 L240,40 H290"/><text x="244" y="34" stroke="none" fill="#14161a">SLOT 130 &#215; 32</text>
+      <text x="20" y="318" stroke="none" fill="#5b6068" font-size="10">DRAWN FROM THE PIECES · SCALE NTS · REV A</text>
+      </g></svg>
+    </div>
+  </div></div>
+</section>
+
+<section class="band alt">
+  <div class="wrap">
+    <h2 class="band-head">How one part gets drawn</h2>
+    <p class="band-sub">Quick, one-at-a-time jobs are the point, not the problem.</p>
+    {# Numbered by hand: Mark's 03a is an optional step between 03 and 04. #}
+    <ol class="method">
+      <li data-step="01"><h3>Send it</h3><p>Ship me the broken part (or the remaining pieces), pictures of the application, and any partial or complete prints that you might have. Many times you may not even need to send the physical part for me to recreate it; just drawings with dimensions and pictures with a tape measure in-frame.</p></li>
+      <li data-step="02"><h3>Measure</h3><p>I will measure what I can on my end, and work directly with you to make sure we correctly measure relevant critical dimensions that I can't physically touch. We will communicate to make sure everything is going to fit, and we are all on the same page with what needs to be made.</p></li>
+      <li data-step="03"><h3>Model/drawings</h3><p>I will create a 3D model with dimensioned shop drawings that any machine shop can use to make your part.</p></li>
+      <li data-step="03a"><h3>Rapid prototyping (where appropriate)</h3><p>One useful extra step might be to have a cheap plastic model 3D-printed so that you can bolt it onto the machine to ensure a proper fit before cutting metal. There are lots of rapid prototyping businesses around, so this part should be easier than you might think to find in your local area. Time-and-location-permitting, I can also print one and bring it to your site.</p></li>
+      <li data-step="04"><h3>Cut</h3><p>Take your model/drawings to your machine shop of choice, or ask Mechanical Superiority for a quote to make small runs in-house.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap"><div class="split">
+    <div class="prose">
+      <h2 style="margin-top:0">Why a small shop wants the one-off</h2>
+      <p>Most established shops want long production runs that keep their people busy for months. A single replacement part is an interruption to them. Here it's the job: variable work, which is the interesting kind.</p>
+      <p>Oil and gas operations, manufacturing plants, mines and farms all run machines that have outlived the companies that built them. Mark spent years in mining and industrial service, and in agricultural technology, before opening this shop.</p>
+    </div>
+    <figure>{{ m::pic(name="clouds-weld-1", alt="Mark TIG welding a seam in the shop") }}</figure>
+  </div></div>
+</section>
+
+<section class="band alt">
+  <div class="wrap">
+    <h2 class="band-head">The biggest one so far</h2>
+    <p class="band-sub">A prototype Air Force travel pod, with no drawings, shipped to Colorado to be measured.</p>
+    <div class="pair">
+      <figure><span class="tag model">Model</span>{{ m::pic(name="pods-model", alt="CAD assembly of a riveted aluminum travel pod", fit=true) }}<figcaption>Every part measured, taken apart where it had to be, and modeled, then the whole assembly. The Air Force used the models to approve the design…</figcaption></figure>
+      <figure><span class="tag">Built</span>{{ m::pic(name="pods-lined-up", alt="Freshly painted travel pods lined up on a hangar floor") }}<figcaption>…and the pods are now built new, with parts cut on a gantry mill Mark programs. <a href="{{ get_url(path='/work/travel-pods/', trailing_slash=true) | safe }}">The whole job</a>.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2 class="band-head">What to send</h2>
+    <ul class="send">
+      <li><b>Photos</b>Every side, with a ruler or tape in frame.</li>
+      <li><b>The part</b>Broken is fine. All the pieces, if you have them.</li>
+      <li><b>What it fits</b>Machine make, model and year, and what it mates with.</li>
+      <li><b>How many</b>One is normal. Say if you want spares.</li>
+      <li><b>By when</b>And what the machine being down is costing you.</li>
+    </ul>
+    <p class="cta-line"><a class="button" href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a></p>
+  </div>
+</section>
+{% endblock content %}

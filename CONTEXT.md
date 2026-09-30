@@ -1,4 +1,4 @@
-# Mechanical Superiority LLC — project context
+# Mechanical Superiority, LLC — project context
 
 Everything needed to build or rebuild the website for Mechanical Superiority LLC, plus the business
 strategy behind it, so design and copy decisions have the reasoning attached.
@@ -350,7 +350,31 @@ The site's Services page exists largely to support these calls.
 - [ ] Decision: publish the shop address, or contact-only?
 - [ ] Decision: stay on Ghost, or rebuild?
 
-## 12. Related files from the working session
+## 12. Mark's decisions, 2026-09-28
+
+Mark reviewed a set of sketches and decided; the site was rebuilt from his
+answers. This section overrides anything above that disagrees.
+
+- **The home page is for general customers**, in plain language. His work
+  in order: (1) CAD and design, including remote product development with
+  printed prototypes; (2) reverse engineering of obsolete parts, where the
+  default is drawings the customer takes to their own shop, and a few parts
+  made here the exception; (3) small-scale work in aluminum and stainless.
+- **Government work is a separate section**, "Gov. Customers", at
+  `/government/`, in the capability-statement style. He may hand out a
+  second business card with a QR code to it.
+- **Taglines:** "Small shop, outsized capabilities" (home); "Air
+  Force-trained engineering, hands-on industrial experience" (government);
+  "Designs by an engineer who actually knows how to build" (About).
+- **Never on the site:** UEI, CAGE, street address.
+- **Legal name:** "Mechanical Superiority, LLC", with the comma.
+- **CAD:** SolidWorks; Fusion through Ehpro.
+- **Ehpro** may be named with its equipment: CNC gantry mill, sheet roller,
+  8-foot sheet brake.
+- The brake adapters are shown as "a customer in Virginia"; the cloud signs
+  were for Truth or Consequences Contemporary.
+
+## 13. Related files from the working session
 
 - `Mechanical_Superiority_Capability_Statement.pdf` — one-page capability statement
 - `Recommendations_for_Mark.pdf` — the strategy argument in full (CAD-first positioning, pricing,

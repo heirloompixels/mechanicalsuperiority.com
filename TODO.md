@@ -5,10 +5,11 @@ business side; this one is the build.
 
 ## Blocked on Mark
 
-- [ ] **Phone number.** The site ships with email only. `config.extra.phone`
-      is commented out in `config.toml`; uncomment it and the footer and
-      Contact page pick it up.
-- [ ] **Business email on the domain.** Everything currently points at
+- [ ] **Phone number.** Mark is getting a Google Voice number (2026-09-28).
+      `config.extra.phone` is commented out in `config.toml`; uncomment it and
+      the footer picks it up. Add it to `contact.md` by hand.
+- [x] **Business email on the domain.** *Mark: stay on Gmail for now
+      (2026-09-28).* Everything currently points at
       `mechanicalsuperiority@gmail.com`, the address already public at the
       foot of the essay. `mark@mechanicalsuperiority.com` is a better address
       to hand a stranger a drawing package.
@@ -22,19 +23,43 @@ business side; this one is the build.
       what was done.*
 - [x] **A bio paragraph for About.** *Received 2026-09-26 (resume and a
       paragraph in his own words), held in `from-mark/`; waiting on his review.*
-- [ ] **Exact legal name** as filed with the Colorado Secretary of State.
+- [x] **Exact legal name** as filed with the Colorado Secretary of State.
       `config.extra.legal_name` says "Mechanical Superiority LLC"; it must
       match the filing exactly, because SAM.gov rejects mismatches.
-- [ ] **Shop address, or Fort Collins only?** The structured data in
+- [x] **Shop address, or Fort Collins only?** *Fort Collins only; the
+      address stays private (2026-09-28).* The structured data in
       `head.html` currently gives the locality with no street address.
 - [ ] **The capability statement PDF.** Drop it in `static/` and link it from
       Services and Contact.
-- [ ] **CAD package(s) he uses**, for the Services page and the capability
+- [x] **CAD package(s) he uses** *SolidWorks, and Fusion through Ehpro.*, for the Services page and the capability
       statement.
 
-- [ ] **His review of the site sketches.** Several directions for the home
+- [x] **His review of the site sketches.** *Answered 2026-09-28 and built.* Several directions for the home
       page, plus Work, About, Services and Contact, are in `from-mark/sketches/`
       with a page of questions. His answers decide what gets built here.
+
+- [x] **The travel pods with EhPro.** *Added 2026-09-28 as the first
+      project, with Scott at EhPro's permission.* The Thunderbirds F-16 in
+      flight watermarked "Photography by Kevin Clarke" stays off the site.
+      *2026-09-30:* a different in-flight Thunderbirds picture, with no
+      credit on it, took its place (`pods-thunderbirds-flight`). Who took it
+      is not recorded; confirm with Mark that it is his, EhPro's or an Air
+      Force release before the site goes live.
+- [x] **His notes on the built site.** *Applied 2026-09-30:* his own words
+      on Home, About, Gov. Customers, Replacement parts, Remote CAD ("Need
+      design help?"), the travel pods and the tractor frame. He is "Mark"
+      everywhere except the Gov. Customers point of contact, and controls
+      engineering is no longer advertised. He has not yet read the third
+      offer on the home page (aluminum and stainless), because the report's
+      screenshot cut it off.
+- [ ] **An introduction video** for the home page. Mark is making one. Put it
+      at `static/video/intro.mp4` (H.264 MP4, a minute or two, under about
+      25 MB) and uncomment `intro_video` in `config.toml`; the home page shows
+      it in place of the photo, with no JavaScript.
+- [ ] **UEI and CAGE.** Mark is registering through the Colorado APEX
+      Accelerator, and asked to be reminded. They never go on the website
+      (his decision); they go on the capability statement. When they exist,
+      change "Registration in process" in `templates/government.html`.
 
 ## Retiring Ghost
 
@@ -51,7 +76,7 @@ The decision is made: the Ghost site goes. Order matters.
 
 ## Second pass on the build
 
-- [ ] A `/work/` page, the moment photographs exist.
+- [x] A `/work/` page, the moment photographs exist.
 - [ ] `LocalBusiness` structured data is in `head.html` but carries no street
       address or phone. Fill it in when those are settled.
 - [ ] Power vs. Torque Pt. 2 is promised in the text of Pt. 1 and has never

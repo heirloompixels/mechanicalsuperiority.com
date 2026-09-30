@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">About</p>
+    <h1 style="max-width:22ch">{{ page.extra.headline }}</h1>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap"><div class="split">
+    <div class="prose">
+      <p><strong>{{ page.extra.intro }}</strong></p>
+      <p>Mark studied mechanical engineering at the U.S. Air Force Academy and aerospace engineering at the Air Force Institute of Technology, then spent three years as a developmental engineer at the Air Force Research Laboratory. After that came mining and industrial service at Laron, and agricultural technology development at Dairy Tech. He opened his own shop in 2023.</p>
+      <blockquote><p>{{ page.extra.quote }}</p><p>— Mark</p></blockquote>
+      <p>{{ page.extra.philosophy }}</p>
+    </div>
+    <figure>
+      {{ m::pic(name="clouds-mark", alt="Mark in his shop holding two finished aluminum cloud signs", ratio="r34") }}
+      <figcaption>Mark, with two of the six aluminum clouds made for Truth or Consequences Contemporary. The topsoil screener is behind him.</figcaption>
+    </figure>
+  </div></div>
+</section>
+
+<section class="band straight-talk">
+  <div class="wrap">
+    <p class="big">You'll speak directly with the engineer who is actually working on your project, the same day, in plain English.</p>
+    <p class="small">No salesmen, no clueless managers, no language barrier, no bureaucracy, no delays. Overseas firms can be cheaper. The aim here is to be better.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap"><div class="split flip">
+    <div>{% include "timeline.html" %}</div>
+    <div class="prose">
+      <h2 style="margin-top:0">Skills</h2>
+      <p>Mechanical engineering and design, from parts to full assemblies. CAD modeling and shop drawings in {{ config.extra.cad }}, and Autodesk Fusion. MIG and TIG welding. CNC plasma cutting. Machine work on a knee mill. Rivet gun setup for driving solid rivets. CAM programming and running a Haas GR-510 CNC gantry mill at EhPro Custom Fabrication, where he also rivets and welds Air Force travel pods, and has the use of a sheet roller and an 8-foot sheet brake.</p>
+      <h2>Why a small shop</h2>
+      <p>Big shops want long production runs to keep their people busy. Variable, one-of-a-kind work is what this shop is for, and it's the interesting kind.</p>
+      <p>The writing on this site is the other half of the same instinct: most mechanical concepts aren't actually that complicated, but they're explained badly. Start with <a href="{{ get_url(path='/power-vs-torque/', trailing_slash=true) | safe }}">the torque essay</a>.</p>
+    </div>
+  </div></div>
+</section>
+
+{% include "cta.html" %}
+{% endblock content %}

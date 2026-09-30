@@ -1,37 +1,101 @@
 {% extends "base.html" %}
+{% import "macros.html" as m %}
 
 {% block content %}
 {% set x = section.extra %}
 
 <section class="hero">
-  <div class="wrap">
-    <h1>{{ x.headline }}</h1>
-    <p class="lead">{{ x.lead }}</p>
-    <p class="cta-line">
-      <a class="button" href="mailto:{{ config.extra.email }}">Tell me what you're trying to build</a>
-    </p>
-  </div>
+  <div class="wrap"><div class="split">
+    <div>
+      <p class="eyebrow">Mechanical Superiority · {{ config.extra.locality }}</p>
+      <h1>{{ x.headline }}</h1>
+      <p class="lead">{{ x.lead }}</p>
+      <p class="cta-line">
+        <a class="button" href="mailto:{{ config.extra.email }}">Tell me what you're building</a>
+        <a class="button ghost" href="{{ get_url(path='/work/', trailing_slash=true) | safe }}">See the work</a>
+      </p>
+    </div>
+    <div>
+      {% if config.extra.intro_video %}
+      <video class="intro-video" controls preload="metadata" playsinline
+             poster="{{ get_url(path='images/work/clouds-mark.jpg', trailing_slash=false) | safe }}">
+        <source src="{{ get_url(path=config.extra.intro_video, trailing_slash=false) | safe }}" type="video/mp4">
+      </video>
+      {% else %}
+      <figure>
+        {{ m::pic(name="clouds-mark", alt="Mark in his shop, holding two finished aluminum cloud signs", ratio="r43") }}
+        <figcaption>{{ x.caption }}</figcaption>
+      </figure>
+      {% endif %}
+    </div>
+  </div></div>
 </section>
 
 <section class="band">
-  <div class="wrap prose">
-    {{ section.content | safe }}
-  </div>
-</section>
-
-<section class="band pillars">
   <div class="wrap">
-    <div class="pillar-grid">
-      {% for p in x.pillars %}
-      <div class="pillar">
-        <h2>{{ p.title }}</h2>
-        <p>{{ p.body }}</p>
+    <div class="offer-list">
+      {% for o in x.offers %}
+      <div class="offer">
+        <span class="no">{{ loop.index }}</span>
+        <div>
+          <h2>{{ o.title }}</h2>
+          <p>{{ o.body }}</p>
+          <p>{% if o.more_link %}<a href="{{ get_url(path=o.more_link, trailing_slash=true) | safe }}">{{ o.more }}</a>{% else %}{{ o.more }}{% endif %}</p>
+          <p class="more"><a href="{{ get_url(path=o.link, trailing_slash=true) | safe }}">{{ o.link_text }} &rarr;</a></p>
+        </div>
+        <figure>{% if o.img_link %}<a href="{{ get_url(path=o.img_link, trailing_slash=true) | safe }}">{% endif %}{{ m::pic(name=o.img, alt=o.alt, fit=o.fit | default(value=false), suffix="-sm") }}{% if o.img_link %}</a>{% endif %}</figure>
       </div>
       {% endfor %}
     </div>
-    <p class="more-link">
-      <a href="{{ get_url(path='/services/', trailing_slash=true) | safe }}">Everything this shop does &rarr;</a>
-    </p>
+  </div>
+</section>
+
+{% set pods = get_page(path="work/travel-pods.md") %}
+<section class="band alt">
+  <div class="wrap">
+    <p class="eyebrow">The biggest job so far</p>
+    <h2 class="band-head" style="max-width:30ch">{{ pods.title }}: measured part by part, modeled, approved, and now built</h2>
+    <p class="band-sub" style="max-width:60ch">A partner shop had a prototype travel pod and no CAD. The Air Force needed models before it would approve the design. Mark measured every part and modeled the whole pod; the design was approved, and he now programs and runs the gantry mill that makes its parts.</p>
+    {{ m::pair(p=pods) }}
+    <p class="more-link"><a href="{{ pods.permalink | safe }}">The whole job &rarr;</a></p>
+  </div>
+</section>
+
+<section class="band straight-talk">
+  <div class="wrap">
+    <p class="big">{{ x.straight_talk }}</p>
+    <p class="small">Mechanical Superiority is one engineer and one shop. The person who draws your part is the person at the machine when something doesn't fit.</p>
+  </div>
+</section>
+
+{% set work = get_section(path="work/_index.md") %}
+<section class="band">
+  <div class="wrap">
+    <h2 class="band-head">Recent work</h2>
+    <p class="band-sub">Every job starts as a model and ends as metal.</p>
+    <div class="grid-cards">
+      {% for p in work.pages %}{{ m::card(p=p) }}{% endfor %}
+    </div>
+    <p class="more-link"><a href="{{ get_url(path='/work/', trailing_slash=true) | safe }}">All the work &rarr;</a></p>
+  </div>
+</section>
+
+<section class="band alt">
+  <div class="wrap">
+    <div class="pillar-grid">
+      <div class="pillar">
+        <h2>Bigger than one shop</h2>
+        <p>For work beyond one shop's size, Mechanical Superiority is teamed with EhPro Custom Fabrication of Trinity, Texas: heavy fabrication since 1979, with a Haas gantry mill (which Mark programs and runs), a sheet roller and an 8-foot sheet brake.</p>
+      </div>
+      <div class="pillar">
+        <h2>Other shops</h2>
+        <p>Full, missing a capability, or turning away a job with no print? Drawings, plasma-cut kits and aluminum work go both directions. <a href="{{ get_url(path='/services/', trailing_slash=true) | safe }}#for-other-shops">Shop to shop</a>.</p>
+      </div>
+      <div class="pillar">
+        <h2>Government buyers</h2>
+        <p>Engineering and fabrication for federal, state and prime contractors, with an Air Force-trained engineer. <a href="{{ get_url(path='/government/', trailing_slash=true) | safe }}">Gov. Customers</a>.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -54,14 +118,5 @@
 </section>
 {% endif %}
 
-<section class="band cta-band">
-  <div class="wrap">
-    <h2>{{ x.cta_heading }}</h2>
-    <p>{{ x.cta_body }}</p>
-    <p class="cta-line">
-      <a class="button" href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a>
-      <a class="button ghost" href="{{ get_url(path='/contact/', trailing_slash=true) | safe }}">What to send for a quote</a>
-    </p>
-  </div>
-</section>
+{% include "cta.html" %}
 {% endblock content %}

@@ -9,7 +9,7 @@ description = "Defining power and torque as they apply to a vehicle system, and 
 tags = ["Education", "Racing"]
 
 [extra]
-author = "Mark Mataczynski"
+author = "Mark"
 +++
 
 ## Introduction:

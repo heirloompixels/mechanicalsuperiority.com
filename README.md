@@ -45,13 +45,24 @@ domain. `TODO.md` carries the rest of the retirement.
 
 ## What is here
 
-- `content/` — the pages. `_index.md` is the home page and carries its blocks
-  in `[extra]`; `services.md`, `about.md` and `contact.md` are ordinary pages;
-  `writing/` is the essays.
-- `templates/` — `base` and `head` are shared; `index` is the home page,
-  `page` the flat pages, `section` the writing index, `post` an essay.
+- `content/` — the pages. `_index.md` is the home page and carries its
+  blocks in `[extra]`, in Mark's order of priority (design, reverse
+  engineering, aluminum and stainless). `work/` is one page per project, each
+  with its facts and pictures in `[extra]`. `about.md` carries the career
+  timeline; `government.md` (the "Gov. Customers" page, `/government/`)
+  carries NAICS codes and past performance. `services.md`, `contact.md`,
+  `replacement-parts.md` and `remote-cad.md` are the rest; `writing/` is the
+  essays.
+- `templates/` — `base` and `head` are shared; `index` is the home page;
+  `macros.html` draws a project (model beside build) and its card;
+  `work`, `project`, `about`, `government`, `replacement-parts` and
+  `remote-cad` are their pages; `page` the plain ones, `section` the writing
+  index, `post` an essay; `cta` and `timeline` are included pieces.
 - `static/` — `logo.png` (the wordmark), `logo-mark.png` (the bearing alone),
-  `favicon.png`, `style.css`, and `images/` for the essay's photographs.
+  `favicon.png`, `style.css`, `images/` for the essay's photographs, and
+  `images/work/` for the projects: web copies only, cropped, resized and with
+  all metadata stripped, each with an `-sm` copy for cards. Originals stay in
+  `from-mark/photos/`.
 - `_import/` — what was taken off the Ghost site on 2026-09-17, kept as the
   record of the import. Nothing builds from it.
 - `TODO.md` — what is missing, what is blocked on Mark, and what a second pass
