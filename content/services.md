@@ -45,7 +45,7 @@ MIG on carbon steel and TIG on aluminum and stainless. CNC plasma cutting of
 nested, and cut as a kit ready to weld. Riveted sheet metal, including solid
 rivets, where riveting beats welding: no heat distortion, and serviceable
 later. A Bridgeport knee mill for small precision parts, fixtures and
-modifications. CAM programming for CNC milling. Controls engineering.
+modifications. CAM programming for CNC milling.
 
 ### For other shops
 
@@ -56,7 +56,7 @@ referrals. You keep your customer.
 
 ### Bigger than one shop
 
-Work larger than a one-man shop can carry is teamed with Ehpro Custom
+Work larger than a one-man shop can carry is teamed with EhPro Custom
 Fabrication, LLC of Trinity, Texas: large-scale fabrication since 1979, with a
 Haas GR-510 CNC gantry mill, a sheet roller and an 8-foot sheet brake. The two
 shops build Air Force travel pods together: Mark modeled the new design from a

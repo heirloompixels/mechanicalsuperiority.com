@@ -1,18 +1,21 @@
 +++
 title = "Mechanical Superiority"
-description = "CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, from Mark Mataczynski's shop in Fort Collins, Colorado."
+description = "CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, from Mark's shop near Fort Collins, Colorado."
 template = "index.html"
 
 [extra]
 headline = "Small shop, outsized capabilities."
-lead = "Mark Mataczynski designs parts and products in CAD, turns broken parts nobody makes anymore into drawings you can build from, and makes small jobs in aluminum and stainless. From Fort Collins, Colorado, and by email from anywhere."
+# In Mark's words (2026-09-30): lead, caption, and body and more of the
+# first two offers. Keep them as he wrote them.
+lead = "Mark is a Mechanical Engineer with lots of experience designing and building systems for industry, aerospace, and beyond. Although CAD design and modeling are his primary service, he is also a machinist, fabricator, welder, and mechanic (among other things). This hybridization of engineering and hands-on skills results in a rare fusion of analytical and intuitive understanding of customer needs."
+caption = "Two of six cloud signs, custom designed and fabricated for an art gallery: Truth or Consequences Contemporary in Southern NM."
 straight_talk = "You'll speak directly with the engineer who is actually working on your project, the same day, in plain English. No salesmen, no clueless managers, no language barrier, no bureaucracy, no delays."
 
 # Mark's priorities, in his order (2026-09-28).
 [[extra.offers]]
 title = "Design and CAD"
-body = "Original designs, and help turning your idea, sketch or rough model into something that can actually be made: parts, assemblies, complete machines, and the drawings to build them from, in SolidWorks."
-more = "Working remotely is normal. You print prototypes on your end, the model changes until the fit is right, and then it gets made."
+body = "Have an idea for a project, but not sure how to make it work? I'm your guy. Using CAD modeling software, I can help take your idea from napkin sketches to a fully rendered 3D model so that you can show investors or potential customers exactly what you are going to build. Anything from individual parts to complex assemblies; I can help you make your concept a reality."
+more = "Talk to me face to face locally, or remotely. If you're out of my area we can even use 3D printed plastic models to check fit-and-feel before going ahead with the final manufactured parts."
 link = "/remote-cad/"
 link_text = "How remote CAD works"
 img = "bumpoff-printed-2"
@@ -20,8 +23,12 @@ alt = "A printed plastic prototype holding a brake caliper on a bike"
 
 [[extra.offers]]
 title = "Reverse engineering of obsolete parts"
-body = "A part broke and nobody makes it anymore. Send it, or photos of it, and it comes back as a 3D model and a dimensioned drawing that you own. The biggest one so far was a whole Air Force travel pod, measured part by part."
-more = "Take the files to your own machine shop, or have a small number made here."
+body = "Have an old machine with a broken part that needs to be made? Let me guess: the local machine shop won't touch it without a model? Send over the part, and it comes back with a CAD model and drawings that you can take to any machine shop. Or ask for a quote to have small batches made right here in-house."
+more = "Click on the picture to the right to learn more about our reverse-engineering capabilities."
+# Mark asked for the picture to link to the travel pods (2026-09-30). The
+# sentence links there too, because on a phone the picture is below it.
+more_link = "/work/travel-pods/"
+img_link = "/work/travel-pods/"
 link = "/replacement-parts/"
 link_text = "Replacement parts"
 img = "pods-model"

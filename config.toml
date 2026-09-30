@@ -4,7 +4,7 @@
 # Settings -> Pages. See README.md § moving the domain.
 base_url = "https://heirloompixels.github.io/mechanicalsuperiority.com"
 title = "Mechanical Superiority"
-description = "CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, from Mark Mataczynski's shop in Fort Collins, Colorado."
+description = "CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, from Mark's shop near Fort Collins, Colorado."
 compile_sass = false
 minify_html = false
 default_language = "en"

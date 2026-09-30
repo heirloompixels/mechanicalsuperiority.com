@@ -23,8 +23,8 @@
       </video>
       {% else %}
       <figure>
-        {{ m::pic(name="clouds-mark", alt="Mark Mataczynski in his shop, holding two finished aluminum cloud signs", ratio="r43") }}
-        <figcaption>Mark Mataczynski, with two of six aluminum clouds made for a gallery.</figcaption>
+        {{ m::pic(name="clouds-mark", alt="Mark in his shop, holding two finished aluminum cloud signs", ratio="r43") }}
+        <figcaption>{{ x.caption }}</figcaption>
       </figure>
       {% endif %}
     </div>
@@ -40,10 +40,10 @@
         <div>
           <h2>{{ o.title }}</h2>
           <p>{{ o.body }}</p>
-          <p>{{ o.more }}</p>
+          <p>{% if o.more_link %}<a href="{{ get_url(path=o.more_link, trailing_slash=true) | safe }}">{{ o.more }}</a>{% else %}{{ o.more }}{% endif %}</p>
           <p class="more"><a href="{{ get_url(path=o.link, trailing_slash=true) | safe }}">{{ o.link_text }} &rarr;</a></p>
         </div>
-        <figure>{{ m::pic(name=o.img, alt=o.alt, fit=o.fit | default(value=false), suffix="-sm") }}</figure>
+        <figure>{% if o.img_link %}<a href="{{ get_url(path=o.img_link, trailing_slash=true) | safe }}">{% endif %}{{ m::pic(name=o.img, alt=o.alt, fit=o.fit | default(value=false), suffix="-sm") }}{% if o.img_link %}</a>{% endif %}</figure>
       </div>
       {% endfor %}
     </div>
@@ -85,7 +85,7 @@
     <div class="pillar-grid">
       <div class="pillar">
         <h2>Bigger than one shop</h2>
-        <p>For work beyond one shop's size, Mechanical Superiority is teamed with Ehpro Custom Fabrication of Trinity, Texas: heavy fabrication since 1979, with a Haas gantry mill (which Mark programs and runs), a sheet roller and an 8-foot sheet brake.</p>
+        <p>For work beyond one shop's size, Mechanical Superiority is teamed with EhPro Custom Fabrication of Trinity, Texas: heavy fabrication since 1979, with a Haas gantry mill (which Mark programs and runs), a sheet roller and an 8-foot sheet brake.</p>
       </div>
       <div class="pillar">
         <h2>Other shops</h2>
