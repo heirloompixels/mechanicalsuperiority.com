@@ -56,6 +56,11 @@ domain. `TODO.md` carries the rest of the retirement.
   record of the import. Nothing builds from it.
 - `TODO.md` — what is missing, what is blocked on Mark, and what a second pass
   should do.
+- `from-mark/` — **git-ignored and never committed.** What Mark sends (notes,
+  original photos, documents made for him) and the sketchbook of site
+  variations built from it. This repo is public; that folder is the private
+  side. Only processed copies of photos, cropped and with metadata stripped,
+  ever move into `static/`.
 
 ## Two things about the build
 

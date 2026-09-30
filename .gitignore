@@ -1,3 +1,6 @@
 .DS_Store
 public
 static/processed_images
+
+# What Mark sends: raw, private, never committed. See from-mark/README.md.
+from-mark/
