@@ -22,8 +22,8 @@
     <div><p class="eyebrow">{{ p.extra.kind }}</p>
       <h2>{% if link %}<a href="{{ p.permalink | safe }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h2></div>
     <ul class="facts">
-      <li><b>What it is</b>{{ p.extra.what }}</li>
-      <li><b>What was done</b>{{ p.extra.done }}</li>
+      <li><b>The project</b>{{ p.extra.what }}</li>
+      <li><b>The results</b>{{ p.extra.done }}</li>
       <li><b>Year</b>{{ p.extra.year }}</li>
     </ul>
   </div>
