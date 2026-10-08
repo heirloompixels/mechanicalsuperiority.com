@@ -39,7 +39,8 @@
 "description":"{{ config.description }}",
 "url":"{{ config.base_url | safe }}",
 "email":"{{ config.extra.email }}",
-"image":"{{ get_url(path='logo.png', trailing_slash=false) | safe }}",
+{% if config.extra.tel %}"telephone":"{{ config.extra.tel }}",
+{% endif %}"image":"{{ get_url(path='logo.png', trailing_slash=false) | safe }}",
 "address":{"@type":"PostalAddress","addressLocality":"Fort Collins","addressRegion":"CO","addressCountry":"US"},
 "founder":{"@type":"Person","name":"Mark Mataczynski"}}
 </script>

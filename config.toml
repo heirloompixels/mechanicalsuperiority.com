@@ -34,8 +34,11 @@ legal_name = "Mechanical Superiority, LLC"
 locality = "Fort Collins, Colorado"
 email = "mechanicalsuperiority@gmail.com"
 cad = "SolidWorks"
-# phone = ""   # Mark is getting a Google Voice number — see TODO.md
+# Mark's Google Voice number (2026-10-08). `phone` is shown; `tel` is dialled.
+phone = "970-587-3271"
+tel = "+19705873271"
 # The street address stays off the site by Mark's choice (2026-09-28).
-# intro_video = "video/intro.mp4"   # Mark is making one; see TODO.md
+# intro_video = "video/intro.mp4"   # Mark is making one; the home page shows it
+#                                     where the travel pods band was. See TODO.md
 
 build_search_index = false

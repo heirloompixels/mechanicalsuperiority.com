@@ -13,7 +13,7 @@
     <h1 style="max-width:22ch">{{ x.headline }}</h1>
     <p class="lead" style="max-width:52ch">Engineering, drawings and fabrication, from one part to a complete machine, for government buyers and prime contractors. Partnered with a Texas shop with Federal experience and existing infrastructure to build larger projects.</p>
     <p class="cta-line"><a class="button" href="mailto:{{ config.extra.email }}?subject=Government%20inquiry">Email Mark</a></p>
-    <p class="mono" style="margin:0.75rem 0 0">{{ config.extra.email }}</p>
+    <p class="mono" style="margin:0.75rem 0 0">{{ config.extra.email }}{% if config.extra.phone %} · <a href="tel:{{ config.extra.tel }}">{{ config.extra.phone }}</a>{% endif %}</p>
   </div>
   <div class="titleblock">
     <div><span>Point of contact</span>Mark Mataczynski</div>
@@ -73,7 +73,7 @@
     <table class="data">
       {% for n in x.naics %}<tr><td class="mono">{{ n.0 }}</td><td>{{ n.1 }}</td></tr>{% endfor %}
     </table>
-    <p style="margin:1rem 0 0;color:var(--ink-soft)">Files delivered native or as STEP, IGES, DXF and PDF. Registration details and a capability statement are provided on request.</p>
+    <p style="margin:1rem 0 0;color:var(--ink-soft)">Files delivered native or as STEP, IGES, Parasolid, DXF and PDF. Registration details and a capability statement are provided on request.</p>
   </div>
 </div>
 {% endblock content %}
