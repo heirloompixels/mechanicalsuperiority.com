@@ -3,7 +3,7 @@ title = "Power vs. Torque (Pt. 1): Why Nobody Knows What the Hell Torque is"
 date = 2023-02-28
 path = "power-vs-torque"
 template = "post.html"
-description = "Defining power and torque as they apply to a vehicle system, and why the usual quote about hitting a wall explains neither of them."
+description = "Properly defining power and torque, and why they are inextricably linked."
 
 [taxonomies]
 tags = ["Education", "Racing"]

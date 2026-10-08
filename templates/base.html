@@ -15,7 +15,7 @@
             <nav class="site-nav" aria-label="Primary">
                 <a href="{{ get_url(path='/services/', trailing_slash=true) | safe }}">Services</a>
                 <a href="{{ get_url(path='/work/', trailing_slash=true) | safe }}">Work</a>
-                <a href="{{ get_url(path='/writing/', trailing_slash=true) | safe }}">Writing</a>
+                <a href="{{ get_url(path='/writing/', trailing_slash=true) | safe }}">Blog</a>
                 <a href="{{ get_url(path='/about/', trailing_slash=true) | safe }}">About</a>
                 <a href="{{ get_url(path='/contact/', trailing_slash=true) | safe }}">Contact</a>
                 <a class="gov" href="{{ get_url(path='/government/', trailing_slash=true) | safe }}">Gov. Customers</a>
@@ -32,7 +32,7 @@
             <p class="footer-name">{{ config.extra.legal_name }}</p>
             <p class="footer-line">{{ config.extra.locality }}</p>
             <p class="footer-line">
-                <a href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a>{% if config.extra.phone %} · <a href="tel:{{ config.extra.phone }}">{{ config.extra.phone }}</a>{% endif %}
+                <a href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a>{% if config.extra.phone %} · <a href="tel:{{ config.extra.tel }}">{{ config.extra.phone }}</a>{% endif %}
             </p>
             <p class="footer-line"><a href="{{ get_url(path='/government/', trailing_slash=true) | safe }}">Government and prime contractors</a></p>
             <p class="footer-line subtle">CAD Design · Reverse Engineering · Aluminum and Stainless</p>

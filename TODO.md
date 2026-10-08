@@ -5,9 +5,10 @@ business side; this one is the build.
 
 ## Blocked on Mark
 
-- [ ] **Phone number.** Mark is getting a Google Voice number (2026-09-28).
-      `config.extra.phone` is commented out in `config.toml`; uncomment it and
-      the footer picks it up. Add it to `contact.md` by hand.
+- [x] **Phone number.** *970-587-3271, Google Voice (2026-10-08).* In
+      `config.toml` as `phone` (shown) and `tel` (dialled): the footer, the
+      closing ask, Gov. Customers and the structured data read it.
+      `contact.md` carries it by hand.
 - [x] **Business email on the domain.** *Mark: stay on Gmail for now
       (2026-09-28).* Everything currently points at
       `mechanicalsuperiority@gmail.com`, the address already public at the
@@ -44,7 +45,9 @@ business side; this one is the build.
       *2026-09-30:* a different in-flight Thunderbirds picture, with no
       credit on it, took its place (`pods-thunderbirds-flight`). Who took it
       is not recorded; confirm with Mark that it is his, EhPro's or an Air
-      Force release before the site goes live.
+      Force release before the site goes live. *2026-10-08: Mark doesn't
+      know who took it and has no permission, so it is off the site and out
+      of `static/`. The pods page shows five pictures.*
 - [x] **His notes on the built site.** *Applied 2026-09-30:* his own words
       on Home, About, Gov. Customers, Replacement parts, Remote CAD ("Need
       design help?"), the travel pods and the tractor frame. He is "Mark"
@@ -54,8 +57,18 @@ business side; this one is the build.
       screenshot cut it off.
 - [ ] **An introduction video** for the home page. Mark is making one. Put it
       at `static/video/intro.mp4` (H.264 MP4, a minute or two, under about
-      25 MB) and uncomment `intro_video` in `config.toml`; the home page shows
-      it in place of the photo, with no JavaScript.
+      25 MB) and uncomment `intro_video` in `config.toml`. It shows in its own
+      band after the three offers, where the travel pods band was until Mark
+      took it out (2026-10-08); the hero keeps the clouds photo. No
+      JavaScript.
+- [x] **His second round of notes** *(2026-10-08)*: answers to the four
+      questions, the phone number, and his words on Services, the four
+      smaller Work projects, the home page's lower half, the closing ask and
+      Contact. Open from it: the home page calls the third offer "Specialty
+      fabrication jobs: aluminum and stainless" while Services keeps
+      "Aluminum and stainless, made small" (both his); and About says "Near
+      Fort Collins, CO" and Contact now does too, while the footer and the
+      home page say "Fort Collins, Colorado".
 - [ ] **UEI and CAGE.** Mark is registering through the Colorado APEX
       Accelerator, and asked to be reminded. They never go on the website
       (his decision); they go on the capability statement. When they exist,

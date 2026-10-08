@@ -17,7 +17,6 @@ steps = [
   { img = "pods-lined-up", alt = "Freshly painted travel pods lined up on a hangar floor, in blue, green, and black and yellow checks" },
   { img = "pods-f16-shelter", alt = "An F-16 in a shelter with a travel pod on the ground beside it, ready to load" },
   { img = "pods-thunderbirds", alt = "A Thunderbirds F-16 with a travel pod painted red, white and blue under its wing" },
-  { img = "pods-thunderbirds-flight", alt = "A Thunderbirds F-16 in flight, a red-nosed white travel pod under its wing" },
 ]
 +++
 

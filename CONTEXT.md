@@ -374,6 +374,24 @@ answers. This section overrides anything above that disagrees.
 - The brake adapters are shown as "a customer in Virginia"; the cloud signs
   were for Truth or Consequences Contemporary.
 
+### 2026-10-08
+
+His second round of notes, on the live site. The site carries his own words
+on Services (all of it), the four smaller Work projects, the home page's
+black band and pillars, the closing ask and Contact.
+
+- **Phone:** 970-587-3271 (Google Voice).
+- **3D printing:** he has no printer of his own and has prints made locally
+  when a job needs one. Don't claim a printer in the shop.
+- **Machining:** the Bridgeport is a manual knee mill; manual lathe work comes
+  through EhPro. "Manual mills and lathes" on Gov. Customers stands.
+- **Voice:** first person ("I") beside third ("Mark", "Mechanical
+  Superiority") is fine as it is.
+- **Photographs:** nothing whose photographer and permission are unknown.
+- **"Blog"**, not "Writing", for the essays; the URL stays `/writing/`.
+- **Contact** lists his full name; elsewhere he is "Mark" (Gov. Customers'
+  point of contact is the other exception).
+
 ## 13. Related files from the working session
 
 - `Mechanical_Superiority_Capability_Statement.pdf` — one-page capability statement

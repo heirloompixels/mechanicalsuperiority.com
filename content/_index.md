@@ -10,6 +10,11 @@ headline = "Small shop, outsized capabilities."
 lead = "Mark is a Mechanical Engineer with lots of experience designing and building systems for industry, aerospace, and beyond. Although CAD design and modeling are his primary service, he is also a machinist, fabricator, welder, and mechanic (among other things). This hybridization of engineering and hands-on skills results in a rare fusion of analytical and intuitive understanding of customer needs."
 caption = "Two of six cloud signs, custom designed and fabricated for an art gallery: Truth or Consequences Contemporary in Southern NM."
 straight_talk = "You'll speak directly with the engineer who is actually working on your project, the same day, in plain English. No salesmen, no clueless managers, no language barrier, no bureaucracy, no delays."
+# The black band's small line and the two pillars, in Mark's words
+# (2026-10-08).
+small_scale = "Mechanical Superiority operates at small scale. That means your call won't get forwarded to several different departments until you land in the right place: the person picking up the phone will speak intelligently to your problem right away."
+partners = "Mechanical Superiority is closely partnered with EhPro Custom Fab in Trinity, TX to cover more territory and for help with larger-scale fabrication and more advanced manufacturing."
+b2b = "Have you been turning away jobs due to lack of in-house design capacity, or don't have time for one-offs? Call and see if we can team up to help expand your capabilities."
 
 # Mark's priorities, in his order (2026-09-28).
 [[extra.offers]]
@@ -35,8 +40,9 @@ img = "pods-model"
 alt = "CAD assembly of a riveted aluminum travel pod, modeled from a physical prototype"
 fit = true
 
+# Title in Mark's words (2026-10-08), sentence case; the body is still ours.
 [[extra.offers]]
-title = "Aluminum and stainless, made small"
+title = "Specialty fabrication jobs: aluminum and stainless"
 body = "Short runs and one-offs in aluminum and stainless: TIG welded, riveted, and finished to be looked at as well as used. Signs, frames, brackets, housings."
 more = "Six cloud signs for a gallery in New Mexico, and an aluminum roof frame for a vintage tractor, are two recent ones."
 link = "/work/cloud-signs/"

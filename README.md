@@ -52,7 +52,7 @@ domain. `TODO.md` carries the rest of the retirement.
   timeline; `government.md` (the "Gov. Customers" page, `/government/`)
   carries NAICS codes and past performance. `services.md`, `contact.md`,
   `replacement-parts.md` and `remote-cad.md` are the rest; `writing/` is the
-  essays.
+  essays, titled "Blog" on the site (Mark's word, 2026-10-08) at `/writing/`.
 - `templates/` — `base` and `head` are shared; `index` is the home page;
   `macros.html` draws a project (model beside build) and its card;
   `work`, `project`, `about`, `government`, `replacement-parts` and
