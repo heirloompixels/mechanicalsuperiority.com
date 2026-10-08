@@ -11,6 +11,17 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+      # llms-full.txt is made from the built site (much of the text lives in
+      # the templates), so build once without deploying, write it into
+      # static/, and let the deploy build again with it. If the script fails
+      # the site still deploys, only without llms-full.txt.
+      - name: build_for_llms_full
+        uses: shalzz/zola-deploy-action@v0.22.1
+        env:
+          BUILD_ONLY: true
+      - name: llms_full
+        continue-on-error: true
+        run: python3 bin/llms-full.py public static/llms-full.txt
       - name: build_and_deploy
         uses: shalzz/zola-deploy-action@v0.22.1
         env:

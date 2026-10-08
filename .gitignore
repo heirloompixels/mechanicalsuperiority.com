@@ -1,6 +1,8 @@
 .DS_Store
 public
 static/processed_images
+# Made by bin/llms-full.py at deploy; see README § being found.
+static/llms-full.txt
 
 # What Mark sends: raw, private, never committed. See from-mark/README.md.
 from-mark/

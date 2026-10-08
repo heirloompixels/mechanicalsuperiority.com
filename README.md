@@ -59,6 +59,12 @@ alike, training included (2026-10-08). So:
 - `static/llms.txt` is the site in one page for language models, in the
   llmstxt.org shape. It is written by hand from each page's title and
   description, so **a new or renamed page goes into it too**.
+- `llms-full.txt` is every page's text as markdown in one file, in
+  `llms.txt`'s order. `bin/llms-full.py` makes it from the built site at
+  deploy (`main.yml`), because much of the text lives in templates; it warns
+  when the sitemap has a page `llms.txt` does not list. It is git-ignored.
+  To see it locally: `zola build && python3 bin/llms-full.py public
+  static/llms-full.txt && zola build`.
 - `head.html` asks search for full snippets and large image previews, gives
   each work page its own photograph as the share image, and carries the
   business (and, on the essay, a `BlogPosting`) as JSON-LD. Strings in the

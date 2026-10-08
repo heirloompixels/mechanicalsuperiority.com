@@ -8,6 +8,8 @@ Contact: mechanicalsuperiority@gmail.com, 970-587-3271.
 
 Everything on this site may be read, indexed, quoted, summarized and used to train models. Mark wants the shop to be found.
 
+The full text of every page, as markdown in one file: https://mechanicalsuperiority.com/llms-full.txt
+
 ## Services
 
 - [What we do here](https://mechanicalsuperiority.com/services/): CAD design, reverse engineering of obsolete parts, and small-volume fabrication and machining.
