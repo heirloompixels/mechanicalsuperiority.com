@@ -82,12 +82,40 @@ The decision is made: the Ghost site goes. Order matters.
       § the domain. *Done 2026-10-08: Mark changed the records in Namecheap;
       the site answers on the apex over HTTPS, and `www`, http and the
       github.io address all redirect to it.*
-- [ ] Only then cancel Ghost. The account also holds the newsletter list;
-      **export the members before cancelling**, even if the list is tiny.
-      This site has no newsletter, and that is a deliberate loss, not an
-      oversight — say so to Mark before the export window closes.
+- [x] Export the Ghost newsletter members. *Moot: Kyle, 2026-10-08 — there
+      are no members.*
+- [ ] Cancel Ghost. Nothing gates it now; it is Mark's account, so Mark
+      cancels it.
 - [ ] `/coming-soon/` and `/about/` existed on Ghost. `/about/` exists here;
       `/coming-soon/` is gone on purpose. Nothing links to it.
+
+## Being found
+
+Mark wants to be as visible as possible (2026-10-08). The site side is done:
+robots.txt welcomes every crawler, AI training included; llms.txt and
+llms-full.txt are published; and the sitemap, feed and JSON-LD are in
+order. What is left needs a person signed in somewhere, or another try:
+
+- [ ] **Google Search Console.** Add the property, verify it, submit
+      `sitemap.xml`, and request indexing of the home page. Verification is
+      tied to whoever is signed in: an HTML file or meta tag committed here,
+      or a TXT record Mark adds in Namecheap. A domain property (TXT) also
+      gathers the old `www` Ghost URLs. Add Mark as an owner whichever
+      account starts it. This is the only way to see whether Google has
+      actually indexed the site; robots and the sitemap only make it
+      indexable.
+- [ ] **Bing Webmaster Tools.** Import the property from Search Console once
+      it exists. Bing's index feeds ChatGPT search, Copilot and DuckDuckGo.
+- [ ] **Google Business Profile**, as a service-area business with the
+      address hidden. The biggest lever for local search, and Mark's to set
+      up: Google verifies the business itself.
+- [ ] **The Wayback Machine.** Tried page by page 2026-10-08; the Internet
+      Archive rate-limited the requests and showed "temporarily offline", so
+      nothing is known to be saved. Try again later, a few pages at a time,
+      at `https://web.archive.org/save/<url>`.
+- [ ] **A share card.** Every page but the work pages shares with
+      `logo.png`, which is 1196×264 and crops badly in link previews. A
+      1200×630 card is a design question, not built.
 
 ## Second pass on the build
 
