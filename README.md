@@ -41,8 +41,8 @@ Mark moved mechanicalsuperiority.com off Ghost and onto GitHub Pages on
 
 On this side, `base_url` in `config.toml` is the domain, and `static/CNAME`
 holds it so every deploy carries it into `gh-pages`. Without that file a
-deploy would drop the custom domain. Enforce HTTPS is on under Settings →
-Pages once GitHub has issued the certificate.
+deploy would drop the custom domain. GitHub issued the certificate (for the
+apex and `www`) within minutes of the move, and Enforce HTTPS is on.
 
 Do not cancel Ghost before this site answers on the domain. `TODO.md` carries
 the rest of the retirement.

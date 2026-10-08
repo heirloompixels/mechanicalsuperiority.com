@@ -78,8 +78,10 @@ business side; this one is the build.
 
 The decision is made: the Ghost site goes. Order matters.
 
-- [ ] Point DNS here and confirm the site answers on the domain — README
-      § moving the domain.
+- [x] Point DNS here and confirm the site answers on the domain — README
+      § the domain. *Done 2026-10-08: Mark changed the records in Namecheap;
+      the site answers on the apex over HTTPS, and `www`, http and the
+      github.io address all redirect to it.*
 - [ ] Only then cancel Ghost. The account also holds the newsletter list;
       **export the members before cancelling**, even if the list is tiny.
       This site has no newsletter, and that is a deliberate loss, not an
