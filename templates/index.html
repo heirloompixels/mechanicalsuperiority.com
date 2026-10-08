@@ -16,17 +16,10 @@
       </p>
     </div>
     <div>
-      {% if config.extra.intro_video %}
-      <video class="intro-video" controls preload="metadata" playsinline
-             poster="{{ get_url(path='images/work/clouds-mark.jpg', trailing_slash=false) | safe }}">
-        <source src="{{ get_url(path=config.extra.intro_video, trailing_slash=false) | safe }}" type="video/mp4">
-      </video>
-      {% else %}
       <figure>
         {{ m::pic(name="clouds-mark", alt="Mark in his shop, holding two finished aluminum cloud signs", ratio="r43") }}
         <figcaption>{{ x.caption }}</figcaption>
       </figure>
-      {% endif %}
     </div>
   </div></div>
 </section>
@@ -50,21 +43,24 @@
   </div>
 </section>
 
-{% set pods = get_page(path="work/travel-pods.md") %}
+{# The travel pods band stood here until 2026-10-08; Mark took it out as a
+   repeat of the reverse-engineering offer and asked for his introduction
+   video in its place. Nothing shows until the video exists. #}
+{% if config.extra.intro_video %}
 <section class="band alt">
   <div class="wrap">
-    <p class="eyebrow">The biggest job so far</p>
-    <h2 class="band-head" style="max-width:30ch">{{ pods.title }}: measured part by part, modeled, approved, and now built</h2>
-    <p class="band-sub" style="max-width:60ch">A partner shop had a prototype travel pod and no CAD. The Air Force needed models before it would approve the design. Mark measured every part and modeled the whole pod; the design was approved, and he now programs and runs the gantry mill that makes its parts.</p>
-    {{ m::pair(p=pods) }}
-    <p class="more-link"><a href="{{ pods.permalink | safe }}">The whole job &rarr;</a></p>
+    <video class="intro-video" controls preload="metadata" playsinline
+           poster="{{ get_url(path='images/work/clouds-mark.jpg', trailing_slash=false) | safe }}">
+      <source src="{{ get_url(path=config.extra.intro_video, trailing_slash=false) | safe }}" type="video/mp4">
+    </video>
   </div>
 </section>
+{% endif %}
 
 <section class="band straight-talk">
   <div class="wrap">
     <p class="big">{{ x.straight_talk }}</p>
-    <p class="small">Mechanical Superiority is one engineer and one shop. The person who draws your part is the person at the machine when something doesn't fit.</p>
+    <p class="small">{{ x.small_scale }}</p>
   </div>
 </section>
 
@@ -84,12 +80,12 @@
   <div class="wrap">
     <div class="pillar-grid">
       <div class="pillar">
-        <h2>Bigger than one shop</h2>
-        <p>For work beyond one shop's size, Mechanical Superiority is teamed with EhPro Custom Fabrication of Trinity, Texas: heavy fabrication since 1979, with a Haas gantry mill (which Mark programs and runs), a sheet roller and an 8-foot sheet brake.</p>
+        <h2>Partners with a depth of experience</h2>
+        <p>{{ x.partners }}</p>
       </div>
       <div class="pillar">
-        <h2>Other shops</h2>
-        <p>Full, missing a capability, or turning away a job with no print? Drawings, plasma-cut kits and aluminum work go both directions. <a href="{{ get_url(path='/services/', trailing_slash=true) | safe }}#for-other-shops">Shop to shop</a>.</p>
+        <h2>Business-to-business</h2>
+        <p>{{ x.b2b }} <a href="{{ get_url(path='/services/', trailing_slash=true) | safe }}#business-to-business">Shop to shop</a>.</p>
       </div>
       <div class="pillar">
         <h2>Government buyers</h2>
@@ -103,8 +99,8 @@
 {% if writing.pages %}
 <section class="band writing-band">
   <div class="wrap">
-    <h2 class="band-head">Writing</h2>
-    <p class="band-sub">Working through the mechanics from first principles, mostly because everyone else explains them badly.</p>
+    <h2 class="band-head">{{ writing.title }}</h2>
+    <p class="band-sub">{{ writing.description }}</p>
     <ul class="post-list">
       {% for post in writing.pages | slice(end=3) %}
       <li>
