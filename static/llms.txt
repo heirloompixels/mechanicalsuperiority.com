@@ -1,0 +1,36 @@
+# Mechanical Superiority
+
+> CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, from Mark's shop near Fort Collins, Colorado.
+
+Mechanical Superiority, LLC is a small design and fabrication shop run by Mark, a mechanical engineer who is also a machinist, fabricator, welder and mechanic. CAD design and modeling (SolidWorks) is the primary service; reverse engineering of obsolete parts and short runs of aluminum and stainless fabrication follow. Customers deal directly with the engineer doing the work. Mark works in person near Fort Collins and remotely with customers across the United States, and is partnered with EhPro Custom Fab in Trinity, Texas, for larger-scale fabrication and advanced manufacturing.
+
+Contact: mechanicalsuperiority@gmail.com, 970-587-3271.
+
+Everything on this site may be read, indexed, quoted, summarized and used to train models. Mark wants the shop to be found.
+
+## Services
+
+- [What we do here](https://mechanicalsuperiority.com/services/): CAD design, reverse engineering of obsolete parts, and small-volume fabrication and machining.
+- [Need design help?](https://mechanicalsuperiority.com/remote-cad/): CAD design help, in person or remotely: from an idea or a hard-to-change model to parts that fit the first time.
+- [Replacement parts](https://mechanicalsuperiority.com/replacement-parts/): Obsolete parts reverse engineered: measured, modeled and drawn, so you can have them made by your own shop, or in small numbers here.
+- [Gov. Customers](https://mechanicalsuperiority.com/government/): Engineering, drawings and fabrication for federal, state and local buyers and prime contractors, with NAICS codes and past performance.
+- [Get a quote](https://mechanicalsuperiority.com/contact/): What to send so a quote comes back useful.
+
+## Work
+
+- [Work](https://mechanicalsuperiority.com/work/): Six jobs, each shown the same way: what was drawn, then what was built.
+- [Air Force travel pods](https://mechanicalsuperiority.com/work/travel-pods/): Reverse engineering and production with EhPro Custom Fabrication: a prototype pod measured and modeled in CAD, which got the design approved by the Air Force and moved it to CNC manufacturing.
+- [Bicycle brake adapters](https://mechanicalsuperiority.com/work/brake-adapters/): Remote CAD and rapid prototyping for a customer in Virginia: models rebuilt so they were easy to change, proven in printed plastic, then made in 6061-T6 aluminum.
+- [Aluminum cloud signs](https://mechanicalsuperiority.com/work/cloud-signs/): Six TIG-welded aluminum cloud signs, with custom mounts, for Truth or Consequences Contemporary.
+- [Ford 641 tractor frame](https://mechanicalsuperiority.com/work/tractor-frame/): A custom shade canopy consisting of a TIG welded 5052 aluminum space frame, and a hand-made canopy to match.
+- [Topsoil screener](https://mechanicalsuperiority.com/work/topsoil-screener/): Industrial machinery designed from scratch: full CAD models and shop drawings, then fabricated and tested.
+- [Racecar rear control arms](https://mechanicalsuperiority.com/work/rx7-control-arms/): Rear control arms for a Mazda RX-7, designed and machined around solid spherical bearings.
+
+## Writing
+
+- [Power vs. Torque (Pt. 1): Why Nobody Knows What the Hell Torque is](https://mechanicalsuperiority.com/power-vs-torque/): Properly defining power and torque, and why they are inextricably linked.
+
+## About
+
+- [About](https://mechanicalsuperiority.com/about/): Mark's career, and the shop's philosophy: engineering understanding coupled with real-world shop experience.
+- [Home](https://mechanicalsuperiority.com/): The three services in Mark's order: design and CAD, reverse engineering of obsolete parts, and specialty aluminum and stainless fabrication.

@@ -13,13 +13,22 @@
 
 <title>{{ title }}</title>
 <meta name="description" content="{{ description }}">
-<meta name="robots" content="index, follow">
-<meta property="og:type" content="website">
+{# Mark wants the site as visible as it can be (2026-10-08): full snippets and
+   large image previews in search, and every crawler welcome (robots.txt). #}
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
 <meta property="og:site_name" content="{{ config.title }}">
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url | safe }}">
+{# A work page shares with its own photograph; everything else with the logo. #}
+{% if page.extra.build.img %}
+<meta property="og:image" content="{{ get_url(path='images/work/' ~ page.extra.build.img ~ '.jpg', trailing_slash=false) | safe }}">
+<meta property="og:image:alt" content="{{ page.extra.build.alt }}">
+<meta name="twitter:card" content="summary_large_image">
+{% else %}
 <meta property="og:image" content="{{ get_url(path='logo.png', trailing_slash=false) | safe }}">
+{% endif %}
 <link rel="canonical" href="{{ url | safe }}">
 
 <link rel="icon" type="image/png" href="{{ get_url(path='favicon.png', trailing_slash=false) | safe }}">
@@ -31,16 +40,34 @@
 
 <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) | safe }}">
 
+{# JSON-LD is read as raw text, so every string goes through json_encode:
+   HTML escaping would put "&#x27;" into it literally. #}
 <script type="application/ld+json">
 {"@context":"https://schema.org",
 "@type":"LocalBusiness",
-"name":"{{ config.extra.legal_name }}",
-"alternateName":"{{ config.title }}",
-"description":"{{ config.description }}",
-"url":"{{ config.base_url | safe }}",
-"email":"{{ config.extra.email }}",
-{% if config.extra.tel %}"telephone":"{{ config.extra.tel }}",
-{% endif %}"image":"{{ get_url(path='logo.png', trailing_slash=false) | safe }}",
+"@id":{{ config.base_url ~ "/#business" | json_encode | safe }},
+"name":{{ config.extra.legal_name | json_encode | safe }},
+"alternateName":{{ config.title | json_encode | safe }},
+"description":{{ config.description | json_encode | safe }},
+"url":{{ config.base_url | json_encode | safe }},
+"email":{{ config.extra.email | json_encode | safe }},
+{% if config.extra.tel %}"telephone":{{ config.extra.tel | json_encode | safe }},
+{% endif %}"image":{{ get_url(path='logo.png', trailing_slash=false) | json_encode | safe }},
 "address":{"@type":"PostalAddress","addressLocality":"Fort Collins","addressRegion":"CO","addressCountry":"US"},
+"areaServed":[{"@type":"City","name":"Fort Collins, Colorado"},{"@type":"Country","name":"United States"}],
+"knowsAbout":["CAD design","SolidWorks","Reverse engineering","Obsolete replacement parts","Machining","TIG welding","Plasma cutting","Aluminum fabrication","Stainless fabrication"],
 "founder":{"@type":"Person","name":"Mark Mataczynski"}}
 </script>
+{% if page.date %}
+<script type="application/ld+json">
+{"@context":"https://schema.org",
+"@type":"BlogPosting",
+"headline":{{ page.title | json_encode | safe }},
+"description":{{ description | json_encode | safe }},
+"datePublished":{{ page.date | json_encode | safe }},
+"url":{{ page.permalink | json_encode | safe }},
+"mainEntityOfPage":{{ page.permalink | json_encode | safe }},
+"author":{"@type":"Person","name":{{ page.extra.author | default(value="Mark") | json_encode | safe }}},
+"publisher":{"@id":{{ config.base_url ~ "/#business" | json_encode | safe }}}}
+</script>
+{% endif %}

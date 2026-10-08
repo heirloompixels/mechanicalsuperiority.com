@@ -1,6 +1,7 @@
 +++
 title = "Power vs. Torque (Pt. 1): Why Nobody Knows What the Hell Torque is"
 date = 2023-02-28
+authors = ["Mark"]
 path = "power-vs-torque"
 template = "post.html"
 description = "Properly defining power and torque, and why they are inextricably linked."

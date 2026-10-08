@@ -47,6 +47,23 @@ apex and `www`) within minutes of the move, and Enforce HTTPS is on.
 Do not cancel Ghost before this site answers on the domain. `TODO.md` carries
 the rest of the retirement.
 
+### Being found
+
+Mark wants the shop as visible as it can be, to search engines and to AI
+alike, training included (2026-10-08). So:
+
+- `templates/robots.txt` replaces Zola's default. It allows everything,
+  names the search, AI and archive crawlers so none has to infer its
+  welcome, carries `Content-Signal: search=yes, ai-input=yes, ai-train=yes`,
+  and points at the sitemap. Never add a `Disallow`.
+- `static/llms.txt` is the site in one page for language models, in the
+  llmstxt.org shape. It is written by hand from each page's title and
+  description, so **a new or renamed page goes into it too**.
+- `head.html` asks search for full snippets and large image previews, gives
+  each work page its own photograph as the share image, and carries the
+  business (and, on the essay, a `BlogPosting`) as JSON-LD. Strings in the
+  JSON-LD go through `json_encode`; HTML escaping would corrupt them.
+
 ## What is here
 
 - `content/` — the pages. `_index.md` is the home page and carries its
