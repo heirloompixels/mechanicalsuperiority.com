@@ -1,0 +1,1414 @@
+# Mechanical Superiority: the full text
+
+> CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, from Mark's shop near Fort Collins, Colorado.
+
+Every page of https://mechanicalsuperiority.com/ as markdown, in the order of https://mechanicalsuperiority.com/llms.txt, made from the built site each time it deploys. Everything here may be read, indexed, quoted, summarized and used to train models.
+
+---
+
+Source: https://mechanicalsuperiority.com/services/
+Summary: CAD design, reverse engineering of obsolete parts, and small-volume fabrication and machining.
+
+# What we do here
+
+CAD design, reverse engineering of obsolete parts, and small-volume fabrication and machining.
+
+### Design and CAD
+
+From single part modeling all the way up to full machine assemblies, plus shop drawings from someone who actually gets their hands dirty (so the dimensions will actually be useful and properly referenced). CAD modeling is done in SolidWorks, or Autodesk Fusion. Send native files, or STEP, IGES, Parasolids, etc… And don’t worry if you only have a napkin sketch, generating new models is no problem and typically can happen quickly.
+
+Whether you’re an inventor who needs help developing their product, an industrial company needing CAD services/support, or even a small company who needs a part-time engineer on the team; Mechanical Superiority can help.
+
+### Remote CAD and product development
+
+Many times, engineering support may not even require being in the same state. I have experience working with clients across the country to help them develop their designs remotely. CAD and other technologies (like 3D plastic printing) can be a good way to communicate enormous quantities of information across long distances, and final manufacturing can be done by a preferred machine shop closer to you.
+
+[How it went for a customer in Virginia →](https://mechanicalsuperiority.com/remote-cad/)
+
+### Reverse engineering of obsolete parts
+
+When I worked in mining and heavy industry support, we often ran into situations where older machinery was being used to perform critical functions. Sometimes the manufacturers of the machines were long-defunct, and sourcing spare parts was difficult or impossible. This gave me lots of opportunities to learn how to reverse-engineer parts so that our machine shop could remanufacture them and get the machines back up and running. There is a bit of an art to this process, and it makes things go smoother if you partner with someone who has done it before. So if you need new parts for an old machine that is still useful to you, send a message and let’s see if I can help you out!
+
+[Replacement parts →](https://mechanicalsuperiority.com/replacement-parts/)
+
+### Aluminum and stainless, made small
+
+Everyone and their mother can run a MIG welder to bubble-gum some carbon steel together, but not many people have good experience with aluminum and stainless. With a foot in the aerospace world, I have had good mentorship in design and construction for aluminum specifically, which also means that I am an experienced TIG welder. If you’re looking for a welder who can make aluminum welds that are solid and aesthetically pleasing, send a message.
+
+I have also spent lots of time on a rivet gun. In my experience, riveted assemblies are a great (and highly under-utilized) option for clean-looking fit-and-finish that is also structurally strong and ductile. This can also be combined with seam welding edges after assembly for certain applications. If you have an idea for a design that might be suitable for rivets, call and let me help you think it through.
+
+[The cloud signs →](https://mechanicalsuperiority.com/work/cloud-signs/)   [The tractor frame →](https://mechanicalsuperiority.com/work/tractor-frame/)
+
+### CNC plasma table
+
+Are you a fabricator or a welder with an idea to make a 3D design from flat plate, but not sure how to work out the plate geometry? I have lots of experience using CAD modeling to do just that! I can even cut the parts on my plasma table and provide a ready-to-weld kit for you to tack up. If you are located remotely or you’d rather have parts water-jet or laser cut for precision, I can send the DXF’s to your favorite local shop and have them cut your kit for you there.
+
+### Business-to-business
+
+If you are an existing shop who is missing some CAD/design support, turning away jobs because there is no existing print, or don’t want to handle small production runs; feel free to call. Good partners are hard to find, and I am always looking for good ones to send bigger work that I can’t handle as well. Let me know if you’d like to work together.
+
+### Bigger than one shop
+
+My capabilities are also amplified by my partnership with EhPro Custom Fabrication in Trinity, TX: Lots of sheet metal and general design experience with equipment to match; a sheet roller for curved and tubular designs, a large sheet brake, and even a Haas GR-510 CNC Gantry Mill, among other things. It’s a partnership that can punch above its weight. So if you have an idea for a project that you think is too big for one small shop to handle; don’t underestimate us! Call to inquire about our combined capabilities.
+
+[The travel pods →](https://mechanicalsuperiority.com/work/travel-pods/)   Government buyers: see [Gov. Customers](https://mechanicalsuperiority.com/government/).
+
+---
+
+Source: https://mechanicalsuperiority.com/remote-cad/
+Summary: CAD design help, in person or remotely: from an idea or a hard-to-change model to parts that fit the first time.
+
+Design and CAD
+
+# Need design help?
+
+Learning to be proficient with CAD software can take years of learning and time that you just don't have. Hiring someone who knows what they are doing can make every step of the design process exponentially more efficient. And these days, design help doesn't even necessarily require an in-person visit: I have worked with customers across the country to make their products a reality. Let's work together to turn your idea into a workable product!
+
+## How it went for a customer in Virginia
+
+A set of bicycle brake adapters, 2024.
+
+### Customer design
+
+1. The customer was inexperienced at CAD modeling, and his models were very difficult to make changes to.
+
+### CAD professional
+
+2. Mechanical Superiority came to the rescue and created new models from the existing geometry that were properly built and referenced for rapid changes.
+
+### Rapid iteration
+
+3. The improved models took design changes from being a time-consuming nightmare for the customer, to being a rapid process with a few emails and text messages. We were able to work through design changes as fast as the customer's 3D printer could run to print the prototypes.
+
+### Proof of concept
+
+4. With the rapid iterations, we were able to test multiple different concepts and geometries until the end product fit and functioned just right. At that point, we knew with high confidence what we were going to have delivered from the machine shop.
+
+### Cut
+
+5. Mechanical Superiority sent models and drawings out to a known machine shop, and the parts came back looking beautiful and to the exact specifications needed. They bolted up and fit perfectly the first time.
+
+model ![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive-sm.jpg)
+
+model ![CAD model of the brake-side adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-brake-sm.jpg)
+
+printed ![Printed prototype adapter fitted to the bike frame](https://mechanicalsuperiority.com/images/work/bumpoff-printed-1-sm.jpg)
+
+printed ![Printed prototype holding a brake caliper on the bike](https://mechanicalsuperiority.com/images/work/bumpoff-printed-2-sm.jpg)
+
+machined ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined-sm.jpg)
+
+You'll speak directly with the engineer who is actually working on your project, the same day, in plain English.
+
+No salesmen, no clueless managers, no language barrier, no bureaucracy, no delays. Fewer misunderstandings means a part that looks like what you had in mind.
+
+## What to send
+
+- **Your files**SolidWorks or Fusion, or STEP, IGES, Parasolid, DXF, PDF.
+
+- **Or less**Sketches, photos, a description of what it has to do.
+
+- **How it'll be made**Printed, machined, cut, welded, or ask.
+
+- **What's wrong now**What doesn't fit, what keeps changing.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com)
+
+---
+
+Source: https://mechanicalsuperiority.com/replacement-parts/
+Summary: Obsolete parts reverse engineered: measured, modeled and drawn, so you can have them made by your own shop, or in small numbers here.
+
+Reverse engineering of obsolete parts
+
+# The part broke. Nobody makes it anymore.
+
+measured · modeled · drawn
+
+The machine still runs great, except for one part. The manufacturer is long gone, or they want a minimum order quantity with months of lead time. Local shops won't touch it without a print or model, and you don't have anybody in-house to make one. Call/email Mechanical Superiority! I have lots of experience reverse-engineering old parts from my time in industry, and I know what details to ask for to make sure that it fits right.
+
+[Send a photo of the part](mailto:mechanicalsuperiority@gmail.com)
+
+## How one part gets drawn
+
+Quick, one-at-a-time jobs are the point, not the problem.
+
+### Send it
+
+1. Ship me the broken part (or the remaining pieces), pictures of the application, and any partial or complete prints that you might have. Many times you may not even need to send the physical part for me to recreate it; just drawings with dimensions and pictures with a tape measure in-frame.
+
+### Measure
+
+2. I will measure what I can on my end, and work directly with you to make sure we correctly measure relevant critical dimensions that I can't physically touch. We will communicate to make sure everything is going to fit, and we are all on the same page with what needs to be made.
+
+### Model/drawings
+
+3. I will create a 3D model with dimensioned shop drawings that any machine shop can use to make your part.
+
+### Rapid prototyping (where appropriate)
+
+4. One useful extra step might be to have a cheap plastic model 3D-printed so that you can bolt it onto the machine to ensure a proper fit before cutting metal. There are lots of rapid prototyping businesses around, so this part should be easier than you might think to find in your local area. Time-and-location-permitting, I can also print one and bring it to your site.
+
+### Cut
+
+5. Take your model/drawings to your machine shop of choice, or ask Mechanical Superiority for a quote to make small runs in-house.
+
+## Why a small shop wants the one-off
+
+Most established shops want long production runs that keep their people busy for months. A single replacement part is an interruption to them. Here it's the job: variable work, which is the interesting kind.
+
+Oil and gas operations, manufacturing plants, mines and farms all run machines that have outlived the companies that built them. Mark spent years in mining and industrial service, and in agricultural technology, before opening this shop.
+
+![Mark TIG welding a seam in the shop](https://mechanicalsuperiority.com/images/work/clouds-weld-1.jpg)
+
+## The biggest one so far
+
+A prototype Air Force travel pod, with no drawings, shipped to Colorado to be measured.
+
+Model ![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model.jpg)
+
+*Every part measured, taken apart where it had to be, and modeled, then the whole assembly. The Air Force used the models to approve the design…*
+
+Built ![Freshly painted travel pods lined up on a hangar floor](https://mechanicalsuperiority.com/images/work/pods-lined-up.jpg)
+
+*…and the pods are now built new, with parts cut on a gantry mill Mark programs. [The whole job](https://mechanicalsuperiority.com/work/travel-pods/).*
+
+## What to send
+
+- **Photos**Every side, with a ruler or tape in frame.
+
+- **The part**Broken is fine. All the pieces, if you have them.
+
+- **What it fits**Machine make, model and year, and what it mates with.
+
+- **How many**One is normal. Say if you want spares.
+
+- **By when**And what the machine being down is costing you.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com)
+
+---
+
+Source: https://mechanicalsuperiority.com/government/
+Summary: Engineering, drawings and fabrication for federal, state and local buyers and prime contractors, from Mechanical Superiority, LLC of Fort Collins, Colorado, teamed with EhPro Custom Fabrication of Trinity, Texas.
+
+Mechanical Superiority, LLC · Fort Collins, Colorado · Small business
+
+# Air Force-trained engineering. Hands-on industrial experience.
+
+Engineering, drawings and fabrication, from one part to a complete machine, for government buyers and prime contractors. Partnered with a Texas shop with Federal experience and existing infrastructure to build larger projects.
+
+[Email Mark](mailto:mechanicalsuperiority@gmail.com?subject=Government%20inquiry)
+
+mechanicalsuperiority@gmail.com · [970-587-3271](tel:+19705873271)
+
+Point of contact Mark Mataczynski
+
+Business type Colorado LLC · small
+
+CAD SolidWorks · Fusion
+
+SAM.gov Registration in process
+
+Core competencies
+
+### Engineering and CAD
+
+Mechanical design from single parts to complete machines. Reverse engineering of obsolete parts. Production drawings and technical data packages.
+
+### Fabrication
+
+MIG on carbon steel; TIG on aluminum and stainless. CNC plasma cutting. Riveted sheet-metal structures, including solid rivets.
+
+### Machining
+
+Haas GR-510 CNC Gantry Mill in Trinity for making small runs of larger parts. Manual mills and lathes for making small precision parts and fixtures.
+
+Two shops, one team
+
+### Mechanical Superiority, LLC
+
+Fort Collins, CO
+
+Design, engineering, reverse engineering, drawings, CAD/CAM and small-lot fabrication. An engineer with a deep understanding of manufacturing processes.
+
+drawings → ← capacity
+
+### EhPro Custom Fabrication
+
+Trinity, TX · est. 1979
+
+Larger-scale fabrication: Haas GR-510 CNC Gantry Mill, as well as a multitude of other machines and sheet metal equipment. Has a proven track record of successful federal work: primarily refurbishing travel pods for the USAF.
+
+Engineer
+
+- 2008–2012 **U.S. Air Force Academy** BS, mechanical engineering
+
+- 2012–2014 **Air Force Institute of Technology** MS, aerospace engineering
+
+- 2014–2017 **Air Force Research Laboratory** Developmental engineer
+
+- 2017–2021 **Laron, Inc.** Mechanical engineer, mining and industrial service
+
+- 2021–2023 **Dairy Tech, Inc.** Mechanical engineer, agricultural technology development
+
+- 2023– **Mechanical Superiority, LLC** Owner: design, machining and fabrication
+
+![Mark in his shop](https://mechanicalsuperiority.com/images/work/clouds-mark.jpg)
+
+*Mark, owner and engineer.*
+
+Selected work
+
+| Ongoing | [**Air Force travel pods, with EhPro**](https://mechanicalsuperiority.com/work/travel-pods/). Reverse engineered a prototype travel pod into part and assembly CAD models, used for Air Force structural analysis and approval of a new-construction design; now CAD/CAM, Haas GR-510 gantry milling, riveting and TIG welding for production pods. |
+| --- | --- |
+| 2025 | [**Aluminum cloud signs**](https://mechanicalsuperiority.com/work/cloud-signs/). TIG-welded aluminum signs and custom site mounts for a gallery installation in New Mexico. |
+| 2024 | [**Topsoil screener**](https://mechanicalsuperiority.com/work/topsoil-screener/). Industrial machinery designed, drawn, fabricated and tested in-house. |
+| 2024 | [**Ford 641 tractor frame**](https://mechanicalsuperiority.com/work/tractor-frame/). 5052 aluminum tube frame and fitted canvas top, designed and built. |
+| 2024 | [**Bicycle brake adapters**](https://mechanicalsuperiority.com/work/brake-adapters/). Remote CAD and prototype iteration for a product developer in Virginia; coordinated 6061-T6 CNC production. |
+| 2022 | [**Racecar rear control arms**](https://mechanicalsuperiority.com/work/rx7-control-arms/). Machined suspension arms carrying solid spherical bearings. |
+
+NAICS
+
+| 332710 | Machine shops |
+| --- | --- |
+| 332312 | Fabricated structural metal |
+| 332322 | Sheet metal work |
+| 332999 | All other miscellaneous fabricated metal products |
+| 541330 | Engineering services |
+| 541340 | Drafting services |
+
+Files delivered native or as STEP, IGES, Parasolid, DXF and PDF. Registration details and a capability statement are provided on request.
+
+---
+
+Source: https://mechanicalsuperiority.com/contact/
+Summary: What to send so a quote comes back useful.
+
+# Get a quote
+
+What to send so a quote comes back useful.
+
+**Mechanical Superiority, LLC** Near Fort Collins, CO Mark Mataczynski [970-587-3271](tel:+19705873271) [mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com)
+
+**What to provide:** whatever you’ve got. A drawing, a model, a photo of the broken part, a sketch, or just a description of what the thing needs to do. Photos with a tape measure in frame beat a paragraph. Quantity (one is normal), material if you know it, and when you need it. If you don’t know the material or the tolerances, that’s a normal question and part of what you’re hiring for.
+
+**File types:** Native SolidWorks or Fusion, or STEP, IGES, Parasolid, DXF, PDF etc…
+
+**B2B:** If you’re missing a skillset and looking to team up to better serve your customers, get in touch. Building relationships is the key to keeping the small guys in business.
+
+**Government customers:** see [Gov. Customers](https://mechanicalsuperiority.com/government/).
+
+---
+
+Source: https://mechanicalsuperiority.com/work/
+Summary: Six jobs, each shown the same way: what was drawn, then what was built.
+
+# Work
+
+Six jobs, each shown the same way: what was drawn, then what was built. The project, then the results.
+
+Reverse engineering and production, with EhPro
+
+## [Air Force travel pods](https://mechanicalsuperiority.com/work/travel-pods/)
+
+- **The project**When a fighter jet needs to deploy or go somewhere for training, there is an extensive list of things that need to go with it: toolboxes, equipment, luggage, etc... The maintenance crews pack much of these items into Travel Pods to make sure that it all goes with the jet. EhPro has decades of experience refurbishing used Travel Pods and knows them inside and out. But when an opportunity came along to build brand new ones from scratch, it came with a requirement for CAD models and shop drawings so that the details of the construction could be confirmed and analyzed by the Air Force. At the time EhPro had no in-house CAD capabilities. So they turned to Mechanical Superiority for help, and a harmonious partnership was born.
+
+- **The results**A prototype pod was shipped to Mechanical Superiority in Colorado, and the pod was measured extensively, with minimal disassembly as-required. Combined with remote communication (including some emailed hand drawings back and forth), this process yielded accurate CAD models and assembly, and a full set of construction-ready shop drawings for EhPro. The customer was extremely satisfied with the quality and usability of the shop drawings, and the Air Force got the CAD models they needed to confirm and approve the design so that the customer could massively upgrade their product line. The CAD models also allowed EhPro to upgrade their manufacturing capacity: With the support of Mechanical Superiority's CAD/CAM capability, EhPro decided to acquire a Haas CNC Gantry mill so that the major components of the pods could be made with substantially increased precision. The result has been a radical reduction in the unit production time of the pods, as well as a better-looking and more consistent end product. Mechanical Superiority is now partnered with EhPro and also assists in the construction of the pods (riveting and TIG welding of the main bodies). At risk of understatement: Not many engineering partners bring this much to the table.
+
+- **Year**Ongoing
+
+Model ![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model.jpg)
+
+*What was drawn*
+
+Built ![Mark standing beside pod number 001, his first completed travel pod, in the shop](https://mechanicalsuperiority.com/images/work/pods-mark-001.jpg)
+
+*What was built*
+
+1 ![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model-sm.jpg)
+
+2 ![Mark beside pod number 001 in the shop](https://mechanicalsuperiority.com/images/work/pods-mark-001-sm.jpg)
+
+3 ![Freshly painted travel pods lined up on a hangar floor, in blue, green, and black and yellow checks](https://mechanicalsuperiority.com/images/work/pods-lined-up-sm.jpg)
+
+4 ![An F-16 in a shelter with a travel pod on the ground beside it, ready to load](https://mechanicalsuperiority.com/images/work/pods-f16-shelter-sm.jpg)
+
+5 ![A Thunderbirds F-16 with a travel pod painted red, white and blue under its wing](https://mechanicalsuperiority.com/images/work/pods-thunderbirds-sm.jpg)
+
+Remote CAD and rapid prototyping
+
+## [Bicycle brake adapters](https://mechanicalsuperiority.com/work/brake-adapters/)
+
+- **The project**When a customer in Virginia came up with a design for a product he wanted to market, he ended up buying some CAD software and teaching himself how to use it. After a long learning curve, he was able to produce sufficient models, but they were finicky and every change he tried to make resulted in problems that were time-consuming to correct. When the customer contacted me initially, he was looking for someone to machine the parts he already had. But once we started talking, it became clear that what he really wanted was design help.
+
+- **The results**By taking his models and re-creating them in a way that design changes could be made rapidly by a professional, the iteration process was cut down from days to minutes. This enabled us to work together remotely to rapidly 3D-print plastic models on his end based on the design changes to check fit and finish of the parts. That way we could both be certain that the end product was going to fit and perform flawlessly before cutting metal. With my manufacturing experience I also helped the customer to pair up with a CNC shop to get multiple runs of parts machined and delivered to the satisfied customer. The parts bolted up and fit the first time, and they looked great in 6061-T6!
+
+- **Year**2024
+
+Model ![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive.jpg)
+
+*What was drawn*
+
+Built ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined.jpg)
+
+*What was built*
+
+1 ![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive-sm.jpg)
+
+2 ![CAD model of the brake-side adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-brake-sm.jpg)
+
+3 ![White printed prototype adapter fitted to the bike frame](https://mechanicalsuperiority.com/images/work/bumpoff-printed-1-sm.jpg)
+
+4 ![Printed prototype holding a brake caliper on the bike](https://mechanicalsuperiority.com/images/work/bumpoff-printed-2-sm.jpg)
+
+5 ![A batch of machined adapter parts laid out on paper](https://mechanicalsuperiority.com/images/work/bumpoff-machined-batch-sm.jpg)
+
+6 ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined-sm.jpg)
+
+Aluminum fabrication with an artistic element
+
+## [Aluminum cloud signs](https://mechanicalsuperiority.com/work/cloud-signs/)
+
+- **The project**Truth or Consequences Contemporary, an art gallery in Southern NM, wanted to spice up the exterior of their building with some custom aluminum cloud signs.
+
+- **The results**The artists provided the creative idea to make back-lit cloud signs out of aluminum. Mechanical Superiority provided the technical know-how to make it a reality. CAD designs were produced to make sure we were all satisfied with the aesthetic quality before going ahead with manufacturing. Mechanical Superiority then cut all of the required shapes on the in-house plasma table, designed and built custom sign mounts that would work with the building and installation plan, and welded it all together with great-looking TIG beads into a package that was pleasing to the eye. The cloud signs now act as an eye-catching feature that helps bring positive attention to the gallery, and brings unique aesthetic value to the community.
+
+- **Year**2025
+
+Model ![CAD layout of six cloud signs, numbered one to six](https://mechanicalsuperiority.com/images/work/clouds-layout.jpg)
+
+*What was drawn*
+
+Built ![Mark in the shop holding two finished aluminum clouds](https://mechanicalsuperiority.com/images/work/clouds-mark.jpg)
+
+*What was built*
+
+1 ![CAD layout of six cloud signs, numbered one to six](https://mechanicalsuperiority.com/images/work/clouds-layout-sm.jpg)
+
+2 ![TIG welding the seam of a cloud, close up](https://mechanicalsuperiority.com/images/work/clouds-weld-1-sm.jpg)
+
+3 ![TIG welding the edge of a cloud with a lightning bolt](https://mechanicalsuperiority.com/images/work/clouds-weld-2-sm.jpg)
+
+4 ![Mark in the shop holding two finished aluminum clouds](https://mechanicalsuperiority.com/images/work/clouds-mark-sm.jpg)
+
+Aluminum tube frame with a canvas top
+
+## [Ford 641 tractor frame](https://mechanicalsuperiority.com/work/tractor-frame/)
+
+- **The project**A local customer owned a beautifully maintained Ford 641 Tractor, and was looking for a shade structure to be added to improve the comfort level for mowing pastures on hot days. Initially, the customer wanted Mechanical Superiority to modify a boring off-the-shelf solution made from painted steel and plastic. With his creativity and advanced skills, Mark worked up a concept for a custom aluminum frame and matching canvas top. The customer was immediately sold on the idea based on the improved aesthetics and maintaining more of a classic look for the tractor. Plus, who else is ever going to have a super cool aluminum space frame shade structure on their old tractor?
+
+- **The results**Mechanical Superiority built and installed the one-off custom solution for the satisfied customer. To this day, everybody who sees the shade frame is immediately impressed by the quality of construction and the strength/durability of the structure. Classic looks, with space-age performance!
+
+- **Year**2024
+
+Model ![Annotated CAD model of the tractor's aluminum roof frame](https://mechanicalsuperiority.com/images/work/tractor-model.jpg)
+
+*What was drawn*
+
+Built ![The finished Ford 641 with its aluminum frame and white canvas top](https://mechanicalsuperiority.com/images/work/tractor-front.jpg)
+
+*What was built*
+
+1 ![Annotated CAD model of the tractor's aluminum roof frame](https://mechanicalsuperiority.com/images/work/tractor-model-sm.jpg)
+
+2 ![The bare welded aluminum frame on the shop bench](https://mechanicalsuperiority.com/images/work/tractor-bare-frame-sm.jpg)
+
+3 ![The frame with its canvas top, in the shop](https://mechanicalsuperiority.com/images/work/tractor-canvas-shop-sm.jpg)
+
+4 ![The finished Ford 641 with its aluminum frame and white canvas top](https://mechanicalsuperiority.com/images/work/tractor-front-sm.jpg)
+
+5 ![The tractor from behind, top on, with a mower attached](https://mechanicalsuperiority.com/images/work/tractor-rear-sm.jpg)
+
+Industrial machinery, designed and built
+
+## [Topsoil screener](https://mechanicalsuperiority.com/work/topsoil-screener/)
+
+- **The project**A customer was interested in developing a medium-duty topsoil screener for landscaping and agricultural use, but they didn't have the knowledge or experience to do it themselves.
+
+- **The results**Mechanical Superiority was able to employ some engineering math to properly select the components and shape the overall design. A full CAD design was then created for approval by the customer. A full set of shop drawings were then made for internal use, and a prototype of the machine was built for testing.
+
+- **Year**2024
+
+Model ![CAD model of the topsoil screener: a tilted screen deck on springs over a steel base](https://mechanicalsuperiority.com/images/work/screener-model-1.jpg)
+
+*What was drawn*
+
+Built ![The screener's steel frame standing in the shop](https://mechanicalsuperiority.com/images/work/screener-frame.jpg)
+
+*What was built*
+
+1 ![CAD model of the topsoil screener](https://mechanicalsuperiority.com/images/work/screener-model-1-sm.jpg)
+
+2 ![CAD model of the screener from behind, showing the spring mounts](https://mechanicalsuperiority.com/images/work/screener-model-2-sm.jpg)
+
+3 ![The screener's steel frame standing in the shop](https://mechanicalsuperiority.com/images/work/screener-frame-sm.jpg)
+
+Small custom parts for performance
+
+## [Racecar rear control arms](https://mechanicalsuperiority.com/work/rx7-control-arms/)
+
+- **The project**My very own LS1-swapped RX7 is a great track platform; with a lightweight chassis and excellent suspension setup for road racing. Once my driving skills improved past a certain point, I started to notice that the rear end of the car felt excessively "twitchy" in mid-corner handling when adding throttle. By using some simple engineering analysis and employing my own deep intuitive understanding of the chassis as a system, I was able to narrow the problem down to probable excessive bushing compliance on the rear Lower Control Arms (LCA's).
+
+- **The results**I designed and manufactured my own rear control arms with solid spherical joints to eliminate the rear toe-compliance. Once the new LCA's were installed, I headed to the track to test them out. What a world of difference! The rear end now feels solidly planted, and I can drive through corners with absolute confidence. Although this type of design is likely too extreme for a road car, it is just what was needed for a full race application. And don't they look beautiful?
+
+- **Year**2022
+
+Model ![CAD model of a rear control arm with spherical bearings at each end](https://mechanicalsuperiority.com/images/work/rx7-model.jpg)
+
+*What was drawn*
+
+Built ![Two machined control arms on a blue moving blanket](https://mechanicalsuperiority.com/images/work/rx7-arms-1.jpg)
+
+*What was built*
+
+1 ![CAD model of a rear control arm with spherical bearings at each end](https://mechanicalsuperiority.com/images/work/rx7-model-sm.jpg)
+
+2 ![Two machined control arms on a blue moving blanket](https://mechanicalsuperiority.com/images/work/rx7-arms-1-sm.jpg)
+
+3 ![The pair of machined control arms from above](https://mechanicalsuperiority.com/images/work/rx7-arms-2-sm.jpg)
+
+## Tell me what you're trying to build
+
+A drawing, a model, or even just a napkin sketch: I can help you to refine your idea and make it a reality. If you're not sure about the finer particulars (like tolerances or materials selection), that's totally fine. With my experience, we can help nail the details so that the design turns out right the first time.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com) [970-587-3271](tel:+19705873271) [What to send for a quote](https://mechanicalsuperiority.com/contact/)
+
+---
+
+Source: https://mechanicalsuperiority.com/work/travel-pods/
+Summary: EhPro Custom Fabrication in Texas had a pre-existing product that they needed models and shop drawings for. Mechanical Superiority took one of their prototypes, measured it in Colorado, and generated CAD models. Not only did this allow EhPro to get their design approved by the Air Force, but it also enabled them to upgrade to more efficient CNC manufacturing.
+
+[Work](https://mechanicalsuperiority.com/work/)
+
+# Air Force travel pods
+
+EhPro Custom Fabrication in Texas had a pre-existing product that they needed models and shop drawings for. Mechanical Superiority took one of their prototypes, measured it in Colorado, and generated CAD models. Not only did this allow EhPro to get their design approved by the Air Force, but it also enabled them to upgrade to more efficient CNC manufacturing.
+
+Reverse engineering and production, with EhPro
+
+## Air Force travel pods
+
+- **The project**When a fighter jet needs to deploy or go somewhere for training, there is an extensive list of things that need to go with it: toolboxes, equipment, luggage, etc... The maintenance crews pack much of these items into Travel Pods to make sure that it all goes with the jet. EhPro has decades of experience refurbishing used Travel Pods and knows them inside and out. But when an opportunity came along to build brand new ones from scratch, it came with a requirement for CAD models and shop drawings so that the details of the construction could be confirmed and analyzed by the Air Force. At the time EhPro had no in-house CAD capabilities. So they turned to Mechanical Superiority for help, and a harmonious partnership was born.
+
+- **The results**A prototype pod was shipped to Mechanical Superiority in Colorado, and the pod was measured extensively, with minimal disassembly as-required. Combined with remote communication (including some emailed hand drawings back and forth), this process yielded accurate CAD models and assembly, and a full set of construction-ready shop drawings for EhPro. The customer was extremely satisfied with the quality and usability of the shop drawings, and the Air Force got the CAD models they needed to confirm and approve the design so that the customer could massively upgrade their product line. The CAD models also allowed EhPro to upgrade their manufacturing capacity: With the support of Mechanical Superiority's CAD/CAM capability, EhPro decided to acquire a Haas CNC Gantry mill so that the major components of the pods could be made with substantially increased precision. The result has been a radical reduction in the unit production time of the pods, as well as a better-looking and more consistent end product. Mechanical Superiority is now partnered with EhPro and also assists in the construction of the pods (riveting and TIG welding of the main bodies). At risk of understatement: Not many engineering partners bring this much to the table.
+
+- **Year**Ongoing
+
+Model ![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model.jpg)
+
+*What was drawn*
+
+Built ![Mark standing beside pod number 001, his first completed travel pod, in the shop](https://mechanicalsuperiority.com/images/work/pods-mark-001.jpg)
+
+*What was built*
+
+1 ![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model-sm.jpg)
+
+2 ![Mark beside pod number 001 in the shop](https://mechanicalsuperiority.com/images/work/pods-mark-001-sm.jpg)
+
+3 ![Freshly painted travel pods lined up on a hangar floor, in blue, green, and black and yellow checks](https://mechanicalsuperiority.com/images/work/pods-lined-up-sm.jpg)
+
+4 ![An F-16 in a shelter with a travel pod on the ground beside it, ready to load](https://mechanicalsuperiority.com/images/work/pods-f16-shelter-sm.jpg)
+
+5 ![A Thunderbirds F-16 with a travel pod painted red, white and blue under its wing](https://mechanicalsuperiority.com/images/work/pods-thunderbirds-sm.jpg)
+
+Some of the pods are painted for their squadrons, and some for the USAF Thunderbirds.
+
+## More work
+
+[
+
+![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive-sm.jpg) ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined-sm.jpg)
+
+### Bicycle brake adapters
+
+](https://mechanicalsuperiority.com/work/brake-adapters/)
+
+Remote CAD and rapid prototyping.
+
+[
+
+![CAD layout of six cloud signs, numbered one to six](https://mechanicalsuperiority.com/images/work/clouds-layout-sm.jpg) ![Mark in the shop holding two finished aluminum clouds](https://mechanicalsuperiority.com/images/work/clouds-mark-sm.jpg)
+
+### Aluminum cloud signs
+
+](https://mechanicalsuperiority.com/work/cloud-signs/)
+
+Aluminum fabrication with an artistic element.
+
+[
+
+![Annotated CAD model of the tractor's aluminum roof frame](https://mechanicalsuperiority.com/images/work/tractor-model-sm.jpg) ![The finished Ford 641 with its aluminum frame and white canvas top](https://mechanicalsuperiority.com/images/work/tractor-front-sm.jpg)
+
+### Ford 641 tractor frame
+
+](https://mechanicalsuperiority.com/work/tractor-frame/)
+
+Aluminum tube frame with a canvas top.
+
+[
+
+![CAD model of the topsoil screener: a tilted screen deck on springs over a steel base](https://mechanicalsuperiority.com/images/work/screener-model-1-sm.jpg) ![The screener's steel frame standing in the shop](https://mechanicalsuperiority.com/images/work/screener-frame-sm.jpg)
+
+### Topsoil screener
+
+](https://mechanicalsuperiority.com/work/topsoil-screener/)
+
+Industrial machinery, designed and built.
+
+[
+
+![CAD model of a rear control arm with spherical bearings at each end](https://mechanicalsuperiority.com/images/work/rx7-model-sm.jpg) ![Two machined control arms on a blue moving blanket](https://mechanicalsuperiority.com/images/work/rx7-arms-1-sm.jpg)
+
+### Racecar rear control arms
+
+](https://mechanicalsuperiority.com/work/rx7-control-arms/)
+
+Small custom parts for performance.
+
+## Tell me what you're trying to build
+
+A drawing, a model, or even just a napkin sketch: I can help you to refine your idea and make it a reality. If you're not sure about the finer particulars (like tolerances or materials selection), that's totally fine. With my experience, we can help nail the details so that the design turns out right the first time.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com) [970-587-3271](tel:+19705873271) [What to send for a quote](https://mechanicalsuperiority.com/contact/)
+
+---
+
+Source: https://mechanicalsuperiority.com/work/brake-adapters/
+Summary: Remote CAD and rapid prototyping for a customer in Virginia: models rebuilt so they were easy to change, proven in printed plastic, then made in 6061-T6 aluminum.
+
+[Work](https://mechanicalsuperiority.com/work/)
+
+# Bicycle brake adapters
+
+Remote CAD and rapid prototyping for a customer in Virginia: models rebuilt so they were easy to change, proven in printed plastic, then made in 6061-T6 aluminum.
+
+Remote CAD and rapid prototyping
+
+## Bicycle brake adapters
+
+- **The project**When a customer in Virginia came up with a design for a product he wanted to market, he ended up buying some CAD software and teaching himself how to use it. After a long learning curve, he was able to produce sufficient models, but they were finicky and every change he tried to make resulted in problems that were time-consuming to correct. When the customer contacted me initially, he was looking for someone to machine the parts he already had. But once we started talking, it became clear that what he really wanted was design help.
+
+- **The results**By taking his models and re-creating them in a way that design changes could be made rapidly by a professional, the iteration process was cut down from days to minutes. This enabled us to work together remotely to rapidly 3D-print plastic models on his end based on the design changes to check fit and finish of the parts. That way we could both be certain that the end product was going to fit and perform flawlessly before cutting metal. With my manufacturing experience I also helped the customer to pair up with a CNC shop to get multiple runs of parts machined and delivered to the satisfied customer. The parts bolted up and fit the first time, and they looked great in 6061-T6!
+
+- **Year**2024
+
+Model ![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive.jpg)
+
+*What was drawn*
+
+Built ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined.jpg)
+
+*What was built*
+
+1 ![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive-sm.jpg)
+
+2 ![CAD model of the brake-side adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-brake-sm.jpg)
+
+3 ![White printed prototype adapter fitted to the bike frame](https://mechanicalsuperiority.com/images/work/bumpoff-printed-1-sm.jpg)
+
+4 ![Printed prototype holding a brake caliper on the bike](https://mechanicalsuperiority.com/images/work/bumpoff-printed-2-sm.jpg)
+
+5 ![A batch of machined adapter parts laid out on paper](https://mechanicalsuperiority.com/images/work/bumpoff-machined-batch-sm.jpg)
+
+6 ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined-sm.jpg)
+
+## More work
+
+[
+
+![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model-sm.jpg) ![Mark standing beside pod number 001, his first completed travel pod, in the shop](https://mechanicalsuperiority.com/images/work/pods-mark-001-sm.jpg)
+
+### Air Force travel pods
+
+](https://mechanicalsuperiority.com/work/travel-pods/)
+
+Reverse engineering and production, with EhPro.
+
+[
+
+![CAD layout of six cloud signs, numbered one to six](https://mechanicalsuperiority.com/images/work/clouds-layout-sm.jpg) ![Mark in the shop holding two finished aluminum clouds](https://mechanicalsuperiority.com/images/work/clouds-mark-sm.jpg)
+
+### Aluminum cloud signs
+
+](https://mechanicalsuperiority.com/work/cloud-signs/)
+
+Aluminum fabrication with an artistic element.
+
+[
+
+![Annotated CAD model of the tractor's aluminum roof frame](https://mechanicalsuperiority.com/images/work/tractor-model-sm.jpg) ![The finished Ford 641 with its aluminum frame and white canvas top](https://mechanicalsuperiority.com/images/work/tractor-front-sm.jpg)
+
+### Ford 641 tractor frame
+
+](https://mechanicalsuperiority.com/work/tractor-frame/)
+
+Aluminum tube frame with a canvas top.
+
+[
+
+![CAD model of the topsoil screener: a tilted screen deck on springs over a steel base](https://mechanicalsuperiority.com/images/work/screener-model-1-sm.jpg) ![The screener's steel frame standing in the shop](https://mechanicalsuperiority.com/images/work/screener-frame-sm.jpg)
+
+### Topsoil screener
+
+](https://mechanicalsuperiority.com/work/topsoil-screener/)
+
+Industrial machinery, designed and built.
+
+[
+
+![CAD model of a rear control arm with spherical bearings at each end](https://mechanicalsuperiority.com/images/work/rx7-model-sm.jpg) ![Two machined control arms on a blue moving blanket](https://mechanicalsuperiority.com/images/work/rx7-arms-1-sm.jpg)
+
+### Racecar rear control arms
+
+](https://mechanicalsuperiority.com/work/rx7-control-arms/)
+
+Small custom parts for performance.
+
+## Tell me what you're trying to build
+
+A drawing, a model, or even just a napkin sketch: I can help you to refine your idea and make it a reality. If you're not sure about the finer particulars (like tolerances or materials selection), that's totally fine. With my experience, we can help nail the details so that the design turns out right the first time.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com) [970-587-3271](tel:+19705873271) [What to send for a quote](https://mechanicalsuperiority.com/contact/)
+
+---
+
+Source: https://mechanicalsuperiority.com/work/cloud-signs/
+Summary: Six TIG-welded aluminum cloud signs, with custom mounts, for Truth or Consequences Contemporary.
+
+[Work](https://mechanicalsuperiority.com/work/)
+
+# Aluminum cloud signs
+
+Six TIG-welded aluminum cloud signs, with custom mounts, for Truth or Consequences Contemporary.
+
+Aluminum fabrication with an artistic element
+
+## Aluminum cloud signs
+
+- **The project**Truth or Consequences Contemporary, an art gallery in Southern NM, wanted to spice up the exterior of their building with some custom aluminum cloud signs.
+
+- **The results**The artists provided the creative idea to make back-lit cloud signs out of aluminum. Mechanical Superiority provided the technical know-how to make it a reality. CAD designs were produced to make sure we were all satisfied with the aesthetic quality before going ahead with manufacturing. Mechanical Superiority then cut all of the required shapes on the in-house plasma table, designed and built custom sign mounts that would work with the building and installation plan, and welded it all together with great-looking TIG beads into a package that was pleasing to the eye. The cloud signs now act as an eye-catching feature that helps bring positive attention to the gallery, and brings unique aesthetic value to the community.
+
+- **Year**2025
+
+Model ![CAD layout of six cloud signs, numbered one to six](https://mechanicalsuperiority.com/images/work/clouds-layout.jpg)
+
+*What was drawn*
+
+Built ![Mark in the shop holding two finished aluminum clouds](https://mechanicalsuperiority.com/images/work/clouds-mark.jpg)
+
+*What was built*
+
+1 ![CAD layout of six cloud signs, numbered one to six](https://mechanicalsuperiority.com/images/work/clouds-layout-sm.jpg)
+
+2 ![TIG welding the seam of a cloud, close up](https://mechanicalsuperiority.com/images/work/clouds-weld-1-sm.jpg)
+
+3 ![TIG welding the edge of a cloud with a lightning bolt](https://mechanicalsuperiority.com/images/work/clouds-weld-2-sm.jpg)
+
+4 ![Mark in the shop holding two finished aluminum clouds](https://mechanicalsuperiority.com/images/work/clouds-mark-sm.jpg)
+
+## More work
+
+[
+
+![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model-sm.jpg) ![Mark standing beside pod number 001, his first completed travel pod, in the shop](https://mechanicalsuperiority.com/images/work/pods-mark-001-sm.jpg)
+
+### Air Force travel pods
+
+](https://mechanicalsuperiority.com/work/travel-pods/)
+
+Reverse engineering and production, with EhPro.
+
+[
+
+![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive-sm.jpg) ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined-sm.jpg)
+
+### Bicycle brake adapters
+
+](https://mechanicalsuperiority.com/work/brake-adapters/)
+
+Remote CAD and rapid prototyping.
+
+[
+
+![Annotated CAD model of the tractor's aluminum roof frame](https://mechanicalsuperiority.com/images/work/tractor-model-sm.jpg) ![The finished Ford 641 with its aluminum frame and white canvas top](https://mechanicalsuperiority.com/images/work/tractor-front-sm.jpg)
+
+### Ford 641 tractor frame
+
+](https://mechanicalsuperiority.com/work/tractor-frame/)
+
+Aluminum tube frame with a canvas top.
+
+[
+
+![CAD model of the topsoil screener: a tilted screen deck on springs over a steel base](https://mechanicalsuperiority.com/images/work/screener-model-1-sm.jpg) ![The screener's steel frame standing in the shop](https://mechanicalsuperiority.com/images/work/screener-frame-sm.jpg)
+
+### Topsoil screener
+
+](https://mechanicalsuperiority.com/work/topsoil-screener/)
+
+Industrial machinery, designed and built.
+
+[
+
+![CAD model of a rear control arm with spherical bearings at each end](https://mechanicalsuperiority.com/images/work/rx7-model-sm.jpg) ![Two machined control arms on a blue moving blanket](https://mechanicalsuperiority.com/images/work/rx7-arms-1-sm.jpg)
+
+### Racecar rear control arms
+
+](https://mechanicalsuperiority.com/work/rx7-control-arms/)
+
+Small custom parts for performance.
+
+## Tell me what you're trying to build
+
+A drawing, a model, or even just a napkin sketch: I can help you to refine your idea and make it a reality. If you're not sure about the finer particulars (like tolerances or materials selection), that's totally fine. With my experience, we can help nail the details so that the design turns out right the first time.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com) [970-587-3271](tel:+19705873271) [What to send for a quote](https://mechanicalsuperiority.com/contact/)
+
+---
+
+Source: https://mechanicalsuperiority.com/work/tractor-frame/
+Summary: A custom shade canopy consisting of a TIG welded 5052 Aluminum space frame, and a hand-made canopy to match.
+
+[Work](https://mechanicalsuperiority.com/work/)
+
+# Ford 641 tractor frame
+
+A custom shade canopy consisting of a TIG welded 5052 Aluminum space frame, and a hand-made canopy to match.
+
+Aluminum tube frame with a canvas top
+
+## Ford 641 tractor frame
+
+- **The project**A local customer owned a beautifully maintained Ford 641 Tractor, and was looking for a shade structure to be added to improve the comfort level for mowing pastures on hot days. Initially, the customer wanted Mechanical Superiority to modify a boring off-the-shelf solution made from painted steel and plastic. With his creativity and advanced skills, Mark worked up a concept for a custom aluminum frame and matching canvas top. The customer was immediately sold on the idea based on the improved aesthetics and maintaining more of a classic look for the tractor. Plus, who else is ever going to have a super cool aluminum space frame shade structure on their old tractor?
+
+- **The results**Mechanical Superiority built and installed the one-off custom solution for the satisfied customer. To this day, everybody who sees the shade frame is immediately impressed by the quality of construction and the strength/durability of the structure. Classic looks, with space-age performance!
+
+- **Year**2024
+
+Model ![Annotated CAD model of the tractor's aluminum roof frame](https://mechanicalsuperiority.com/images/work/tractor-model.jpg)
+
+*What was drawn*
+
+Built ![The finished Ford 641 with its aluminum frame and white canvas top](https://mechanicalsuperiority.com/images/work/tractor-front.jpg)
+
+*What was built*
+
+1 ![Annotated CAD model of the tractor's aluminum roof frame](https://mechanicalsuperiority.com/images/work/tractor-model-sm.jpg)
+
+2 ![The bare welded aluminum frame on the shop bench](https://mechanicalsuperiority.com/images/work/tractor-bare-frame-sm.jpg)
+
+3 ![The frame with its canvas top, in the shop](https://mechanicalsuperiority.com/images/work/tractor-canvas-shop-sm.jpg)
+
+4 ![The finished Ford 641 with its aluminum frame and white canvas top](https://mechanicalsuperiority.com/images/work/tractor-front-sm.jpg)
+
+5 ![The tractor from behind, top on, with a mower attached](https://mechanicalsuperiority.com/images/work/tractor-rear-sm.jpg)
+
+## More work
+
+[
+
+![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model-sm.jpg) ![Mark standing beside pod number 001, his first completed travel pod, in the shop](https://mechanicalsuperiority.com/images/work/pods-mark-001-sm.jpg)
+
+### Air Force travel pods
+
+](https://mechanicalsuperiority.com/work/travel-pods/)
+
+Reverse engineering and production, with EhPro.
+
+[
+
+![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive-sm.jpg) ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined-sm.jpg)
+
+### Bicycle brake adapters
+
+](https://mechanicalsuperiority.com/work/brake-adapters/)
+
+Remote CAD and rapid prototyping.
+
+[
+
+![CAD layout of six cloud signs, numbered one to six](https://mechanicalsuperiority.com/images/work/clouds-layout-sm.jpg) ![Mark in the shop holding two finished aluminum clouds](https://mechanicalsuperiority.com/images/work/clouds-mark-sm.jpg)
+
+### Aluminum cloud signs
+
+](https://mechanicalsuperiority.com/work/cloud-signs/)
+
+Aluminum fabrication with an artistic element.
+
+[
+
+![CAD model of the topsoil screener: a tilted screen deck on springs over a steel base](https://mechanicalsuperiority.com/images/work/screener-model-1-sm.jpg) ![The screener's steel frame standing in the shop](https://mechanicalsuperiority.com/images/work/screener-frame-sm.jpg)
+
+### Topsoil screener
+
+](https://mechanicalsuperiority.com/work/topsoil-screener/)
+
+Industrial machinery, designed and built.
+
+[
+
+![CAD model of a rear control arm with spherical bearings at each end](https://mechanicalsuperiority.com/images/work/rx7-model-sm.jpg) ![Two machined control arms on a blue moving blanket](https://mechanicalsuperiority.com/images/work/rx7-arms-1-sm.jpg)
+
+### Racecar rear control arms
+
+](https://mechanicalsuperiority.com/work/rx7-control-arms/)
+
+Small custom parts for performance.
+
+## Tell me what you're trying to build
+
+A drawing, a model, or even just a napkin sketch: I can help you to refine your idea and make it a reality. If you're not sure about the finer particulars (like tolerances or materials selection), that's totally fine. With my experience, we can help nail the details so that the design turns out right the first time.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com) [970-587-3271](tel:+19705873271) [What to send for a quote](https://mechanicalsuperiority.com/contact/)
+
+---
+
+Source: https://mechanicalsuperiority.com/work/topsoil-screener/
+Summary: Industrial machinery designed from scratch: full CAD models and shop drawings, then fabricated and tested.
+
+[Work](https://mechanicalsuperiority.com/work/)
+
+# Topsoil screener
+
+Industrial machinery designed from scratch: full CAD models and shop drawings, then fabricated and tested.
+
+Industrial machinery, designed and built
+
+## Topsoil screener
+
+- **The project**A customer was interested in developing a medium-duty topsoil screener for landscaping and agricultural use, but they didn't have the knowledge or experience to do it themselves.
+
+- **The results**Mechanical Superiority was able to employ some engineering math to properly select the components and shape the overall design. A full CAD design was then created for approval by the customer. A full set of shop drawings were then made for internal use, and a prototype of the machine was built for testing.
+
+- **Year**2024
+
+Model ![CAD model of the topsoil screener: a tilted screen deck on springs over a steel base](https://mechanicalsuperiority.com/images/work/screener-model-1.jpg)
+
+*What was drawn*
+
+Built ![The screener's steel frame standing in the shop](https://mechanicalsuperiority.com/images/work/screener-frame.jpg)
+
+*What was built*
+
+1 ![CAD model of the topsoil screener](https://mechanicalsuperiority.com/images/work/screener-model-1-sm.jpg)
+
+2 ![CAD model of the screener from behind, showing the spring mounts](https://mechanicalsuperiority.com/images/work/screener-model-2-sm.jpg)
+
+3 ![The screener's steel frame standing in the shop](https://mechanicalsuperiority.com/images/work/screener-frame-sm.jpg)
+
+## More work
+
+[
+
+![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model-sm.jpg) ![Mark standing beside pod number 001, his first completed travel pod, in the shop](https://mechanicalsuperiority.com/images/work/pods-mark-001-sm.jpg)
+
+### Air Force travel pods
+
+](https://mechanicalsuperiority.com/work/travel-pods/)
+
+Reverse engineering and production, with EhPro.
+
+[
+
+![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive-sm.jpg) ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined-sm.jpg)
+
+### Bicycle brake adapters
+
+](https://mechanicalsuperiority.com/work/brake-adapters/)
+
+Remote CAD and rapid prototyping.
+
+[
+
+![CAD layout of six cloud signs, numbered one to six](https://mechanicalsuperiority.com/images/work/clouds-layout-sm.jpg) ![Mark in the shop holding two finished aluminum clouds](https://mechanicalsuperiority.com/images/work/clouds-mark-sm.jpg)
+
+### Aluminum cloud signs
+
+](https://mechanicalsuperiority.com/work/cloud-signs/)
+
+Aluminum fabrication with an artistic element.
+
+[
+
+![Annotated CAD model of the tractor's aluminum roof frame](https://mechanicalsuperiority.com/images/work/tractor-model-sm.jpg) ![The finished Ford 641 with its aluminum frame and white canvas top](https://mechanicalsuperiority.com/images/work/tractor-front-sm.jpg)
+
+### Ford 641 tractor frame
+
+](https://mechanicalsuperiority.com/work/tractor-frame/)
+
+Aluminum tube frame with a canvas top.
+
+[
+
+![CAD model of a rear control arm with spherical bearings at each end](https://mechanicalsuperiority.com/images/work/rx7-model-sm.jpg) ![Two machined control arms on a blue moving blanket](https://mechanicalsuperiority.com/images/work/rx7-arms-1-sm.jpg)
+
+### Racecar rear control arms
+
+](https://mechanicalsuperiority.com/work/rx7-control-arms/)
+
+Small custom parts for performance.
+
+## Tell me what you're trying to build
+
+A drawing, a model, or even just a napkin sketch: I can help you to refine your idea and make it a reality. If you're not sure about the finer particulars (like tolerances or materials selection), that's totally fine. With my experience, we can help nail the details so that the design turns out right the first time.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com) [970-587-3271](tel:+19705873271) [What to send for a quote](https://mechanicalsuperiority.com/contact/)
+
+---
+
+Source: https://mechanicalsuperiority.com/work/rx7-control-arms/
+Summary: Rear control arms for a Mazda RX-7, designed and machined around solid spherical bearings.
+
+[Work](https://mechanicalsuperiority.com/work/)
+
+# Racecar rear control arms
+
+Rear control arms for a Mazda RX-7, designed and machined around solid spherical bearings.
+
+Small custom parts for performance
+
+## Racecar rear control arms
+
+- **The project**My very own LS1-swapped RX7 is a great track platform; with a lightweight chassis and excellent suspension setup for road racing. Once my driving skills improved past a certain point, I started to notice that the rear end of the car felt excessively "twitchy" in mid-corner handling when adding throttle. By using some simple engineering analysis and employing my own deep intuitive understanding of the chassis as a system, I was able to narrow the problem down to probable excessive bushing compliance on the rear Lower Control Arms (LCA's).
+
+- **The results**I designed and manufactured my own rear control arms with solid spherical joints to eliminate the rear toe-compliance. Once the new LCA's were installed, I headed to the track to test them out. What a world of difference! The rear end now feels solidly planted, and I can drive through corners with absolute confidence. Although this type of design is likely too extreme for a road car, it is just what was needed for a full race application. And don't they look beautiful?
+
+- **Year**2022
+
+Model ![CAD model of a rear control arm with spherical bearings at each end](https://mechanicalsuperiority.com/images/work/rx7-model.jpg)
+
+*What was drawn*
+
+Built ![Two machined control arms on a blue moving blanket](https://mechanicalsuperiority.com/images/work/rx7-arms-1.jpg)
+
+*What was built*
+
+1 ![CAD model of a rear control arm with spherical bearings at each end](https://mechanicalsuperiority.com/images/work/rx7-model-sm.jpg)
+
+2 ![Two machined control arms on a blue moving blanket](https://mechanicalsuperiority.com/images/work/rx7-arms-1-sm.jpg)
+
+3 ![The pair of machined control arms from above](https://mechanicalsuperiority.com/images/work/rx7-arms-2-sm.jpg)
+
+## More work
+
+[
+
+![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model-sm.jpg) ![Mark standing beside pod number 001, his first completed travel pod, in the shop](https://mechanicalsuperiority.com/images/work/pods-mark-001-sm.jpg)
+
+### Air Force travel pods
+
+](https://mechanicalsuperiority.com/work/travel-pods/)
+
+Reverse engineering and production, with EhPro.
+
+[
+
+![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive-sm.jpg) ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined-sm.jpg)
+
+### Bicycle brake adapters
+
+](https://mechanicalsuperiority.com/work/brake-adapters/)
+
+Remote CAD and rapid prototyping.
+
+[
+
+![CAD layout of six cloud signs, numbered one to six](https://mechanicalsuperiority.com/images/work/clouds-layout-sm.jpg) ![Mark in the shop holding two finished aluminum clouds](https://mechanicalsuperiority.com/images/work/clouds-mark-sm.jpg)
+
+### Aluminum cloud signs
+
+](https://mechanicalsuperiority.com/work/cloud-signs/)
+
+Aluminum fabrication with an artistic element.
+
+[
+
+![Annotated CAD model of the tractor's aluminum roof frame](https://mechanicalsuperiority.com/images/work/tractor-model-sm.jpg) ![The finished Ford 641 with its aluminum frame and white canvas top](https://mechanicalsuperiority.com/images/work/tractor-front-sm.jpg)
+
+### Ford 641 tractor frame
+
+](https://mechanicalsuperiority.com/work/tractor-frame/)
+
+Aluminum tube frame with a canvas top.
+
+[
+
+![CAD model of the topsoil screener: a tilted screen deck on springs over a steel base](https://mechanicalsuperiority.com/images/work/screener-model-1-sm.jpg) ![The screener's steel frame standing in the shop](https://mechanicalsuperiority.com/images/work/screener-frame-sm.jpg)
+
+### Topsoil screener
+
+](https://mechanicalsuperiority.com/work/topsoil-screener/)
+
+Industrial machinery, designed and built.
+
+## Tell me what you're trying to build
+
+A drawing, a model, or even just a napkin sketch: I can help you to refine your idea and make it a reality. If you're not sure about the finer particulars (like tolerances or materials selection), that's totally fine. With my experience, we can help nail the details so that the design turns out right the first time.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com) [970-587-3271](tel:+19705873271) [What to send for a quote](https://mechanicalsuperiority.com/contact/)
+
+---
+
+Source: https://mechanicalsuperiority.com/power-vs-torque/
+Summary: Properly defining power and torque, and why they are inextricably linked.
+
+Education · Racing
+
+# Power vs. Torque (Pt. 1): Why Nobody Knows What the Hell Torque is
+
+Mark · February 28, 2023 · 18 min read
+
+## Introduction:
+
+“Power determines how fast you are going when you hit the wall. Torque determines how much of the wall you take with you.”
+
+The above quote is a common refrain heard throughout the automotive community; typically used as a colloquial attempt to explain (I guess?) the difference between the power and torque of an engine. The first problem with this quote is that most of the people who use it could not coherently define the two terms separately if asked. Second, the quote doesn’t actually tell us anything useful or accurate about torque. It’s also pretty vague about power.
+
+A more accurate quote might read:
+
+“Power, load transfer, tire grip, vehicle mass, aerodynamics, and gearing all help to determine how fast you are going when you hit the wall. Vehicle mass and speed at impact (momentum) determine how much of the wall you take with you.”
+
+(Note that engine torque does not appear in the above quotation)
+
+Alright so now that I’m done being a smartass, let me begin to explain. The goal of this post will be to define and explain the differences between power and torque as they apply to a vehicle system. There seems to be an enormous lack of clarity in the automotive community at large about these two terms and what they mean. Manufacturers publish their top-line power and torque numbers without context, and automotive media and enthusiasts alike blindly parrot these numbers as if they are both all-important in and of themselves. This blog will be largely dedicated to taking down the many misconceptions in the automotive community, and the power/torque brouhaha is my first target.
+
+First and foremost, we have to define the terms power and torque. I know that much of the following table-setting might come off as a bit pedantic, but it will help to explain these concepts with context so that they can be clearly and fully understood. Using some (simple, I promise) engineering math I am going to explain the actual difference between the two; or more accurately, how they are inextricably related. By subtly shifting the way you think about how to interpret what these equations are actually telling us, I will explain both power and torque in an intuitive way that hopefully everybody can understand.
+
+## Thinking in Terms of Units:
+
+![A still of Kirk Lazarus from Tropic Thunder, mid-line about units](https://mechanicalsuperiority.com/images/01wtqywh.jpg)
+
+Before I get to the respective definitions, I wanted to briefly share a mental technique that I think (if taken seriously) will help a lot in understanding this and many other engineering concepts: Paying attention to and understanding the “units” in an equation.
+
+Working in various industries over the years, I have found it extremely helpful to decrypt confusing concepts by taking an explicit look at the units involved in the relevant equations. It can also help you to quickly identify mistakes when calculating numbers. To take a very simple example of the former, let’s look at the equation for speed (v);
+
+$$ v = \frac{x}{t} $$
+
+Where x is the distance (units of feet, ft) traveled of the object in question, and t is the time elapsed (units of seconds, sec).
+
+So, if you punt a Boston Terrier and he travels 8 feet in the span of one second, then his speed over that time would be:
+
+$$ v = \frac{8 ft}{1 s} = 8 \frac{ft}{s} $$
+
+![A bearded man holding a Boston Terrier dog jokingly as if to punt the dog](https://mechanicalsuperiority.com/images/Stitch-Punt-01.jpeg) *DISCLAIMER: No Boston Terriers were harmed in the making of this bullshit*
+
+So, thinking in terms of the units, we could just look at the units: feet per second. This framing gives us an intuitive clue about what the equation is telling us. How many feet in how many seconds the object is traveling. Pretty straight-forward. The relevant information is captured in the units alone. So, how can we use this to understand power and torque?
+
+## Defining Power:
+
+Coming back to the topic at hand; if you look at the units for power (P) and think about it a little bit, you may notice something interesting;
+
+$$ P = \frac{lb-ft}{sec} $$
+
+Contained right in the units are two huge clues. Do you remember what else is measured in lb-ft? You may have (correctly) identified torque. But it is also the units for energy (or N-m for you metric perverts out there). What the units are telling us here is that power, properly defined, is a measure of the energy produced (or consumed) by the system in question over a given period of time. In other words, power is the rate of energy production or consumption.
+
+> **… power, properly defined, is a measure of the energy produced (or consumed) by the system in question over a given period of time. In other words, power is the rate of energy production or consumption.**
+
+For a car traveling along a road at constant engine power output, you are using the engine to add energy to the vehicle. This could be to add kinetic energy (accelerate), or to add potential energy (climb a hill), or to add energy to overcome the various losses involved with speeding down a road (aerodynamic drag, tire deformation, gearbox losses, etc…). The more power your engine is delivering, the more energy you are putting into the system over a given amount of time.
+
+Follow me so far? If so, your next question might be: “So then how does torque factor into all of this? Clearly it must be an important number that matters a lot since manufacturers go to great lengths to emphasize the torque numbers for their engines. Right?”
+
+Ehh… Not really… At least not for overall system performance.
+
+Allow me to explain.
+
+## Defining Torque:
+
+First off, an elementary definition of torque is in order. Torque is simply a force applied at a certain distance (sometimes called the “moment arm”) from the center of rotation. The equation for torque ($\tau$) is:
+
+$$ \tau = F \cdot r $$
+
+Where F is an applied force (units of lb), and r is the moment arm (units of ft) at which the force is applied (r is a radius if applied to a circular wheel).
+
+> **Torque is simply a force applied at a certain distance (sometimes called the “moment arm”) from the center of rotation.**
+
+For example, let’s say we have an electric motor which is applying a constant torque of 1 lb-ft to the shaft by using its witchcraft and magic magnets. If we put a pulley on the shaft with an outside diameter of 6 inches (radius of 3 inches, 0.25 ft), then we can calculate the applied force on the outside of the pulley (assuming a static system here) as:
+
+$$ F = \frac{\tau}{r} = \frac{1 lb-ft}{0.25 ft} = 4 lb $$
+
+![Picture of a CAD model of an electric motor and pulley with torque and force annotated](https://mechanicalsuperiority.com/images/Electric-Motor-Torque-Ex.jpg) *Torque Example Illustration*
+
+Make sense? Okay, so how does this information tie into a vehicle with an engine that makes both power *and* torque?
+
+## How Power and Torque are Related:
+
+Alright, now let’s go back to some more simple engineering math by looking at the equation that is used to calculate power of an engine. Assume we have an engine with the crankshaft or flywheel attached directly to a dynamometer (dyno). A dyno directly measures only two things: the crankshaft rotational speed (rev/min, rpm) and the torque being generated by the engine at a given point in time. Exactly how is a topic for a different day, so for now just trust me on this one. Once the torque at a given engine speed is known, a computer calculates and displays the engine power using the following equation;
+
+$$ P = \frac{\tau_\text{eng} \cdot \omega_\text{eng}}{5,252} $$
+
+Where P is the calculated Power (horsepower), $\tau$ is Torque (lb-ft), and $\omega$ is the Engine rotational speed (rev/min).
+
+Since we are using horsepower instead of lb-ft/sec, and rev/min instead of radians per second, the 5,252 is the relevant conversion factor to get from one to the other.
+
+What becomes obvious right away is that engine power is DIRECTLY related to engine torque. The torque value is just one input into the equation for power. The other half of what matters here is the engine speed.
+
+AHA! So surely an engine that makes more torque will make more power then, right??? So torque DOES matter! Right?
+
+Again, ultimately no…
+
+## Why Torque Doesn’t Matter: Let’s Piss Off Some Diesel Bros
+
+I finally figured this part out when I was working in heavy industry and designing machines that use gearmotors. A gearmotor is simply an electric motor coupled to a gearbox (see picture below for clarity).
+
+![A picture of a gearmotor with the electric motor, the gearbox, and the output shaft labeled.](https://mechanicalsuperiority.com/images/Gearmotor-Ex.jpg) *Typical Gearmotor*
+
+One interesting thing that I eventually keyed in on is that the way these things are made is that they are 100% modular, where a single motor design can be mated to literally hundreds of different gearboxes depending on the desired gear ratio and resultant shaft output speed. A particular manufacturer might list options for a 1 hp motor with options for a maximum output shaft speed of anything from 0.19 rpm (yes, seriously) to 1,100 rpm. The gearbox with the 0.19 rpm output will have a MUCH higher output shaft torque (bigger gearbox, larger output shaft, etc.) than the 1,100 rpm output version. However, they are both achieving this *with the same power.* How is this possible?
+
+Well if we remember back to our equation for power, we can once again recall that the power and torque are DIRECTLY related. Or to put it another way, the output torque can be calculated solely using the power, speed (input or output), and gearbox ratio; no knowledge of the input torque is directly required.
+
+For an automobile, what matters most for determining the acceleration and top speed of the vehicle is power and gearing (assuming equivalent aerodynamics, a subject for a different post). Take, for example, two drastically different engines with much different torque characteristics; say, a high torque Diesel engine and a high revving (but lower peak torque) gas engine. Both of these engines, given the proper gearing, can achieve the same acceleration, top speed, towing capacity, etc, as long as both engines deliver the same amount of power.
+
+So here is the top-level takeaway regarding power: The input torque can always be converted to whatever wheel torque is desired through gearing. The more power you are making, the more drive wheel torque you can make at a given vehicle speed. You read that right: For any given vehicle speed, peak engine torque is totally irrelevant. What you care about is how much power can be produced.
+
+**[SPOILER: Next month’s post will be a supplement to this post where I perform public math to prove exactly the above hypothetical. So please withhold your vitriol and teeth-gnashing until you read next month’s installment.]**
+
+This, in a nutshell, is why power matters much more than a torque number for an automobile engine. If we were talking about a static system, rpm = 0 and power = 0, then torque would be the only relevant metric. To return to the gearmotor example; a 1 hp gearmotor could theoretically be configured to deliver 1,000 lb-ft of torque at a very low rotational speed. If you had all the time in the world, that might work for you. To speed this process up, you may wish to add power so that you could have the same amount of output shaft torque to handle your load, but at an elevated shaft speed.
+
+Since an automobile is a moving system that needs to deliver drive wheel torque at elevated vehicle speed, power is the relevant factor.
+
+So, why are so many people (including manufacturers) constantly touting torque numbers as all-important? The short answer is that the public largely doesn’t understand the above relationship between torque and power. The slightly longer answer is explained in further detail below…
+
+## Why Some People Believe that Torque Matters:
+
+Having thought about this a lot, this is why I believe that some people believe that torque matters;
+
+When people subjectively refer to a “torque-y” motor, what they specifically mean is an engine that makes good low-end torque, which generally results in a higher, more impressive looking top-line peak torque number. Since horsepower always equals lb-ft of torque at 5,252 rpm (refer to the above equation for power) an engine can make impressive looking torque numbers low in the rev range (1,000-3,000 rpm). However, if the torque production drops off at higher revs the top-line power number may appear less impressive. Regardless, what a higher number for low-end torque translates to in the context of the above-described power/torque relationship is an engine that makes good low-end *power*. This is useful for a couple of reasons.
+
+Historically, most vehicle platforms were configured using a manual transmission. The first relevant issue with a manual transmission is the clutch. When the vehicle is sitting at a standstill and the driver needs to accelerate, the engine’s crankshaft is constantly moving at an idle speed around 200-500 rpm while the transmission’s input shaft is stationary. To accelerate, the input shaft speed must accelerate to the engine speed. To do this with a manual transmission, the clutch must slip until the vehicle is moving fast enough so that the transmission input shaft speed is sufficiently high to not stall the engine.
+
+The second problem with a manual transmission is the limited number of gears. One way to solve the above problem and minimize the amount of clutch slip is to use a very short first gear. However, this then necessitates a shorter second gear to ensure the rpm drop during shifting isn’t too extreme. If you only have 4-5 forward gears, this would be an inefficient use of the first couple of gears.
+
+A common solution to this problem is for manufacturers to utilize an engine that makes good low-end power (low-end torque if you prefer). That way a manual transmission with a reasonable first gear ratio can be used, and the limited number of remaining gears is not as big of an issue. As a secondary benefit, good low-end power production allows good drivability at lower engine rpm’s, which typically results in less engine noise and vibrations when cruising around on the street. This is the reason why many “torque-y” engines are so popular and subjectively pleasing.
+
+However, for modern automatic transmissions with torque converters (a mismatch between engine speed and transmission input shaft speed doesn’t matter as much) and gearboxes with many gears, this is much less of an issue. Think of the 10+ speed gearboxes offered by many manufacturers these days. This leads to the ability, to some extent, for manufacturers to feasibly utilize engine configurations with less low-end torque/power; I think it’s no coincidence that the modern 4-cylinder turbocharged engine has become so popular with manufacturers.
+
+As you can see it very much depends on the application as to where in the rev range you want the engine to make power. If using an older manual gearbox; probably good low-end torque/power is best. For a modern automatic transmission and an engine that is well muffled, and where high power delivery is needed only for intermittent passing events, an engine making more power in the high rev range is just as useful. The overall point here is that it still doesn’t so much matter how much torque the engine is making at any given point: The only thing that matters is how much power you are making. That’s what is relevant for a moving vehicle.
+
+## Tying It All Together:
+
+So, to wrap up: Engine power at low rotational speeds can be important to provide a good driving experience for street driving (depending on the transmission used). Particularly accelerating from a stop, which is why manufacturers tend to design engines with good low-end torque (and therefore good low-end power) characteristics. However, overall engine power is much more important for most situations which don’t require accelerating from a complete stop, or if the speed mismatch between the crankshaft and the transmission input shaft can be sufficiently managed (automatic transmission witchery, or packing tons of gears into the transmission).
+
+However, due to a lack of deep understanding of the concepts of power and torque, most people make far too big a deal about peak engine torque and treat it as some sort of all-important number. This is reinforced by manufacturers who lean into this phenomenon and choose to advertise their torque numbers as a “big-deal” number in and of itself. Mal-educated automotive journalists then perpetuate this ignorance by blindly publishing torque numbers, and making a big deal out of the torque number without considering other important factors; like the engine speed at which peak torque occurs, or whether the engine only makes good torque in one small area of the rev range.
+
+The reality is that while high torque numbers may look impressive, they are pretty much irrelevant unless you understand the full context of the relationship between power and torque. It completely depends on where the torque is made, and what the gear ratios involved are. As long as a vehicle is properly geared, the number that really matters is power.
+
+Pt. 3 of this post will delve into the details of engine design considerations and how they differ for a low-speed, high-torque engine (think a truck Diesel motor), compared to a high-speed, low-torque engine (think a sports car gas motor).
+
+So, while power factors heavily in determining how fast you’re going when you hit the wall, you now know that torque, by itself, has almost nothing to do with how much of the wall you will take with you. Thanks for reading!
+
+*If you found this post to be useful, or you want to send me love mail or hate mail, please feel free to provide feedback to [mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com)*
+
+## This is a working shop, not only a blog
+
+Mechanical Superiority designs and builds hardware in Fort Collins, Colorado — CAD and drawings, machining, welding, plasma cutting and sheet metal, under one roof.
+
+[What this shop does](https://mechanicalsuperiority.com/services/) [Get a quote](https://mechanicalsuperiority.com/contact/)
+
+---
+
+Source: https://mechanicalsuperiority.com/about/
+Summary: Mechanical Superiority is Mark's design and small-scale fabrication shop near Fort Collins, Colorado.
+
+About
+
+# Designs by an engineer who actually knows how to build.
+
+**Mechanical Superiority is Mark's design and small-scale fabrication shop near Fort Collins, CO.**
+
+Mark studied mechanical engineering at the U.S. Air Force Academy and aerospace engineering at the Air Force Institute of Technology, then spent three years as a developmental engineer at the Air Force Research Laboratory. After that came mining and industrial service at Laron, and agricultural technology development at Dairy Tech. He opened his own shop in 2023.
+
+> I believe that it is very important for engineers to spend lots of time on the shop floor actually building real systems, including the ones that they themselves have designed. It is the only way for us to learn what works in real life, and what only works in a CAD model. Unfortunately the apprentice-style of learning has largely been abandoned in modern times, in favor of an out-of-touch emphasis on academics and theory in the Universities where most engineers are trained. Beyond my education I have also been lucky enough to receive education and mentorship (and my fair share of “constructive criticism”) from many of the guys on the ground; machinists, fabricators, millwrights, mechanics, etc... who actually built the real systems that we were asking them to construct. I have since undertaken to learn the arts of machining, fabrication, and wrenching for myself through seeking mentorship, as well as self-education. This hands-on experience has been invaluable.
+
+> — Mark
+
+That is the overarching philosophy of this shop: High level academic and mathematical understanding, coupled with real world experience and dirty hands gained from years of experiential learning.
+
+![Mark in his shop holding two finished aluminum cloud signs](https://mechanicalsuperiority.com/images/work/clouds-mark.jpg)
+
+*Mark, with two of the six aluminum clouds made for Truth or Consequences Contemporary. The topsoil screener is behind him.*
+
+You'll speak directly with the engineer who is actually working on your project, the same day, in plain English.
+
+No salesmen, no clueless managers, no language barrier, no bureaucracy, no delays. Overseas firms can be cheaper. The aim here is to be better.
+
+- 2008–2012 **U.S. Air Force Academy** BS, mechanical engineering
+
+- 2012–2014 **Air Force Institute of Technology** MS, aerospace engineering
+
+- 2014–2017 **Air Force Research Laboratory** Developmental engineer
+
+- 2017–2021 **Laron, Inc.** Mechanical engineer, mining and industrial service
+
+- 2021–2023 **Dairy Tech, Inc.** Mechanical engineer, agricultural technology development
+
+- 2023– **Mechanical Superiority, LLC** Owner: design, machining and fabrication
+
+## Skills
+
+Mechanical engineering and design, from parts to full assemblies. CAD modeling and shop drawings in SolidWorks, and Autodesk Fusion. MIG and TIG welding. CNC plasma cutting. Machine work on a knee mill. Rivet gun setup for driving solid rivets. CAM programming and running a Haas GR-510 CNC gantry mill at EhPro Custom Fabrication, where he also rivets and welds Air Force travel pods, and has the use of a sheet roller and an 8-foot sheet brake.
+
+## Why a small shop
+
+Big shops want long production runs to keep their people busy. Variable, one-of-a-kind work is what this shop is for, and it's the interesting kind.
+
+The writing on this site is the other half of the same instinct: most mechanical concepts aren't actually that complicated, but they're explained badly. Start with [the torque essay](https://mechanicalsuperiority.com/power-vs-torque/).
+
+## Tell me what you're trying to build
+
+A drawing, a model, or even just a napkin sketch: I can help you to refine your idea and make it a reality. If you're not sure about the finer particulars (like tolerances or materials selection), that's totally fine. With my experience, we can help nail the details so that the design turns out right the first time.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com) [970-587-3271](tel:+19705873271) [What to send for a quote](https://mechanicalsuperiority.com/contact/)
+
+---
+
+Source: https://mechanicalsuperiority.com/
+Summary: CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, from Mark's shop near Fort Collins, Colorado.
+
+Mechanical Superiority · Fort Collins, Colorado
+
+# Small shop, outsized capabilities.
+
+Mark is a Mechanical Engineer with lots of experience designing and building systems for industry, aerospace, and beyond. Although CAD design and modeling are his primary service, he is also a machinist, fabricator, welder, and mechanic (among other things). This hybridization of engineering and hands-on skills results in a rare fusion of analytical and intuitive understanding of customer needs.
+
+[Tell me what you're building](mailto:mechanicalsuperiority@gmail.com) [See the work](https://mechanicalsuperiority.com/work/)
+
+![Mark in his shop, holding two finished aluminum cloud signs](https://mechanicalsuperiority.com/images/work/clouds-mark.jpg)
+
+*Two of six cloud signs, custom designed and fabricated for an art gallery: Truth or Consequences Contemporary in Southern NM.*
+
+1
+
+## Design and CAD
+
+Have an idea for a project, but not sure how to make it work? I'm your guy. Using CAD modeling software, I can help take your idea from napkin sketches to a fully rendered 3D model so that you can show investors or potential customers exactly what you are going to build. Anything from individual parts to complex assemblies; I can help you make your concept a reality.
+
+Talk to me face to face locally, or remotely. If you're out of my area we can even use 3D printed plastic models to check fit-and-feel before going ahead with the final manufactured parts.
+
+[How remote CAD works →](https://mechanicalsuperiority.com/remote-cad/)
+
+![A printed plastic prototype holding a brake caliper on a bike](https://mechanicalsuperiority.com/images/work/bumpoff-printed-2-sm.jpg)
+
+2
+
+## Reverse engineering of obsolete parts
+
+Have an old machine with a broken part that needs to be made? Let me guess: the local machine shop won't touch it without a model? Send over the part, and it comes back with a CAD model and drawings that you can take to any machine shop. Or ask for a quote to have small batches made right here in-house.
+
+[Click on the picture to the right to learn more about our reverse-engineering capabilities.](https://mechanicalsuperiority.com/work/travel-pods/)
+
+[Replacement parts →](https://mechanicalsuperiority.com/replacement-parts/)
+
+[ ![CAD assembly of a riveted aluminum travel pod, modeled from a physical prototype](https://mechanicalsuperiority.com/images/work/pods-model-sm.jpg)](https://mechanicalsuperiority.com/work/travel-pods/)
+
+3
+
+## Specialty fabrication jobs: aluminum and stainless
+
+Short runs and one-offs in aluminum and stainless: TIG welded, riveted, and finished to be looked at as well as used. Signs, frames, brackets, housings.
+
+Six cloud signs for a gallery in New Mexico, and an aluminum roof frame for a vintage tractor, are two recent ones.
+
+[The cloud signs →](https://mechanicalsuperiority.com/work/cloud-signs/)
+
+![TIG welding the edge of an aluminum cloud sign](https://mechanicalsuperiority.com/images/work/clouds-weld-2-sm.jpg)
+
+You'll speak directly with the engineer who is actually working on your project, the same day, in plain English. No salesmen, no clueless managers, no language barrier, no bureaucracy, no delays.
+
+Mechanical Superiority operates at small scale. That means your call won't get forwarded to several different departments until you land in the right place: the person picking up the phone will speak intelligently to your problem right away.
+
+## Recent work
+
+Every job starts as a model and ends as metal.
+
+[
+
+![CAD assembly of a riveted aluminum travel pod](https://mechanicalsuperiority.com/images/work/pods-model-sm.jpg) ![Mark standing beside pod number 001, his first completed travel pod, in the shop](https://mechanicalsuperiority.com/images/work/pods-mark-001-sm.jpg)
+
+### Air Force travel pods
+
+](https://mechanicalsuperiority.com/work/travel-pods/)
+
+Reverse engineering and production, with EhPro.
+
+[
+
+![CAD model of the drive-side brake adapter](https://mechanicalsuperiority.com/images/work/bumpoff-model-drive-sm.jpg) ![Two machined aluminum brake adapters](https://mechanicalsuperiority.com/images/work/bumpoff-machined-sm.jpg)
+
+### Bicycle brake adapters
+
+](https://mechanicalsuperiority.com/work/brake-adapters/)
+
+Remote CAD and rapid prototyping.
+
+[
+
+![CAD layout of six cloud signs, numbered one to six](https://mechanicalsuperiority.com/images/work/clouds-layout-sm.jpg) ![Mark in the shop holding two finished aluminum clouds](https://mechanicalsuperiority.com/images/work/clouds-mark-sm.jpg)
+
+### Aluminum cloud signs
+
+](https://mechanicalsuperiority.com/work/cloud-signs/)
+
+Aluminum fabrication with an artistic element.
+
+[
+
+![Annotated CAD model of the tractor's aluminum roof frame](https://mechanicalsuperiority.com/images/work/tractor-model-sm.jpg) ![The finished Ford 641 with its aluminum frame and white canvas top](https://mechanicalsuperiority.com/images/work/tractor-front-sm.jpg)
+
+### Ford 641 tractor frame
+
+](https://mechanicalsuperiority.com/work/tractor-frame/)
+
+Aluminum tube frame with a canvas top.
+
+[
+
+![CAD model of the topsoil screener: a tilted screen deck on springs over a steel base](https://mechanicalsuperiority.com/images/work/screener-model-1-sm.jpg) ![The screener's steel frame standing in the shop](https://mechanicalsuperiority.com/images/work/screener-frame-sm.jpg)
+
+### Topsoil screener
+
+](https://mechanicalsuperiority.com/work/topsoil-screener/)
+
+Industrial machinery, designed and built.
+
+[
+
+![CAD model of a rear control arm with spherical bearings at each end](https://mechanicalsuperiority.com/images/work/rx7-model-sm.jpg) ![Two machined control arms on a blue moving blanket](https://mechanicalsuperiority.com/images/work/rx7-arms-1-sm.jpg)
+
+### Racecar rear control arms
+
+](https://mechanicalsuperiority.com/work/rx7-control-arms/)
+
+Small custom parts for performance.
+
+[All the work →](https://mechanicalsuperiority.com/work/)
+
+## Partners with a depth of experience
+
+Mechanical Superiority is closely partnered with EhPro Custom Fab in Trinity, TX to cover more territory and for help with larger-scale fabrication and more advanced manufacturing.
+
+## Business-to-business
+
+Have you been turning away jobs due to lack of in-house design capacity, or don't have time for one-offs? Call and see if we can team up to help expand your capabilities. [Shop to shop](https://mechanicalsuperiority.com/services/#business-to-business).
+
+## Government buyers
+
+Engineering and fabrication for federal, state and prime contractors, with an Air Force-trained engineer. [Gov. Customers](https://mechanicalsuperiority.com/government/).
+
+## Blog
+
+Working through mechanical concepts by merging simple math with clear intuitive explanations.
+
+- [Power vs. Torque (Pt. 1): Why Nobody Knows What the Hell Torque is](https://mechanicalsuperiority.com/power-vs-torque/)
+
+- February 28, 2023 · 18 min read
+
+- Properly defining power and torque, and why they are inextricably linked.
+
+## Tell me what you're trying to build
+
+A drawing, a model, or even just a napkin sketch: I can help you to refine your idea and make it a reality. If you're not sure about the finer particulars (like tolerances or materials selection), that's totally fine. With my experience, we can help nail the details so that the design turns out right the first time.
+
+[mechanicalsuperiority@gmail.com](mailto:mechanicalsuperiority@gmail.com) [970-587-3271](tel:+19705873271) [What to send for a quote](https://mechanicalsuperiority.com/contact/)
