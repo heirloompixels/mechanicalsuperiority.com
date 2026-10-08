@@ -1,72 +1,95 @@
 +++
-title = "What this shop does"
-description = "CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, in that order, with a partner shop for the big jobs."
+title = "What we do here"
+description = "CAD design, reverse engineering of obsolete parts, and small-volume fabrication and machining."
 path = "services"
 template = "page.html"
+# Title, intro and every section are in Mark's words (2026-10-08), in his
+# order; headings in the site's sentence case. He took out "The shop" and
+# "Typical work". The link line under a section is ours.
 +++
 
 ### Design and CAD
 
-Original designs, and help getting someone else's idea to the point where it
-can be made: part design, assemblies, all the way up to full machine design,
-plus the production drawings to go with them. Models are built in SolidWorks,
-and in Autodesk Fusion when a customer works in it. Files are delivered in
-native format or as STEP, IGES, DXF or PDF.
+From single part modeling all the way up to full machine assemblies, plus shop
+drawings from someone who actually gets their hands dirty (so the dimensions
+will actually be useful and properly referenced). CAD modeling is done in
+SolidWorks, or Autodesk Fusion. Send native files, or STEP, IGES, Parasolids,
+etc... And don't worry if you only have a napkin sketch, generating new models
+is no problem and typically can happen quickly.
 
-Inventors and startups are welcome. So is a company that doesn't have an
-engineer on staff and needs one for a month.
+Whether you're an inventor who needs help developing their product, an
+industrial company needing CAD services/support, or even a small company who
+needs a part-time engineer on the team; Mechanical Superiority can help.
 
 ### Remote CAD and product development
 
-Most design work never needs a visit. You send a sketch, a model or a
-description; the model is rebuilt so it's easy to change; you print plastic
-prototypes on your end until the fit is right; then it gets made, by a
-machine shop you choose or one Mark works with.
-[How it went for a customer in Virginia](@/remote-cad.md).
+Many times, engineering support may not even require being in the same state.
+I have experience working with clients across the country to help them develop
+their designs remotely. CAD and other technologies (like 3D plastic printing)
+can be a good way to communicate enormous quantities of information across long
+distances, and final manufacturing can be done by a preferred machine shop
+closer to you.
+
+[How it went for a customer in Virginia &rarr;](@/remote-cad.md)
 
 ### Reverse engineering of obsolete parts
 
-A part broke and nobody makes it anymore. It's measured, modeled and drawn,
-and you get a dimensioned drawing you own. Take it to your favorite machine
-shop, or have a very small number made here on the knee mill. These are
-quick jobs, and one at a time is normal. [Replacement parts](@/replacement-parts.md).
+When I worked in mining and heavy industry support, we often ran into
+situations where older machinery was being used to perform critical functions.
+Sometimes the manufacturers of the machines were long-defunct, and sourcing
+spare parts was difficult or impossible. This gave me lots of opportunities to
+learn how to reverse-engineer parts so that our machine shop could remanufacture
+them and get the machines back up and running. There is a bit of an art to this
+process, and it makes things go smoother if you partner with someone who has
+done it before. So if you need new parts for an old machine that is still useful
+to you, send a message and let's see if I can help you out!
+
+[Replacement parts &rarr;](@/replacement-parts.md)
 
 ### Aluminum and stainless, made small
 
-One-offs and short runs in aluminum and stainless: TIG welded, riveted, and
-finished to be looked at as well as used. Signs, frames, brackets, housings,
-enclosures. [The cloud signs](@/work/cloud-signs.md) and
-[the tractor frame](@/work/tractor-frame.md) are two.
+Everyone and their mother can run a MIG welder to bubble-gum some carbon steel
+together, but not many people have good experience with aluminum and stainless.
+With a foot in the aerospace world, I have had good mentorship in design and
+construction for aluminum specifically, which also means that I am an
+experienced TIG welder. If you're looking for a welder who can make aluminum
+welds that are solid and aesthetically pleasing, send a message.
 
-### The shop
+I have also spent lots of time on a rivet gun. In my experience, riveted
+assemblies are a great (and highly under-utilized) option for clean-looking
+fit-and-finish that is also structurally strong and ductile. This can also be
+combined with seam welding edges after assembly for certain applications. If
+you have an idea for a design that might be suitable for rivets, call and let me
+help you think it through.
 
-MIG on carbon steel and TIG on aluminum and stainless. CNC plasma cutting of
-2D profiles from sheet and plate, and 3D concepts flattened into pieces,
-nested, and cut as a kit ready to weld. Riveted sheet metal, including solid
-rivets, where riveting beats welding: no heat distortion, and serviceable
-later. A Bridgeport knee mill for small precision parts, fixtures and
-modifications. CAM programming for CNC milling.
+[The cloud signs &rarr;](@/work/cloud-signs.md) &nbsp; [The tractor frame &rarr;](@/work/tractor-frame.md)
 
-### For other shops
+### CNC plasma table
 
-If you're full, missing a capability, or turning away a job because there's
-no print, call. Drawings from a worn part or a napkin sketch, plasma-cut kits,
-and TIG work in aluminum and stainless all go both directions, and so do
-referrals. You keep your customer.
+Are you a fabricator or a welder with an idea to make a 3D design from flat
+plate, but not sure how to work out the plate geometry? I have lots of
+experience using CAD modeling to do just that! I can even cut the parts on my
+plasma table and provide a ready-to-weld kit for you to tack up. If you are
+located remotely or you'd rather have parts water-jet or laser cut for
+precision, I can send the DXF's to your favorite local shop and have them cut
+your kit for you there.
+
+### Business-to-business
+
+If you are an existing shop who is missing some CAD/design support, turning
+away jobs because there is no existing print, or don't want to handle small
+production runs; feel free to call. Good partners are hard to find, and I am
+always looking for good ones to send bigger work that I can't handle as well.
+Let me know if you'd like to work together.
 
 ### Bigger than one shop
 
-Work larger than a one-man shop can carry is teamed with EhPro Custom
-Fabrication, LLC of Trinity, Texas: large-scale fabrication since 1979, with a
-Haas GR-510 CNC gantry mill, a sheet roller and an 8-foot sheet brake. The two
-shops build Air Force travel pods together: Mark modeled the new design from a
-prototype, and now does the CAD/CAM and runs the gantry mill for its parts.
-[The travel pods](@/work/travel-pods.md). Government buyers: see
-[Gov. Customers](@/government.md).
+My capabilities are also amplified by my partnership with EhPro Custom
+Fabrication in Trinity, TX: Lots of sheet metal and general design experience
+with equipment to match; a sheet roller for curved and tubular designs, a large
+sheet brake, and even a Haas GR-510 CNC Gantry Mill, among other things. It's a
+partnership that can punch above its weight. So if you have an idea for a
+project that you think is too big for one small shop to handle; don't
+underestimate us! Call to inquire about our combined capabilities.
 
----
-
-**Typical work:** original parts and products · drawings and models from
-samples, sketches or broken parts · replacement parts for obsolete equipment ·
-brackets, frames, guards, covers, racks and enclosures · aluminum and stainless
-signs, housings and tube frames · plasma-cut kits.
+[The travel pods &rarr;](@/work/travel-pods.md) &nbsp; Government buyers: see [Gov. Customers](@/government.md).
