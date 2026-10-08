@@ -25,23 +25,27 @@ zola build
 - Source repo: `git@github.com:heirloompixels/mechanicalsuperiority.com.git`
 - GitHub Actions builds on pushes to `main` (`.github/workflows/main.yml`)
 - Published branch: `gh-pages`
-- Public URL, for now: `https://heirloompixels.github.io/mechanicalsuperiority.com/`
+- Public URL: `https://mechanicalsuperiority.com/` (the github.io address
+  redirects there)
 
-### Moving the domain
+### The domain
 
-The domain still points at the Ghost site, which is being retired. When it
-moves here:
+Mark moved mechanicalsuperiority.com off Ghost and onto GitHub Pages on
+2026-10-08, in Namecheap's Advanced DNS (Namecheap is registrar and DNS):
 
-1. Set `base_url = "https://mechanicalsuperiority.com"` in `config.toml`.
-2. Add `static/CNAME` containing `mechanicalsuperiority.com` — the deploy
-   action copies it to the published branch, and Pages reads it from there.
-3. Point the DNS at GitHub Pages (apex A/AAAA records, or a `www` CNAME to
-   `heirloompixels.github.io`).
-4. Set the custom domain under Settings → Pages and turn on Enforce HTTPS
-   once the certificate is issued.
+- `@` — four A records: `185.199.108.153`, `185.199.109.153`,
+  `185.199.110.153`, `185.199.111.153`
+- `www` — CNAME to `heirloompixels.github.io` (Pages redirects it to the apex)
+- Mail is Namecheap's email forwarding (the `eforward` MX records and the SPF
+  TXT). It was left alone and must stay.
 
-Do not cancel Ghost before the DNS has moved and this site answers on the
-domain. `TODO.md` carries the rest of the retirement.
+On this side, `base_url` in `config.toml` is the domain, and `static/CNAME`
+holds it so every deploy carries it into `gh-pages`. Without that file a
+deploy would drop the custom domain. Enforce HTTPS is on under Settings →
+Pages once GitHub has issued the certificate.
+
+Do not cancel Ghost before this site answers on the domain. `TODO.md` carries
+the rest of the retirement.
 
 ## What is here
 

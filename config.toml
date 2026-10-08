@@ -1,8 +1,6 @@
-# Base URL is the GitHub Pages project URL until mechanicalsuperiority.com is
-# pointed here. When the domain moves: set this to https://mechanicalsuperiority.com,
-# add static/CNAME with the bare domain in it, and set the custom domain in
-# Settings -> Pages. See README.md § moving the domain.
-base_url = "https://heirloompixels.github.io/mechanicalsuperiority.com"
+# The domain moved here from Ghost on 2026-10-08. static/CNAME must say the
+# same domain, or the next deploy drops it. See README.md § the domain.
+base_url = "https://mechanicalsuperiority.com"
 title = "Mechanical Superiority"
 description = "CAD design, reverse engineering of obsolete parts, and aluminum and stainless fabrication, from Mark's shop near Fort Collins, Colorado."
 compile_sass = false
