@@ -28,7 +28,7 @@ years = "2017–2021"
 where = "Laron, Inc."
 what = "Mechanical engineer, mining and industrial service"
 [[extra.career]]
-years = "2021–2023"
+years = "2021–2022"
 where = "Dairy Tech, Inc."
 what = "Mechanical engineer, agricultural technology development"
 [[extra.career]]
